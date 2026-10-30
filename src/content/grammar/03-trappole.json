@@ -1,0 +1,93 @@
+[
+  {
+    "id": "falsi-amici",
+    "topic": "trappole",
+    "title": "Falsos amigos más peligrosos",
+    "body": "Palabras que parecen españolas pero significan otra cosa:\n\n- **burro** = mantequilla (burro = *asino*)\n- **salire** = subir (salir = *uscire*)\n- **guardare** = mirar (guardar = *mettere via, conservare*)\n- **caldo** = calor/caliente (caldo = *brodo*)\n- **aceto** = vinagre (aceite = *olio*)\n- **imbarazzata** = avergonzada (embarazada = *incinta*)\n- **camera** = habitación (cámara = *macchina fotografica*)\n- **subito** = enseguida (súbito = *improvviso*)\n- **salire / scendere** = subir / bajar\n- **gamba** = pierna | **topo** = ratón | **largo** = ancho (largo = *lungo*)\n- **esposa** = solo en registro formal; normal: *moglie* | **bravo** = bueno, hábil\n- **morbido** = suave, blando | **stanco** = cansado | **lampada** = lámpara | **fermata** = parada",
+    "examples": [
+      ["Vorrei pane, burro e marmellata.", "Quisiera pan, mantequilla y mermelada."],
+      ["Saliamo al terzo piano con l'ascensore.", "Subimos al tercer piso con el ascensor."],
+      ["Che caldo oggi! Andiamo al mare?", "¡Qué calor hoy! ¿Vamos a la playa?"],
+      ["Mia sorella è incinta di tre mesi.", "Mi hermana está embarazada de tres meses."]
+    ],
+    "drills": [
+      { "q": "Mi passi il ___ ? (mantequilla)", "a": "burro" },
+      { "q": "Ho dimenticato le chiavi, ero molto ___ . (avergonzada)", "a": "imbarazzata" },
+      { "q": "Il treno parte, dobbiamo ___ (subir) subito!", "a": "salire" },
+      { "q": "Condisci l'insalata con olio e ___ . (vinagre)", "a": "aceto" },
+      { "q": "La mia ___ ha un balcone. (habitación)", "a": "camera" }
+    ]
+  },
+  {
+    "id": "doppie",
+    "topic": "trappole",
+    "title": "Las dobles consonantes",
+    "body": "En italiano la consonante doble **se pronuncia más larga** y cambia el significado:\n\n- *pala* (pala) / *palla* (pelota)\n- *caro* (caro) / *carro* (carro)\n- *nono* (noveno) / *nonno* (abuelo)\n- *sete* (sed) / *sette* (siete)\n- *casa* / *cassa* (caja)\n- *capelli* (pelo) / *cappelli* (sombreros)\n- *fato* (destino) / *fatto* (hecho)\n- *papa* (papa) / *pappa* (papilla)\n\nTruco: haz una pequeña pausa antes de la doble, como si la consonante se «apoyara»: *pal-la, set-te, non-no*. En la escritura del examen, una doble olvidada cuenta como error.",
+    "examples": [
+      ["Mio nonno ha settantasette anni.", "Mi abuelo tiene setenta y siete años."],
+      ["Ho sete, vorrei un bicchiere d'acqua.", "Tengo sed, quisiera un vaso de agua."],
+      ["I bambini giocano con la palla.", "Los niños juegan con la pelota."]
+    ],
+    "drills": [
+      { "q": "Ho ___ anni. (7)", "a": "sette" },
+      { "q": "Il papà di mio padre è mio ___ .", "a": "nonno" },
+      { "q": "Paghi alla ___ , per favore. (caja)", "a": "cassa" },
+      { "q": "Ha i ___ biondi. (pelo)", "a": "capelli" },
+      { "q": "Abbiamo ___ (hecho) una lunga passeggiata.", "a": "fatto" }
+    ]
+  },
+  {
+    "id": "suoni",
+    "topic": "trappole",
+    "title": "Sonidos: c/g ante e/i, ch/gh, gl, gn, sc",
+    "body": "- **ce, ci** = «che, chi» del español: *cena* [chena], *ciao* [chao].\n- **che, chi** = «que, qui»: *che* [ke], *chiave* [kiave].\n- **ge, gi** = sonido «y» fuerte (como inglés *jam*): *gelato, giorno*.\n- **ghe, ghi** = «gue, gui»: *spaghetti, laghi*.\n- **gli** = como «ll» suave/«lli»: *figlio, famiglia, aglio*.\n- **gn** = **ñ**: *bagno, gnocchi, Spagna*.\n- **sce, sci** = «sh»: *pesce, uscire, sciare*. **sche, schi** = «sk»: *schiena, tedeschi*.\n- **z** = «ts» o «ds»: *pizza, zero*. La **s** entre vocales suele sonar suave: *casa*.",
+    "examples": [
+      ["Ciao, ci vediamo a cena alle nove.", "Hola, nos vemos en la cena a las nueve."],
+      ["Mia figlia vive in Spagna.", "Mi hija vive en España."],
+      ["Il pesce è fresco: lo hanno pescato stamattina.", "El pescado es fresco: lo pescaron esta mañana."]
+    ],
+    "drills": [
+      { "q": "Escribe en italiano: «¿Qué hora es?» → ___ ore sono?", "a": "Che" },
+      { "q": "Escribe: la llave → la ___", "a": "chiave" },
+      { "q": "Escribe: el baño → il ___", "a": "bagno" },
+      { "q": "Escribe: la familia → la ___", "a": "famiglia" },
+      { "q": "Escribe: el pescado → il ___", "a": "pesce" }
+    ]
+  },
+  {
+    "id": "essere-stare",
+    "topic": "trappole",
+    "title": "Essere o stare",
+    "body": "En italiano **essere** cubre casi en los que el español usa «estar»:\n\n- Ubicación: **è** in cucina, **sono** a casa (no «sto a casa» en registro neutro; *sto a casa* = me quedo en casa).\n- Estados: **sono** stanca, **è** aperto, **sono** contenta, **è** pronto.\n- **stare** se usa sobre todo para:\n  - Salud: *Come stai? Sto bene / male.*\n  - **stare + gerundio**: *Sto studiando* (estoy estudiando).\n  - **stare per** + infinitivo: *Sto per uscire* (estoy a punto de salir).\n  - Expresiones: *stare zitto, stare attento, stare in piedi, stare a casa* (quedarse).\n- Pasado: *sono stato/a* sirve para ambos («he sido/estado»).",
+    "examples": [
+      ["Sono stanca perché ho lavorato tanto.", "Estoy cansada porque he trabajado mucho."],
+      ["Il museo è chiuso il lunedì.", "El museo está cerrado los lunes."],
+      ["Scusa, non posso parlare: sto guidando.", "Perdona, no puedo hablar: estoy conduciendo."]
+    ],
+    "drills": [
+      { "q": "Dove ___ Marco? È in ufficio.", "a": "è" },
+      { "q": "Oggi ___ (io) molto stanca.", "a": "sono" },
+      { "q": "Come ___ tua madre? Bene, grazie.", "a": "sta" },
+      { "q": "Non posso uscire, ___ studiando.", "a": "sto" },
+      { "q": "La cena ___ pronta!", "a": "è" }
+    ]
+  },
+  {
+    "id": "prep-trappole",
+    "topic": "trappole",
+    "title": "Preposiciones que cambian respecto al español",
+    "body": "- **Vado al cinema** (no «a il»), **a casa** (sin artículo).\n- **Penso a te** (pensar en) · **Credo in Dio** · **Sogno di viaggiare**.\n- **Telefono a Marco** (llamar a alguien = telefonare *a*) / *chiamo Marco* (sin «a» personal).\n- Italiano **no tiene «a» personal**: *Vedo Maria* (veo a María).\n- **Studio italiano da un anno** (desde hace) — no «per un anno».\n- **Esco di casa** (salgo de casa) · **Vengo da Roma** · **Sono di Roma**.\n- **In treno, in macchina, in bici, a piedi**.\n- **Il lunedì** (los lunes) — sin «en».\n- **Una tazza di caffè**, **un bicchiere d'acqua**.\n- **Sposarsi con**, **innamorarsi di**: *Mi sono innamorata di Roma.*",
+    "examples": [
+      ["Ho visto Paolo al bar.", "Vi a Paolo en el bar."],
+      ["Penso spesso alla mia famiglia.", "Pienso a menudo en mi familia."],
+      ["Vado al lavoro a piedi.", "Voy al trabajo a pie."]
+    ],
+    "drills": [
+      { "q": "Traduce: «Ayer vi a María» → Ieri ___", "a": "ho visto Maria", "hint": "sin «a» personal" },
+      { "q": "Penso sempre ___ mia nonna.", "a": "a" },
+      { "q": "Vado in ufficio ___ piedi.", "a": "a" },
+      { "q": "Studio il violino ___ cinque anni.", "a": "da" },
+      { "q": "Mi sono innamorata ___ Napoli.", "a": "di" }
+    ]
+  }
+]

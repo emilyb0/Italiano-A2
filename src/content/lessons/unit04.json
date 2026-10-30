@@ -1,0 +1,83 @@
+{
+  "id": "u04",
+  "order": 4,
+  "title": "Preposiciones",
+  "description": "di, a, da, in, su con y sin artículo. Ciudad, direcciones y transporte.",
+  "emoji": "🧭",
+  "lessons": [
+    {
+      "id": "u04l1",
+      "title": "A, in, di, da",
+      "grammar": "prep-semplici",
+      "vocabTopics": ["citta"],
+      "exercises": [
+        { "type": "cloze", "text": "Sono [[di]] Barcellona, ma abito [[a]] Milano da tre anni.", "explain": "origen: essere di; ciudad: a." },
+        { "type": "choice", "question": "Quest'estate andiamo ___ Grecia.", "options": ["in", "a", "da"], "answer": 0, "explain": "Países → in." },
+        { "type": "choice", "question": "Studio italiano ___ sei mesi.", "options": ["da", "per", "di"], "answer": 0, "explain": "desde hace → da." },
+        { "type": "cloze", "text": "Vado [[in]] Toscana [[in]] macchina.", "explain": "regiones y medios de transporte → in." },
+        { "type": "translate", "es": "Voy a Nápoles en tren.", "it": "Vado a Napoli in treno." },
+        { "type": "translate", "es": "La película empieza dentro de cinco minutos.", "it": "Il film comincia tra cinque minuti.", "alts": ["Il film comincia fra cinque minuti.", "Il film inizia tra cinque minuti.", "Il film inizia fra cinque minuti."] },
+        { "type": "listen-choose", "audio": "Sono di Lima, ma vivo in Italia da due anni.", "question": "Da quanto tempo vive in Italia?", "options": ["Da due anni", "Da dodici anni", "Da due mesi"], "answer": 0, "es": "Soy de Lima, pero vivo en Italia desde hace dos años." }
+      ]
+    },
+    {
+      "id": "u04l2",
+      "title": "Al, nel, sul, dal…",
+      "grammar": "prep-articolate",
+      "vocabTopics": ["casa"],
+      "exercises": [
+        { "type": "cloze", "text": "Le chiavi sono [[nella/nel/nello]] borsa e il telefono è [[sul/sulla/sullo]] tavolo.", "explain": "in + la = nella; su + il = sul." },
+        { "type": "cloze", "text": "Il gatto dorme [[sul/sullo/nel]] divano e i libri sono [[nell'/nello/nel]] armadio.", "explain": "su + il = sul; in + l' = nell'." },
+        { "type": "choice", "question": "Il treno parte ___ otto e un quarto.", "options": ["alle", "a le", "nelle"], "answer": 0, "explain": "a + le = alle." },
+        { "type": "choice", "question": "Questo è il libro ___ professoressa.", "options": ["della", "dalla", "di la"], "answer": 0, "explain": "di + la = della." },
+        { "type": "match", "instruction": "Une las piezas", "pairs": [["a + il", "al"], ["in + lo", "nello"], ["di + gli", "degli"], ["su + la", "sulla"], ["da + i", "dai"]] },
+        { "type": "translate", "es": "La leche está en el frigorífico.", "it": "Il latte è nel frigorifero.", "alts": ["Il latte è nel frigo."] },
+        { "type": "dictation", "it": "La farmacia è vicino alla stazione.", "es": "La farmacia está cerca de la estación." }
+      ]
+    },
+    {
+      "id": "u04l3",
+      "title": "Al cinema, in banca, dal medico",
+      "grammar": "prep-luogo",
+      "vocabTopics": ["citta", "servizi"],
+      "exercises": [
+        { "type": "cloze", "text": "Oggi devo andare [[in]] banca, poi [[in]] farmacia e alla fine [[dal]] dentista.", "explain": "in banca, in farmacia; da + persona/profesional: dal dentista." },
+        { "type": "choice", "question": "Stasera andiamo ___ teatro.", "options": ["a", "in", "al"], "answer": 0, "explain": "Se dice «a teatro» (sin artículo)." },
+        { "type": "choice", "question": "D'estate vado sempre ___ mare.", "options": ["al", "in", "a"], "answer": 0 },
+        { "type": "choice", "question": "Domenica pranziamo ___ mia nonna.", "options": ["da", "a", "in"], "answer": 0, "explain": "a casa de alguien → da + persona." },
+        { "type": "match", "instruction": "Une con la preposición correcta", "pairs": [["___ ufficio", "in"], ["___ cinema", "al"], ["___ parrucchiere", "dal"], ["___ casa", "a"], ["___ stazione", "alla"]] },
+        { "type": "translate", "es": "Esta noche me quedo en casa.", "it": "Stasera resto a casa.", "alts": ["Stasera sto a casa.", "Stasera rimango a casa."] },
+        { "type": "speak", "it": "Domani vado in centro e poi al supermercato.", "es": "Mañana voy al centro y luego al supermercado." }
+      ]
+    },
+    {
+      "id": "u04l4",
+      "title": "Pedir y dar direcciones",
+      "grammar": "prep-luogo",
+      "vocabTopics": ["citta"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Vai sempre dritto, poi al semaforo giri a destra. La banca è accanto al bar.", "question": "Dov'è la banca?", "options": ["Accanto al bar", "Davanti al semaforo", "Dietro la chiesa"], "answer": 0, "es": "Sigue todo recto, luego en el semáforo giras a la derecha. El banco está al lado del bar." },
+        { "type": "cloze", "text": "Scusi, dov'è il museo? — Prenda la seconda strada [[a]] sinistra. Il museo è [[di]] fronte [[alla]] chiesa.", "explain": "a sinistra; di fronte a + la = di fronte alla." },
+        { "type": "translate", "es": "Disculpe, ¿hay una farmacia cerca de aquí?", "it": "Scusi, c'è una farmacia qui vicino?", "alts": ["Scusi, c'è una farmacia vicino a qui?", "Scusi, c'è una farmacia qua vicino?"] },
+        { "type": "order", "it": "Attraversa la piazza e gira a sinistra", "es": "Cruza la plaza y gira a la izquierda." },
+        { "type": "match", "instruction": "Une italiano y español", "pairs": [["accanto a", "al lado de"], ["di fronte a", "enfrente de"], ["dietro", "detrás"], ["lontano da", "lejos de"]] },
+        { "type": "answer-oral", "question": "Come si arriva da casa tua al supermercato più vicino?", "es": "¿Cómo se llega desde tu casa al supermercado más cercano?", "sample": "Esco di casa e giro a destra. Vado sempre dritto per cento metri e poi attraverso la strada. Il supermercato è davanti alla farmacia. Ci vogliono cinque minuti a piedi.", "checks": ["Conectores: poi, e", "Preposiciones de lugar"] }
+      ]
+    },
+    {
+      "id": "u04l5",
+      "title": "En tren, en autobús, a pie",
+      "grammar": "prep-semplici",
+      "vocabTopics": ["trasporti"],
+      "exercises": [
+        { "type": "cloze", "text": "Vado al lavoro [[in]] bici, ma quando piove vado [[in]] autobus. Il sabato vado in centro [[a]] piedi.", "explain": "in + medio de transporte; a piedi." },
+        { "type": "choice", "question": "Il treno per Roma parte ___ binario 5.", "options": ["dal", "al", "nel"], "answer": 0 },
+        { "type": "listen-choose", "audio": "Attenzione: il treno regionale per Firenze delle 10.15 partirà con quindici minuti di ritardo dal binario tre.", "question": "Quanti minuti di ritardo ha il treno?", "options": ["Quindici", "Tre", "Dieci"], "answer": 0, "es": "Atención: el tren regional para Florencia de las 10:15 saldrá con quince minutos de retraso de la vía tres." },
+        { "type": "translate", "es": "Un billete de ida y vuelta para Bolonia, por favor.", "it": "Un biglietto di andata e ritorno per Bologna, per favore." },
+        { "type": "translate", "es": "Me bajo en la próxima parada.", "it": "Scendo alla prossima fermata." },
+        { "type": "speak", "it": "Scusi, a che ora parte il prossimo treno per Milano?", "es": "Disculpe, ¿a qué hora sale el próximo tren para Milán?" },
+        { "type": "dictation", "it": "Ricordati di convalidare il biglietto prima di salire.", "es": "Acuérdate de validar el billete antes de subir." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "u06",
+  "order": 6,
+  "title": "Passato prossimo",
+  "description": "Contar lo que hiciste: avere o essere, concordancia y participios irregulares.",
+  "emoji": "📸",
+  "lessons": [
+    {
+      "id": "u06l1",
+      "title": "Ho mangiato, ho dormito",
+      "grammar": "pp-avere",
+      "vocabTopics": ["viaggi"],
+      "exercises": [
+        { "type": "cloze", "text": "Ieri [[ho lavorato]] fino alle otto e poi [[ho cenato]] con Marta.", "instruction": "lavorare y cenare (io)" },
+        { "type": "choice", "question": "La settimana scorsa noi ___ un appartamento al mare.", "options": ["abbiamo affittato", "siamo affittati", "abbiamo affittati"], "answer": 0, "explain": "affittare es transitivo → avere; el participio no cambia." },
+        { "type": "cloze", "text": "Tu [[hai dormito]] bene? — Sì, [[ho dormito]] nove ore!", "instruction": "dormire" },
+        { "type": "choice", "question": "Maria ___ la torta.", "options": ["ha preparato", "ha preparata", "è preparata"], "answer": 0, "explain": "Con avere el participio no concuerda con el sujeto." },
+        { "type": "translate", "es": "Ayer vimos una película.", "it": "Ieri abbiamo guardato un film.", "alts": ["Ieri abbiamo visto un film."] },
+        { "type": "translate", "es": "¿Has comprado los billetes?", "it": "Hai comprato i biglietti?" },
+        { "type": "dictation", "it": "Due giorni fa ho conosciuto una ragazza simpatica.", "es": "Hace dos días conocí a una chica simpática." }
+      ]
+    },
+    {
+      "id": "u06l2",
+      "title": "Sono andata, sono arrivati",
+      "grammar": "pp-essere",
+      "vocabTopics": ["viaggi", "trasporti"],
+      "exercises": [
+        { "type": "cloze", "text": "Sabato Giulia [[è andata]] a Venezia e [[è tornata]] domenica sera.", "instruction": "andare y tornare", "explain": "Con essere el participio concuerda: Giulia → andata." },
+        { "type": "choice", "question": "I miei amici ___ ieri.", "options": ["sono partiti", "hanno partito", "sono partito"], "answer": 0 },
+        { "type": "choice", "question": "Io (Emily) ___ a casa tutto il giorno.", "options": ["sono rimasta", "ho rimasto", "sono rimasto"], "answer": 0, "explain": "rimanere → essere; participio irregular rimasto/a." },
+        { "type": "cloze", "text": "Le mie sorelle [[sono nate]] a Valencia.", "instruction": "nascere (pasado)" },
+        { "type": "translate", "es": "Llegué a Roma el lunes.", "it": "Sono arrivata a Roma lunedì.", "alts": ["Sono arrivato a Roma lunedì.", "Sono arrivata a Roma il lunedì.", "Lunedì sono arrivata a Roma."] },
+        { "type": "translate", "es": "¿A qué hora salisteis?", "it": "A che ora siete usciti?", "alts": ["A che ora siete uscite?", "A che ora siete partiti?", "A che ora siete partite?"] },
+        { "type": "speak", "it": "L'anno scorso sono andata in vacanza in Sicilia.", "es": "El año pasado me fui de vacaciones a Sicilia." }
+      ]
+    },
+    {
+      "id": "u06l3",
+      "title": "Fatto, visto, preso…",
+      "grammar": "pp-irregolari",
+      "vocabTopics": ["tempo-libero"],
+      "exercises": [
+        { "type": "match", "instruction": "Infinitivo → participio", "pairs": [["fare", "fatto"], ["leggere", "letto"], ["prendere", "preso"], ["scrivere", "scritto"], ["aprire", "aperto"]] },
+        { "type": "cloze", "text": "Che cosa hai [[fatto]] ieri? — Ho [[letto]] un libro e ho [[scritto]] alcune mail.", "instruction": "fare, leggere, scrivere" },
+        { "type": "choice", "question": "Abbiamo ___ un taxi per tornare in albergo.", "options": ["preso", "prenduto", "presso"], "answer": 0 },
+        { "type": "choice", "question": "Quanto hai ___ per questo vestito?", "options": ["speso", "spenduto", "spento"], "answer": 0 },
+        { "type": "translate", "es": "¿Qué has dicho?", "it": "Che cosa hai detto?", "alts": ["Cosa hai detto?", "Che hai detto?"] },
+        { "type": "translate", "es": "Puse las llaves en el bolso.", "it": "Ho messo le chiavi nella borsa." },
+        { "type": "dictation", "it": "Non ho ancora visto l'ultimo film di Sorrentino.", "es": "Todavía no he visto la última película de Sorrentino." }
+      ]
+    },
+    {
+      "id": "u06l4",
+      "title": "Mi sono svegliata tardi",
+      "grammar": "pp-essere",
+      "vocabTopics": ["routine"],
+      "exercises": [
+        { "type": "cloze", "text": "Stamattina [[mi sono svegliata]] tardi e [[mi sono vestita]] in cinque minuti.", "instruction": "svegliarsi y vestirsi (io, mujer)", "explain": "Reflexivos en pasado → essere + concordancia." },
+        { "type": "choice", "question": "Ci ___ molto alla festa di Luca.", "options": ["siamo divertiti", "abbiamo divertito", "siamo divertito"], "answer": 0 },
+        { "type": "choice", "question": "Mio fratello ___ a Bologna.", "options": ["si è laureato", "ha laureato", "si ha laureato"], "answer": 0 },
+        { "type": "translate", "es": "Ayer me acosté muy tarde.", "it": "Ieri sono andata a letto molto tardi.", "alts": ["Ieri sono andato a letto molto tardi.", "Ieri mi sono addormentata molto tardi."] },
+        { "type": "translate", "es": "Nos conocimos en Florencia.", "it": "Ci siamo conosciuti a Firenze.", "alts": ["Ci siamo conosciute a Firenze."] },
+        { "type": "speak", "it": "Mi sono trovata molto bene in Italia.", "es": "Me encontré muy a gusto en Italia." }
+      ]
+    },
+    {
+      "id": "u06l5",
+      "title": "¿Qué hiciste el fin de semana?",
+      "grammar": "pp-irregolari",
+      "vocabTopics": ["viaggi", "tempo-libero", "connettivi"],
+      "exercises": [
+        { "type": "cloze", "text": "Sabato mattina [[sono andata|sono andato]] al mercato, poi [[ho pranzato]] con mia madre. La sera [[siamo usciti|siamo uscite]] con gli amici e [[abbiamo ballato]] fino all'una.", "instruction": "andare, pranzare, uscire (noi), ballare (noi)" },
+        { "type": "listen-choose", "audio": "Domenica sono rimasta a casa perché pioveva. Ho letto, ho cucinato una torta e la sera ho visto un film.", "question": "Perché è rimasta a casa?", "options": ["Perché pioveva", "Perché era stanca", "Perché aveva un esame"], "answer": 0, "es": "El domingo me quedé en casa porque llovía. Leí, cociné una tarta y por la noche vi una película." },
+        { "type": "translate", "es": "El verano pasado estuvimos en Cerdeña.", "it": "L'estate scorsa siamo stati in Sardegna.", "alts": ["L'estate scorsa siamo state in Sardegna.", "L'estate scorsa siamo andati in Sardegna."] },
+        { "type": "order", "it": "Dopo cena abbiamo fatto una passeggiata in centro", "es": "Después de cenar dimos un paseo por el centro." },
+        { "type": "answer-oral", "question": "Che cosa hai fatto lo scorso fine settimana?", "es": "¿Qué hiciste el fin de semana pasado?", "sample": "Sabato mattina sono andata in palestra e poi ho fatto la spesa. Il pomeriggio ho incontrato una mia amica e abbiamo preso un caffè in centro. Domenica invece sono rimasta a casa e mi sono riposata.", "checks": ["Passato prossimo con avere y essere", "Concordancia (andata, rimasta)", "Conectores: poi, invece"] },
+        { "type": "answer-oral", "question": "Racconta il tuo ultimo viaggio.", "es": "Cuenta tu último viaje.", "sample": "L'ultimo viaggio che ho fatto è stato a Napoli, a maggio. Sono andata con il mio ragazzo e siamo rimasti cinque giorni. Abbiamo visitato Pompei, abbiamo mangiato la pizza più buona del mondo e abbiamo fatto una gita a Capri.", "checks": ["Cuándo, con quién, cuánto tiempo", "Al menos 3 verbos en pasado"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "r21",
+    "title": "Volontari per il parco",
+    "genre": "Anuncio",
+    "text": "CERCHIAMO VOLONTARI!\nDomenica 5 maggio l'associazione «Verde Città» organizza una giornata di pulizia del Parco del Valentino. Ci incontriamo alle 9.30 davanti alla fontana principale. Guanti e sacchi li portiamo noi; voi portate solo scarpe comode e una bottiglia d'acqua. Alle 13 faremo un pranzo al sacco tutti insieme sul prato. Possono partecipare anche i bambini, se accompagnati da un adulto. In caso di pioggia, la giornata sarà spostata a domenica 12.\nPer informazioni: verdecitta@email.it",
+    "es": "¡BUSCAMOS VOLUNTARIOS! El domingo 5 de mayo la asociación «Verde Città» organiza una jornada de limpieza del Parque del Valentino. Nos encontramos a las 9:30 delante de la fuente principal. Guantes y bolsas los llevamos nosotros; vosotros traed solo calzado cómodo y una botella de agua. A las 13 haremos una comida de bocadillos todos juntos en el césped. Pueden participar también los niños, si van acompañados de un adulto. En caso de lluvia, la jornada se trasladará al domingo 12. Para información: verdecitta@email.it",
+    "glossary": { "volontari": "voluntarios", "pulizia": "limpieza", "fontana": "fuente", "Guanti": "guantes", "sacchi": "bolsas grandes", "pranzo al sacco": "comida de bocadillos", "prato": "césped", "spostata": "trasladada" },
+    "questions": [
+      { "type": "choice", "q": "Che cosa devono portare i volontari?", "options": ["Scarpe comode e acqua", "Guanti e sacchi", "Il pranzo per tutti"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa succede se piove il 5 maggio?", "options": ["La giornata si fa il 12 maggio", "La giornata si fa al coperto", "La giornata è cancellata"], "answer": 0 },
+      { "type": "vf", "q": "I bambini possono venire da soli.", "answer": false },
+      { "type": "vf", "q": "L'appuntamento è davanti alla fontana.", "answer": true }
+    ]
+  },
+  {
+    "id": "r22",
+    "title": "Risposta dell'hotel",
+    "genre": "Correo formal",
+    "text": "Gentile signora Martínez,\nla ringraziamo per averci scelto. Le confermiamo la prenotazione di una camera doppia con vista mare dal 10 al 14 giugno (quattro notti), al prezzo di 95 euro a notte, colazione inclusa. Il check-in è dalle 14.00, il check-out entro le 11.00. Il parcheggio dell'hotel costa 10 euro al giorno e va prenotato in anticipo. Se arriva in aereo, possiamo organizzare un transfer dall'aeroporto (25 euro a persona). In caso di cancellazione entro sette giorni dall'arrivo non è previsto il rimborso.\nCordiali saluti,\nLa Direzione",
+    "es": "Estimada señora Martínez: le agradecemos que nos haya elegido. Le confirmamos la reserva de una habitación doble con vistas al mar del 10 al 14 de junio (cuatro noches), al precio de 95 euros por noche, desayuno incluido. El check-in es a partir de las 14:00, el check-out antes de las 11:00. El aparcamiento del hotel cuesta 10 euros al día y hay que reservarlo con antelación. Si llega en avión, podemos organizar un traslado desde el aeropuerto (25 euros por persona). En caso de cancelación en los siete días anteriores a la llegada no se prevé reembolso. Atentamente, La Dirección",
+    "glossary": { "la ringraziamo": "le agradecemos", "averci scelto": "habernos elegido", "vista mare": "vistas al mar", "entro": "antes de", "in anticipo": "con antelación", "cancellazione": "cancelación" },
+    "questions": [
+      { "type": "choice", "q": "Quanto costa il soggiorno in totale (senza extra)?", "options": ["380 euro", "95 euro", "475 euro"], "answer": 0, "explain": "4 notti × 95 €." },
+      { "type": "choice", "q": "Che cosa bisogna prenotare prima?", "options": ["Il parcheggio", "La colazione", "La vista mare"], "answer": 0 },
+      { "type": "vf", "q": "La colazione si paga a parte.", "answer": false },
+      { "type": "vf", "q": "Si può entrare in camera alle 12.", "answer": false, "explain": "Il check-in è dalle 14." }
+    ]
+  },
+  {
+    "id": "r23",
+    "title": "Gli italiani e il caffè",
+    "genre": "Texto informativo",
+    "text": "Per gli italiani il caffè non è solo una bevanda, è un rito. Di solito si beve al bar, in piedi al bancone, e dura pochi minuti. La mattina molti prendono un cappuccino con un cornetto, ma dopo pranzo quasi nessuno beve il cappuccino: si preferisce un espresso, che in Italia si chiama semplicemente «caffè». Esistono tante varianti: il caffè macchiato, con un po' di latte; il caffè lungo, con più acqua; il caffè corretto, con un po' di liquore. In alcune città del sud c'è anche la tradizione del «caffè sospeso»: si paga un caffè in più per una persona che non ha soldi.",
+    "es": "Para los italianos el café no es solo una bebida, es un ritual. Normalmente se toma en el bar, de pie en la barra, y dura pocos minutos. Por la mañana muchos toman un capuchino con un cruasán, pero después de comer casi nadie toma capuchino: se prefiere un expreso, que en Italia se llama simplemente «café». Existen muchas variantes: el café macchiato, con un poco de leche; el café largo, con más agua; el café corretto, con un poco de licor. En algunas ciudades del sur existe también la tradición del «café pendiente»: se paga un café de más para una persona que no tiene dinero.",
+    "glossary": { "rito": "ritual", "in piedi": "de pie", "bancone": "barra", "quasi nessuno": "casi nadie", "liquore": "licor", "sospeso": "pendiente / suspendido", "soldi": "dinero" },
+    "questions": [
+      { "type": "choice", "q": "Dove bevono il caffè molti italiani?", "options": ["Al bancone del bar", "A casa sul divano", "Seduti al ristorante"], "answer": 0 },
+      { "type": "choice", "q": "Che cos'è un caffè macchiato?", "options": ["Un caffè con un po' di latte", "Un caffè con liquore", "Un caffè con più acqua"], "answer": 0 },
+      { "type": "vf", "q": "Dopo pranzo molti italiani prendono il cappuccino.", "answer": false },
+      { "type": "vf", "q": "Il «caffè sospeso» è un caffè pagato per un'altra persona.", "answer": true }
+    ]
+  },
+  {
+    "id": "r24",
+    "title": "Oggetti smarriti",
+    "genre": "Anuncios breves",
+    "text": "A) PERSO portafoglio marrone sull'autobus 33, martedì sera. Dentro ci sono documenti importanti. Ricompensa! Tel. 333 1112223.\nB) TROVATO gatto bianco e nero, molto giovane, vicino alla scuola elementare di via Roma. Ha un collare rosso.\nC) PERSI occhiali da vista in un astuccio blu, probabilmente al cinema Odeon, sabato pomeriggio.\nD) TROVATO mazzo di chiavi con un portachiavi a forma di Torre Eiffel, in piazza Garibaldi.",
+    "es": "A) PERDIDA cartera marrón en el autobús 33, el martes por la noche. Dentro hay documentos importantes. ¡Recompensa! B) ENCONTRADO gato blanco y negro, muy joven, cerca de la escuela primaria de la calle Roma. Tiene un collar rojo. C) PERDIDAS gafas graduadas en un estuche azul, probablemente en el cine Odeon, el sábado por la tarde. D) ENCONTRADO manojo de llaves con un llavero en forma de Torre Eiffel, en la plaza Garibaldi.",
+    "glossary": { "portafoglio": "cartera (billetero)", "Ricompensa": "recompensa", "collare": "collar", "occhiali da vista": "gafas graduadas", "astuccio": "estuche", "mazzo di chiavi": "manojo de llaves", "portachiavi": "llavero" },
+    "match": {
+      "instruction": "¿Qué anuncio (A–D) responde a cada persona?",
+      "left": ["«Ho perso le chiavi di casa sabato in centro.»", "«Il nostro gattino è scappato ieri!»", "«Non trovo i miei occhiali, sono andato al cinema.»", "«Ho trovato un portafoglio sull'autobus.»"],
+      "right": ["Anuncio A", "Anuncio B", "Anuncio C", "Anuncio D"],
+      "answer": [3, 1, 2, 0]
+    }
+  },
+  {
+    "id": "r25",
+    "title": "La settimana bianca",
+    "genre": "Texto personal",
+    "text": "Quest'anno a febbraio io e la mia famiglia abbiamo fatto la settimana bianca in Trentino. Abbiamo affittato un piccolo appartamento in un paese di montagna, a dieci minuti dalle piste. I miei figli hanno preso lezioni di sci tutte le mattine, mentre io e mio marito sciavamo da soli. Il pomeriggio, quando eravamo stanchi, andavamo alla piscina dell'albergo vicino o facevamo passeggiate con le ciaspole nella neve. Il tempo è stato bellissimo: sempre sole, ma molto freddo, anche meno quindici gradi di notte! L'ultima sera abbiamo cenato in un rifugio e abbiamo mangiato polenta e formaggi tipici.",
+    "es": "Este año en febrero mi familia y yo hicimos la semana blanca (vacaciones de esquí) en el Trentino. Alquilamos un pequeño piso en un pueblo de montaña, a diez minutos de las pistas. Mis hijos tomaron clases de esquí todas las mañanas, mientras mi marido y yo esquiábamos solos. Por la tarde, cuando estábamos cansados, íbamos a la piscina del hotel cercano o dábamos paseos con raquetas en la nieve. El tiempo fue estupendo: siempre sol, pero mucho frío, ¡hasta quince grados bajo cero por la noche! La última noche cenamos en un refugio y comimos polenta y quesos típicos.",
+    "glossary": { "settimana bianca": "semana de esquí", "piste": "pistas", "sciavamo": "esquiábamos", "ciaspole": "raquetas de nieve", "rifugio": "refugio de montaña" },
+    "questions": [
+      { "type": "choice", "q": "Dove hanno dormito?", "options": ["In un appartamento", "In albergo", "In un rifugio"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa facevano i figli la mattina?", "options": ["Lezioni di sci", "Andavano in piscina", "Passeggiavano con le ciaspole"], "answer": 0 },
+      { "type": "vf", "q": "Durante la vacanza ha nevicato molto.", "answer": false, "explain": "C'era sempre il sole." },
+      { "type": "vf", "q": "L'ultima sera hanno mangiato in un rifugio.", "answer": true }
+    ]
+  },
+  {
+    "id": "r26",
+    "title": "Iscrizione al corso di italiano",
+    "genre": "Formulario / aviso",
+    "text": "SCUOLA DI LINGUA «DANTE» — ISCRIZIONI AI CORSI\nI corsi di italiano per stranieri cominciano il 7 ottobre. Prima dell'iscrizione ogni studente deve fare un test di livello (gratuito), dal lunedì al venerdì dalle 10 alle 13 in segreteria.\nPer iscriversi bisogna portare: un documento d'identità, una fototessera e la ricevuta del pagamento.\nPrezzi: corso intensivo (20 ore alla settimana, 4 settimane) 480 €; corso serale (2 sere alla settimana, 3 mesi) 350 €.\nGli studenti che si iscrivono entro il 15 settembre hanno uno sconto del 10%.",
+    "es": "ESCUELA DE IDIOMAS «DANTE» — INSCRIPCIÓN EN LOS CURSOS. Los cursos de italiano para extranjeros empiezan el 7 de octubre. Antes de la inscripción cada estudiante tiene que hacer una prueba de nivel (gratuita), de lunes a viernes de 10 a 13 en secretaría. Para inscribirse hay que traer: un documento de identidad, una foto de carné y el recibo del pago. Precios: curso intensivo (20 horas semanales, 4 semanas) 480 €; curso nocturno (2 tardes por semana, 3 meses) 350 €. Los estudiantes que se inscriban antes del 15 de septiembre tienen un 10 % de descuento.",
+    "glossary": { "stranieri": "extranjeros", "test di livello": "prueba de nivel", "segreteria": "secretaría", "fototessera": "foto de carné", "ricevuta": "recibo" },
+    "questions": [
+      { "type": "choice", "q": "Che cosa bisogna fare prima di iscriversi?", "options": ["Un test di livello", "Pagare uno sconto", "Una lezione di prova"], "answer": 0 },
+      { "type": "choice", "q": "Quanto dura il corso intensivo?", "options": ["Quattro settimane", "Tre mesi", "Venti giorni"], "answer": 0 },
+      { "type": "vf", "q": "Il test di livello costa 10 euro.", "answer": false },
+      { "type": "vf", "q": "Per iscriversi serve una foto.", "answer": true }
+    ]
+  },
+  {
+    "id": "r27",
+    "title": "Una nuova vita in campagna",
+    "genre": "Artículo breve",
+    "text": "Sempre più giovani italiani lasciano la città per andare a vivere in campagna. È il caso di Francesca e Davide, due ragazzi di trent'anni che fino a tre anni fa lavoravano in un ufficio a Milano. «Eravamo sempre stressati e non avevamo mai tempo», racconta Francesca. Così hanno comprato una vecchia casa in un piccolo paese delle Marche e hanno aperto un agriturismo. Oggi coltivano verdure, fanno il formaggio e ospitano turisti da tutto il mondo. «Guadagniamo meno di prima, ma siamo molto più felici. L'unico problema è internet, che a volte non funziona!»",
+    "es": "Cada vez más jóvenes italianos dejan la ciudad para irse a vivir al campo. Es el caso de Francesca y Davide, dos chicos de treinta años que hasta hace tres años trabajaban en una oficina en Milán. «Siempre estábamos estresados y nunca teníamos tiempo», cuenta Francesca. Así que compraron una casa vieja en un pueblo pequeño de las Marcas y abrieron un agroturismo. Hoy cultivan verduras, hacen queso y alojan a turistas de todo el mundo. «Ganamos menos que antes, pero somos mucho más felices. El único problema es internet, ¡que a veces no funciona!»",
+    "glossary": { "Sempre più": "cada vez más", "lasciano": "dejan", "agriturismo": "agroturismo", "coltivano": "cultivan", "ospitano": "alojan", "Guadagniamo": "ganamos (dinero)" },
+    "questions": [
+      { "type": "choice", "q": "Perché Francesca e Davide hanno lasciato Milano?", "options": ["Erano stressati e senza tempo", "Avevano perso il lavoro", "La casa era troppo cara"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa fanno oggi?", "options": ["Hanno un agriturismo", "Lavorano in un ufficio nelle Marche", "Vendono case"], "answer": 0 },
+      { "type": "vf", "q": "Adesso guadagnano più soldi.", "answer": false },
+      { "type": "vf", "q": "Hanno problemi con la connessione internet.", "answer": true }
+    ]
+  },
+  {
+    "id": "r28",
+    "title": "Regolamento della piscina",
+    "genre": "Normas",
+    "text": "PISCINA COMUNALE — REGOLAMENTO\n1. È obbligatorio fare la doccia prima di entrare in acqua.\n2. In vasca è obbligatoria la cuffia.\n3. Non è permesso mangiare a bordo vasca.\n4. I bambini sotto i 12 anni devono essere accompagnati da un adulto.\n5. È vietato tuffarsi nella vasca piccola.\n6. Gli armadietti si chiudono con una moneta da 1 euro, che viene restituita.\nLa direzione non è responsabile degli oggetti lasciati negli spogliatoi.",
+    "es": "PISCINA MUNICIPAL — REGLAMENTO. 1. Es obligatorio ducharse antes de entrar en el agua. 2. En la piscina es obligatorio el gorro. 3. No está permitido comer al borde de la piscina. 4. Los niños menores de 12 años deben ir acompañados de un adulto. 5. Está prohibido tirarse de cabeza en la piscina pequeña. 6. Las taquillas se cierran con una moneda de 1 euro, que se devuelve. La dirección no se hace responsable de los objetos dejados en los vestuarios.",
+    "glossary": { "vasca": "piscina / vaso", "cuffia": "gorro", "a bordo vasca": "al borde de la piscina", "tuffarsi": "tirarse de cabeza", "armadietti": "taquillas", "spogliatoi": "vestuarios" },
+    "questions": [
+      { "type": "choice", "q": "Che cosa è obbligatorio in acqua?", "options": ["La cuffia", "Gli occhialini", "Le scarpe"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa succede alla moneta dell'armadietto?", "options": ["Viene restituita", "Resta alla piscina", "Si usa per la doccia"], "answer": 0 },
+      { "type": "vf", "q": "Si può fare un picnic a bordo vasca.", "answer": false },
+      { "type": "vf", "q": "Un bambino di 10 anni può andare in piscina da solo.", "answer": false }
+    ]
+  },
+  {
+    "id": "r29",
+    "title": "Invito al matrimonio",
+    "genre": "Invitación",
+    "text": "Giulia Bianchi e Stefano Ferri\nsono felici di invitarvi al loro matrimonio,\nsabato 21 settembre alle ore 11.00\nnella chiesa di San Michele, a Lucca.\nDopo la cerimonia, il pranzo si terrà presso la Villa Le Rose, a 5 km dalla città.\nPer motivi organizzativi vi preghiamo di confermare la vostra presenza entro il 31 luglio, scrivendo a Giulia (giulia.b@email.it) o telefonando a Stefano (340 5566778).\nInvece dei regali, se volete, potete contribuire al nostro viaggio di nozze in Giappone!",
+    "es": "Giulia Bianchi y Stefano Ferri están felices de invitaros a su boda, el sábado 21 de septiembre a las 11:00 en la iglesia de San Miguel, en Lucca. Después de la ceremonia, la comida tendrá lugar en la Villa Le Rose, a 5 km de la ciudad. Por motivos de organización os rogamos que confirméis vuestra asistencia antes del 31 de julio, escribiendo a Giulia o llamando a Stefano. En lugar de regalos, si queréis, podéis contribuir a nuestro viaje de novios a Japón.",
+    "glossary": { "si terrà": "tendrá lugar", "presso": "en (un lugar)", "vi preghiamo": "os rogamos", "presenza": "asistencia", "Invece dei": "en lugar de los", "viaggio di nozze": "viaje de novios" },
+    "questions": [
+      { "type": "choice", "q": "Dove si fa il pranzo?", "options": ["In una villa fuori città", "Nella chiesa", "In un ristorante del centro di Lucca"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa chiedono gli sposi invece dei regali?", "options": ["Un contributo per il viaggio", "Dei fiori", "Niente"], "answer": 0 },
+      { "type": "vf", "q": "Bisogna rispondere entro settembre.", "answer": false },
+      { "type": "vf", "q": "La cerimonia è la mattina.", "answer": true }
+    ]
+  },
+  {
+    "id": "r30",
+    "title": "Consigli per l'esame",
+    "genre": "Texto informativo",
+    "text": "Il giorno dell'esame è importante arrivare almeno mezz'ora prima con un documento d'identità valido. Durante la prova di ascolto ogni testo si sente due volte: la prima volta ascoltate senza scrivere, la seconda controllate le risposte. Nella prova di lettura non è necessario capire ogni parola: cercate le informazioni principali. Nella prova scritta contate le parole e rileggete sempre il testo alla fine per correggere gli errori, soprattutto gli accenti e le doppie. All'esame orale non abbiate paura delle pause: potete dire «un momento, ci penso». E ricordate: l'esaminatore vuole sentire frasi complete!",
+    "es": "El día del examen es importante llegar al menos media hora antes con un documento de identidad válido. Durante la prueba de comprensión auditiva cada texto se oye dos veces: la primera vez escuchad sin escribir, la segunda comprobad las respuestas. En la prueba de lectura no es necesario entender cada palabra: buscad la información principal. En la prueba escrita contad las palabras y releed siempre el texto al final para corregir los errores, sobre todo los acentos y las dobles consonantes. En el examen oral no tengáis miedo de las pausas: podéis decir «un momento, lo pienso». Y recordad: ¡el examinador quiere oír frases completas!",
+    "glossary": { "almeno": "al menos", "prova": "prueba", "controllate": "comprobad", "rileggete": "releed", "doppie": "dobles consonantes", "esaminatore": "examinador" },
+    "questions": [
+      { "type": "choice", "q": "Quante volte si ascolta ogni testo?", "options": ["Due", "Una", "Tre"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa consiglia il testo per la prova scritta?", "options": ["Rileggere il testo alla fine", "Scrivere più parole possibile", "Non usare gli accenti"], "answer": 0 },
+      { "type": "vf", "q": "Nella lettura bisogna capire tutte le parole.", "answer": false },
+      { "type": "vf", "q": "All'orale si possono fare pause.", "answer": true }
+    ]
+  }
+]

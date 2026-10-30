@@ -1,0 +1,281 @@
+[
+  {
+    "id": "pp-avere",
+    "topic": "passato",
+    "title": "Passato prossimo con AVERE",
+    "body": "**avere (presente) + participio**: *ho mangiato, hai visto, abbiamo dormito*.\n\nParticipios regulares: -are → **-ato** (parlato), -ere → **-uto** (venduto), -ire → **-ito** (dormito).\n\n- La mayoría de verbos **transitivos** (con objeto directo) usan avere: *ho comprato il pane*.\n- Con avere el participio **no cambia**: *Maria ha mangiato*.\n- Se usa para acciones terminadas: *ieri, la settimana scorsa, due giorni fa, l'anno scorso*.\n- En italiano hablado se usa mucho más que el pasado simple (equivale a «comí» y «he comido»).",
+    "examples": [
+      ["Ieri sera ho guardato un film.", "Anoche vi una película."],
+      ["Abbiamo mangiato in una trattoria.", "Comimos en una trattoria."],
+      ["Hai finito i compiti?", "¿Has terminado los deberes?"]
+    ],
+    "drills": [
+      { "q": "Ieri io ___ (lavorare) fino alle otto.", "a": "ho lavorato" },
+      { "q": "Noi ___ (vendere) la macchina.", "a": "abbiamo venduto" },
+      { "q": "Tu ___ (dormire) bene?", "a": "hai dormito" },
+      { "q": "Loro ___ (comprare) i biglietti.", "a": "hanno comprato" }
+    ]
+  },
+  {
+    "id": "pp-essere",
+    "topic": "passato",
+    "title": "Passato prossimo con ESSERE y concordancia",
+    "body": "**essere + participio que concuerda** con el sujeto (-o, -a, -i, -e).\n\nUsan essere:\n- Verbos de **movimiento/cambio de estado**: *andare, venire, arrivare, partire, uscire, entrare, tornare, salire, scendere, restare, rimanere, nascere, morire, diventare*.\n- **essere** y **stare**: *sono stato/a*.\n- Todos los **reflexivos**: *mi sono svegliata*.\n- *piacere*: *mi è piaciuto il film, mi sono piaciute le foto*.\n\nEjemplo: *Marco è andato*, *Giulia è andat**a***, *i ragazzi sono andat**i***, *le ragazze sono andat**e***.",
+    "examples": [
+      ["Sono arrivata a Roma lunedì.", "Llegué a Roma el lunes."],
+      ["I miei amici sono partiti stamattina.", "Mis amigos se fueron esta mañana."],
+      ["Ci siamo divertiti molto alla festa.", "Nos divertimos mucho en la fiesta."]
+    ],
+    "drills": [
+      { "q": "Anna ___ (andare) al mare.", "a": "è andata" },
+      { "q": "I ragazzi ___ (uscire) alle dieci.", "a": "sono usciti" },
+      { "q": "Io (Emily) ___ (svegliarsi) tardi.", "a": "mi sono svegliata" },
+      { "q": "Le mie sorelle ___ (tornare) ieri.", "a": "sono tornate" },
+      { "q": "Marco ___ (stare) male.", "a": "è stato" }
+    ]
+  },
+  {
+    "id": "pp-irregolari",
+    "topic": "passato",
+    "title": "Participios irregulares frecuentes",
+    "body": "| infinitivo | participio | | infinitivo | participio |\n|---|---|---|---|---|\n| fare | **fatto** | | leggere | **letto** |\n| dire | **detto** | | scrivere | **scritto** |\n| vedere | **visto** | | prendere | **preso** |\n| mettere | **messo** | | aprire | **aperto** |\n| chiudere | **chiuso** | | bere | **bevuto** |\n| venire | **venuto** | | essere | **stato** |\n| rimanere | **rimasto** | | nascere | **nato** |\n| scegliere | **scelto** | | spendere | **speso** |\n| rispondere | **risposto** | | chiedere | **chiesto** |\n| perdere | **perso** | | vivere | **vissuto** |",
+    "examples": [
+      ["Che cosa hai fatto nel fine settimana?", "¿Qué hiciste el fin de semana?"],
+      ["Ho letto un libro molto interessante.", "Leí un libro muy interesante."],
+      ["Abbiamo preso il treno delle nove.", "Tomamos el tren de las nueve."]
+    ],
+    "drills": [
+      { "q": "Ieri ho ___ (vedere) Giulia.", "a": "visto|veduto" },
+      { "q": "Chi ha ___ (aprire) la finestra?", "a": "aperto" },
+      { "q": "Ho ___ (scrivere) una mail al professore.", "a": "scritto" },
+      { "q": "Cosa avete ___ (bere)?", "a": "bevuto" },
+      { "q": "Hai ___ (spendere) molto?", "a": "speso" },
+      { "q": "Mia nonna è ___ (nascere) nel 1950.", "a": "nata" }
+    ]
+  },
+  {
+    "id": "imperfetto",
+    "topic": "imperfetto",
+    "title": "Imperfetto: descripciones y hábitos en el pasado",
+    "body": "| | -are | -ere | -ire | essere |\n|---|---|---|---|---|\n| io | parl**avo** | legg**evo** | dorm**ivo** | **ero** |\n| tu | parl**avi** | legg**evi** | dorm**ivi** | **eri** |\n| lui/lei | parl**ava** | legg**eva** | dorm**iva** | **era** |\n| noi | parl**avamo** | legg**evamo** | dorm**ivamo** | **eravamo** |\n| voi | parl**avate** | legg**evate** | dorm**ivate** | **eravate** |\n| loro | parl**avano** | legg**evano** | dorm**ivano** | **erano** |\n\n- Irregulares: *fare → facevo, dire → dicevo, bere → bevevo*.\n- Se usa para **describir** (*era bello, c'era il sole*), **hábitos** (*da bambina andavo in bici*) y acciones **en curso** (*mentre studiavo…*).\n- Muy parecido al español: *hablaba, leía, dormía*.",
+    "examples": [
+      ["Da piccola abitavo in un paese vicino al mare.", "De pequeña vivía en un pueblo cerca del mar."],
+      ["Faceva freddo e c'era molta neve.", "Hacía frío y había mucha nieve."],
+      ["Ogni estate andavamo dai nonni.", "Cada verano íbamos a casa de los abuelos."]
+    ],
+    "drills": [
+      { "q": "Da bambino io ___ (giocare) a calcio.", "a": "giocavo" },
+      { "q": "La casa ___ (essere) piccola ma bella.", "a": "era" },
+      { "q": "Noi ___ (fare) sempre lunghe passeggiate.", "a": "facevamo" },
+      { "q": "I miei nonni ___ (vivere) in campagna.", "a": "vivevano" }
+    ]
+  },
+  {
+    "id": "imperf-vs-pp",
+    "topic": "imperfetto",
+    "title": "Imperfetto o passato prossimo",
+    "body": "- **Passato prossimo** = acción puntual y terminada (¿qué pasó?): *Ieri ho incontrato Luca.*\n- **Imperfetto** = escenario, descripción, hábito (¿cómo era? ¿qué solía pasar?): *Era tardi e pioveva.*\n- Juntos: *Mentre **camminavo** (fondo), **ho incontrato** (acción) Luca.*\n- Palabras guía: *ieri, una volta, all'improvviso, alle 8* → p. prossimo | *di solito, sempre, ogni giorno, mentre, da bambino* → imperfetto.\n\nRegla de oro: es igual que el contraste español «comí / comía».",
+    "examples": [
+      ["Mentre cucinavo, è arrivato mio fratello.", "Mientras cocinaba, llegó mi hermano."],
+      ["Quando ero piccola, non mi piaceva il pesce.", "Cuando era pequeña, no me gustaba el pescado."],
+      ["Ieri pioveva, quindi sono rimasta a casa.", "Ayer llovía, así que me quedé en casa."]
+    ],
+    "drills": [
+      { "q": "Mentre io ___ (leggere), è suonato il telefono.", "a": "leggevo" },
+      { "q": "Ieri sera ___ (noi-andare) al ristorante.", "a": "siamo andati|siamo andate" },
+      { "q": "Da giovane mio padre ___ (lavorare) in banca.", "a": "lavorava" },
+      { "q": "All'improvviso ___ (cominciare) a piovere.", "a": "è cominciato|ha cominciato" }
+    ]
+  },
+  {
+    "id": "pronomi-diretti",
+    "topic": "pronomi",
+    "title": "Pronombres de objeto directo: lo, la, li, le",
+    "body": "| mi | ti | lo / la | ci | vi | li / le |\n|---|---|---|---|---|---|\n| me | te | lo / la | nos | os | los / las |\n\n- Van **antes** del verbo conjugado: *Lo compro. La conosco.*\n- Con infinitivo se pegan al final: *Voglio comprarlo* = *Lo voglio comprare*.\n- **lo** y **la** se apostrofan delante de vocal y de *h*: *L'ho visto. L'ho vista.*\n- En passato prossimo el participio concuerda con *lo, la, li, le*: *Le ho comprate* (las he comprado).\n- Trampa: en italiano no existe «le» para personas masculinas como objeto directo: *Lo vedo* (a Marco).",
+    "examples": [
+      ["Conosci Paolo? Sì, lo conosco bene.", "¿Conoces a Paolo? Sí, lo conozco bien."],
+      ["Dove sono le chiavi? Le ho messe sul tavolo.", "¿Dónde están las llaves? Las he puesto en la mesa."],
+      ["Questo vestito è bello, lo prendo.", "Este vestido es bonito, me lo llevo."]
+    ],
+    "drills": [
+      { "q": "Compri il giornale? Sì, ___ compro.", "a": "lo" },
+      { "q": "Vedi spesso le tue cugine? Sì, ___ vedo ogni domenica.", "a": "le" },
+      { "q": "Hai chiamato Anna? Sì, ___ ho chiamata.", "a": "l'|la" },
+      { "q": "Prendi gli spaghetti? Sì, ___ prendo.", "a": "li" }
+    ]
+  },
+  {
+    "id": "pronomi-indiretti",
+    "topic": "pronomi",
+    "title": "Pronombres de objeto indirecto: gli, le, mi, ti…",
+    "body": "| mi | ti | gli (a él) | le (a ella) / Le (a usted) | ci | vi | gli (a ellos) |\n|---|---|---|---|---|---|---|\n\n- Responden a «¿a quién?»: *Telefono a Marco → **Gli** telefono.*\n- Trampa: **gli** = a él / a ellos; **le** = a ella. En español «le» es para ambos.\n- Verbos típicos: *telefonare a, scrivere a, dire a, dare a, regalare a, chiedere a, rispondere a*.\n- **Le** con mayúscula = a usted (formal): *Le posso offrire un caffè?*",
+    "examples": [
+      ["Che cosa regali a tua madre? Le regalo un libro.", "¿Qué le regalas a tu madre? Le regalo un libro."],
+      ["Ho scritto a Luca e gli ho mandato le foto.", "Le escribí a Luca y le mandé las fotos."],
+      ["Scusi, Le posso fare una domanda?", "Disculpe, ¿le puedo hacer una pregunta?"]
+    ],
+    "drills": [
+      { "q": "Telefoni a Marco? Sì, ___ telefono stasera.", "a": "gli" },
+      { "q": "Scrivi a Giulia? Sì, ___ scrivo una mail.", "a": "le" },
+      { "q": "Cosa dici ai bambini? ___ dico di stare zitti.", "a": "Gli" },
+      { "q": "Signora, ___ porto il menù.", "a": "Le" }
+    ]
+  },
+  {
+    "id": "piacere",
+    "topic": "pronomi",
+    "title": "El verbo piacere",
+    "body": "Funciona como «gustar» en español:\n\n- **mi piace** + singular o infinitivo: *Mi piace la pizza. Mi piace ballare.*\n- **mi piacciono** + plural: *Mi piacciono i film italiani.*\n- A quién: *mi, ti, gli, le, ci, vi, gli* o *a + nombre*: *A Luca piace il calcio.*\n- Negación: *Non mi piace.*\n- Pasado con **essere** y concordancia: *Mi è piaciuto il concerto. Mi sono piaciute le foto.*\n- Opinión: *Anche a me / A me no / Neanche a me / A me sì.*",
+    "examples": [
+      ["Mi piace molto cucinare per gli amici.", "Me gusta mucho cocinar para los amigos."],
+      ["Ai miei genitori piacciono i viaggi.", "A mis padres les gustan los viajes."],
+      ["Ti è piaciuta la mostra?", "¿Te gustó la exposición?"]
+    ],
+    "drills": [
+      { "q": "Mi ___ le lasagne.", "a": "piacciono" },
+      { "q": "A Marta ___ leggere.", "a": "piace" },
+      { "q": "Ti ___ (passato) il film?", "a": "è piaciuto" },
+      { "q": "A noi non ___ il freddo.", "a": "piace" },
+      { "q": "Il calcio piace a Paolo? Sì, ___ piace molto.", "a": "gli" }
+    ]
+  },
+  {
+    "id": "possessivi",
+    "topic": "possessivi",
+    "title": "Posesivos (con artículo… casi siempre)",
+    "body": "| | m. sing. | f. sing. | m. pl. | f. pl. |\n|---|---|---|---|---|\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui/lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\n- Diferencia con el español: **llevan artículo**: *la mia casa* («mi casa»).\n- **Excepción**: familiares en **singular** sin adjetivo → sin artículo: *mia madre, mio fratello, sua sorella*.\n- Pero con artículo: plural (*i miei fratelli*), con adjetivo (*la mia sorella maggiore*), diminutivos (*la mia sorellina*) y siempre con *loro* (*la loro madre*).\n- Concuerda con la cosa poseída, no con el dueño: *Marco e la sua macchina*.",
+    "examples": [
+      ["Mia sorella vive a Torino con il suo ragazzo.", "Mi hermana vive en Turín con su novio."],
+      ["I miei genitori sono in pensione.", "Mis padres están jubilados."],
+      ["La nostra casa ha un piccolo giardino.", "Nuestra casa tiene un pequeño jardín."]
+    ],
+    "drills": [
+      { "q": "___ madre è insegnante.", "a": "Mia", "hint": "familiar en singular" },
+      { "q": "___ fratelli sono più grandi di me.", "a": "I miei" },
+      { "q": "Questa è ___ macchina (di voi)?", "a": "la vostra" },
+      { "q": "Paolo e Anna vivono con ___ figlia.", "a": "la loro" },
+      { "q": "Giulia ama ___ cane.", "a": "il suo" }
+    ]
+  },
+  {
+    "id": "ce-ci-sono",
+    "topic": "ci-ne",
+    "title": "C'è / ci sono",
+    "body": "Equivale a «hay»:\n\n- **c'è** + singular: *C'è un bar qui vicino?*\n- **ci sono** + plural: *Ci sono molti turisti.*\n- Pasado: *c'era / c'erano* (descripción), *c'è stato / ci sono stati* (hecho puntual).\n- Para localizar algo **concreto** se usa **essere**: *Dov'è la stazione?* (no «dove c'è la stazione»).",
+    "examples": [
+      ["Nel mio quartiere c'è un mercato ogni martedì.", "En mi barrio hay un mercado cada martes."],
+      ["In centro ci sono tanti negozi.", "En el centro hay muchas tiendas."],
+      ["Quando ero piccola qui c'era un cinema.", "Cuando era pequeña aquí había un cine."]
+    ],
+    "drills": [
+      { "q": "Nel frigo ___ due bottiglie di latte.", "a": "ci sono" },
+      { "q": "Scusi, ___ una farmacia qui vicino?", "a": "c'è" },
+      { "q": "Ieri alla festa ___ molta gente.", "a": "c'era|c'è stata" },
+      { "q": "In classe ___ venti studenti.", "a": "ci sono" }
+    ]
+  },
+  {
+    "id": "ci-ne",
+    "topic": "ci-ne",
+    "title": "Ci (lugar) y ne (cantidad)",
+    "body": "- **ci** = allí / ahí (un lugar ya mencionado): *Vai a Roma? Sì, ci vado domani.* *Ci vado in treno.*\n- **ne** = de eso / de ellos (cantidad): *Quanti fratelli hai? Ne ho due.* *Vuoi del pane? Sì, ne prendo un po'.*\n- Con *ne* el número o la cantidad se dice, pero el sustantivo no se repite.\n- *Non ne ho* = no tengo (ninguno). *Ne ho tanti* = tengo muchos.\n- Expresiones: *ci vuole / ci vogliono* (se necesita/n): *Ci vogliono due ore per arrivare.*",
+    "examples": [
+      ["Sei mai stata a Venezia? Sì, ci sono stata l'anno scorso.", "¿Has estado alguna vez en Venecia? Sí, estuve el año pasado."],
+      ["Quante mele compri? Ne compro sei.", "¿Cuántas manzanas compras? Compro seis."],
+      ["Per andare in centro ci vogliono venti minuti.", "Para ir al centro se necesitan veinte minutos."]
+    ],
+    "drills": [
+      { "q": "Vai spesso in palestra? Sì, ___ vado tre volte alla settimana.", "a": "ci" },
+      { "q": "Quanti caffè bevi al giorno? ___ bevo due.", "a": "Ne" },
+      { "q": "Hai figli? No, non ___ ho.", "a": "ne" },
+      { "q": "Per fare la torta ___ vogliono tre uova.", "a": "ci" }
+    ]
+  },
+  {
+    "id": "futuro",
+    "topic": "futuro",
+    "title": "Futuro simple",
+    "body": "| | -are/-ere | -ire | essere | avere |\n|---|---|---|---|---|\n| io | parl**erò** | dorm**irò** | sarò | avrò |\n| tu | parl**erai** | dorm**irai** | sarai | avrai |\n| lui/lei | parl**erà** | dorm**irà** | sarà | avrà |\n| noi | parl**eremo** | dorm**iremo** | saremo | avremo |\n| voi | parl**erete** | dorm**irete** | sarete | avrete |\n| loro | parl**eranno** | dorm**iranno** | saranno | avranno |\n\n- Ojo: los verbos en **-are** cambian a **-er-**: *parlerò* (no «parlarò»).\n- Irregulares: *andrò, verrò, farò, starò, potrò, dovrò, vorrò, saprò, vedrò, berrò*.\n- Para planes cercanos el italiano usa mucho el **presente**: *Domani vado a Milano.*",
+    "examples": [
+      ["L'anno prossimo andrò in Sicilia.", "El año que viene iré a Sicilia."],
+      ["Domani pioverà al nord.", "Mañana lloverá en el norte."],
+      ["Quando finirò l'esame, farò una festa.", "Cuando termine el examen, haré una fiesta."]
+    ],
+    "drills": [
+      { "q": "Domani io ___ (lavorare) da casa.", "a": "lavorerò" },
+      { "q": "Il prossimo anno noi ___ (andare) in Italia.", "a": "andremo" },
+      { "q": "Stasera ___ (essere) stanca.", "a": "sarò" },
+      { "q": "Loro ___ (venire) in treno.", "a": "verranno" },
+      { "q": "Tu ___ (avere) tempo sabato?", "a": "avrai" }
+    ]
+  },
+  {
+    "id": "condizionale",
+    "topic": "futuro",
+    "title": "Condicional de cortesía: vorrei, potrei…",
+    "body": "Para pedir con educación (¡muy útil en el examen oral!):\n\n- **Vorrei** un caffè / prenotare un tavolo / sapere se…\n- **Potrebbe** ripetere, per favore? (usted)\n- **Potresti** aiutarmi? (tú)\n- **Mi piacerebbe** visitare la Puglia.\n- **Dovresti** riposare. (consejo)\n\nTerminaciones: -**ei**, -**esti**, -**ebbe**, -**emmo**, -**este**, -**ebbero** (sobre la raíz del futuro: *vorr-, potr-, dovr-, sar-, avr-*).",
+    "examples": [
+      ["Buongiorno, vorrei un biglietto per Firenze.", "Buenos días, quisiera un billete para Florencia."],
+      ["Scusi, potrebbe parlare più lentamente?", "Disculpe, ¿podría hablar más despacio?"],
+      ["Vorrei sapere a che ora apre il museo.", "Quisiera saber a qué hora abre el museo."]
+    ],
+    "drills": [
+      { "q": "Buonasera, ___ (io-volere) prenotare una camera.", "a": "vorrei" },
+      { "q": "Scusi, ___ (Lei-potere) aiutarmi?", "a": "potrebbe" },
+      { "q": "Mi ___ (piacere) imparare a cucinare.", "a": "piacerebbe" },
+      { "q": "Sei stanca, ___ (dovere) dormire di più.", "a": "dovresti" }
+    ]
+  },
+  {
+    "id": "imperativo",
+    "topic": "futuro",
+    "title": "Imperativo informal (tu, noi, voi)",
+    "body": "| | -are | -ere | -ire |\n|---|---|---|---|\n| tu | gir**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| noi | gir**iamo**! | prend**iamo**! | sent**iamo**! |\n| voi | gir**ate**! | prend**ete**! | sent**ite**! |\n\n- Irregulares (tu): *va'/vai, vieni, fa'/fai, sta'/stai, di', da'/dai, abbi, sii*.\n- Negativo con **tu**: *non + infinitivo*: **Non parlare!** **Non preoccuparti!**\n- Pronombres pegados: *Dimmi! Chiamami! Aspettami!*\n- Indicaciones: *Gira a destra, vai sempre dritto, attraversa la piazza.*",
+    "examples": [
+      ["Prendi la seconda strada a sinistra.", "Toma la segunda calle a la izquierda."],
+      ["Non dimenticare le chiavi!", "¡No olvides las llaves!"],
+      ["Venite a cena da noi sabato!", "¡Venid a cenar a casa el sábado!"]
+    ],
+    "drills": [
+      { "q": "(tu-girare) ___ a destra al semaforo.", "a": "gira" },
+      { "q": "(tu-non-preoccuparsi) ___!", "a": "non preoccuparti|non ti preoccupare" },
+      { "q": "(voi-scusare) ___ il ritardo!", "a": "scusate" },
+      { "q": "(tu-venire) ___ qui, per favore.", "a": "vieni" }
+    ]
+  },
+  {
+    "id": "comparativi",
+    "topic": "comparativi",
+    "title": "Comparativos y superlativos",
+    "body": "- **più … di**: *Roma è più grande di Firenze.*\n- **meno … di**: *Il treno è meno caro dell'aereo.*\n- **(così) … come / tanto … quanto**: *Luca è alto come suo padre.*\n- Ante verbo, adjetivo o cantidad se usa **che**: *È più facile parlare che scrivere.*\n- Superlativo relativo: *È **il** ristorante **più** caro **della** città.*\n- Superlativo absoluto: *-issimo*: *bellissimo, buonissima, carissimi*.\n- Irregulares: *buono → migliore* (mejor), *cattivo → peggiore*; *bene → meglio*, *male → peggio*.\n- Trampa: no existe «más mejor»: *Questo è migliore* / *Sto meglio*.",
+    "examples": [
+      ["D'estate Napoli è più calda di Milano.", "En verano Nápoles es más calurosa que Milán."],
+      ["Questa pizza è buonissima!", "¡Esta pizza está buenísima!"],
+      ["Oggi sto meglio di ieri.", "Hoy estoy mejor que ayer."]
+    ],
+    "drills": [
+      { "q": "Il treno è più veloce ___ autobus.", "a": "dell'", "hint": "di + l'" },
+      { "q": "Mi piace più leggere ___ guardare la TV.", "a": "che" },
+      { "q": "Questo gelato è ___ (más bueno) di quello.", "a": "migliore|più buono" },
+      { "q": "Hai la febbre? Spero che domani starai ___.", "a": "meglio" },
+      { "q": "Un libro (bello, superlativo) → un libro ___", "a": "bellissimo" }
+    ]
+  },
+  {
+    "id": "avverbi",
+    "topic": "comparativi",
+    "title": "Adverbios de frecuencia y de tiempo",
+    "body": "- Frecuencia: **sempre, di solito, spesso, qualche volta, ogni tanto, raramente, non … mai**.\n- Tiempo: **adesso/ora, prima, poi, dopo, già, ancora, appena, presto, tardi, subito, ieri, oggi, domani, stamattina, stasera, fra/tra, fa**.\n- *fa* va **después**: *due giorni fa* (hace dos días).\n- **non … ancora**: *Non ho ancora mangiato.* | **già**: *Ho già mangiato.*\n- Adverbios en **-mente**: *lento → lentamente, facile → facilmente*.\n- Trampa: **presto** = pronto/temprano (no «prestado»).",
+    "examples": [
+      ["Di solito ceno alle otto, ma qualche volta più tardi.", "Normalmente ceno a las ocho, pero a veces más tarde."],
+      ["Non ho ancora finito il libro.", "Todavía no he terminado el libro."],
+      ["Sono arrivata in Italia tre mesi fa.", "Llegué a Italia hace tres meses."]
+    ],
+    "drills": [
+      { "q": "Sono partita due settimane ___ .", "a": "fa" },
+      { "q": "Hai già pranzato? No, non ho ___ pranzato.", "a": "ancora" },
+      { "q": "Domani mi alzo ___ perché ho il treno alle sei.", "a": "presto" },
+      { "q": "Non vado ___ in discoteca.", "a": "mai" }
+    ]
+  }
+]

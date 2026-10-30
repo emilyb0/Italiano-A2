@@ -1,0 +1,183 @@
+{
+  "id": "exam1",
+  "title": "Simulacro 1",
+  "ascolto": [
+    {
+      "id": "e1-l1",
+      "title": "Annuncio alla stazione",
+      "kind": "annuncio",
+      "lines": [
+        { "s": "Altoparlante", "t": "Attenzione. Il treno regionale 3317 delle ore 8 e 40 per Bologna è soppresso per un guasto tecnico." },
+        { "s": "Altoparlante", "t": "I passeggeri possono prendere il treno delle 9 e 05 dal binario 2. I biglietti sono validi anche per il treno successivo." }
+      ],
+      "es": "Atención. El tren regional 3317 de las 8:40 para Bolonia queda suprimido por una avería técnica. Los pasajeros pueden tomar el tren de las 9:05 desde la vía 2. Los billetes son válidos también para el tren siguiente.",
+      "questions": [
+        { "type": "choice", "q": "Che cosa è successo al treno delle 8.40?", "options": ["È soppresso", "È in ritardo", "Parte da un altro binario"], "answer": 0 },
+        { "type": "choice", "q": "A che ora parte il treno successivo?", "options": ["Alle 9.05", "Alle 8.40", "Alle 9.50"], "answer": 0 },
+        { "type": "vf", "q": "I passeggeri devono comprare un nuovo biglietto.", "answer": false }
+      ]
+    },
+    {
+      "id": "e1-l2",
+      "title": "Al telefono con un'amica",
+      "kind": "dialogo",
+      "lines": [
+        { "s": "Giulia", "t": "Ciao Emily! Ti chiamo per domani. Andiamo ancora al mercato insieme?" },
+        { "s": "Emily", "t": "Sì, certo! Ma possiamo andare alle dieci invece che alle nove? Stasera finisco di lavorare tardi." },
+        { "s": "Giulia", "t": "Va bene. Ci vediamo davanti alla farmacia in piazza?" },
+        { "s": "Emily", "t": "Perfetto. Dopo il mercato ti va di pranzare da me? Faccio la paella." },
+        { "s": "Giulia", "t": "Che bello! Allora porto io il vino." }
+      ],
+      "es": "Giulia: ¡Hola Emily! Te llamo por lo de mañana. ¿Seguimos yendo al mercado juntas? Emily: ¡Sí, claro! ¿Pero podemos ir a las diez en vez de a las nueve? Esta noche termino de trabajar tarde. Giulia: Vale. ¿Nos vemos delante de la farmacia de la plaza? Emily: Perfecto. Después del mercado, ¿te apetece comer en mi casa? Hago paella. Giulia: ¡Qué bien! Entonces llevo yo el vino.",
+      "questions": [
+        { "type": "choice", "q": "A che ora si incontrano?", "options": ["Alle dieci", "Alle nove", "A mezzogiorno"], "answer": 0 },
+        { "type": "choice", "q": "Dove si incontrano?", "options": ["Davanti alla farmacia", "Al mercato", "A casa di Emily"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa porta Giulia?", "options": ["Il vino", "La paella", "Il dolce"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "e1-l3",
+      "title": "Un nuovo lavoro",
+      "kind": "monologo",
+      "lines": [
+        { "s": "Davide", "t": "Da un mese lavoro in una libreria del centro. Prima facevo il cameriere, ma gli orari erano difficili: lavoravo sempre la sera e nel fine settimana." },
+        { "s": "Davide", "t": "Adesso lavoro dalle nove alle sei, con un'ora di pausa, e la domenica sono libero. Lo stipendio è un po' più basso, ma sono più contento perché amo i libri e ho più tempo per la mia famiglia." }
+      ],
+      "es": "Desde hace un mes trabajo en una librería del centro. Antes era camarero, pero los horarios eran difíciles: trabajaba siempre por la noche y el fin de semana. Ahora trabajo de nueve a seis, con una hora de pausa, y el domingo libro. El sueldo es un poco más bajo, pero estoy más contento porque me encantan los libros y tengo más tiempo para mi familia.",
+      "questions": [
+        { "type": "choice", "q": "Che lavoro faceva prima Davide?", "options": ["Il cameriere", "Il libraio", "Il cuoco"], "answer": 0 },
+        { "type": "vf", "q": "Adesso Davide guadagna di più.", "answer": false },
+        { "type": "vf", "q": "La domenica Davide non lavora.", "answer": true }
+      ]
+    },
+    {
+      "id": "e1-l4",
+      "title": "In un'agenzia di viaggi",
+      "kind": "dialogo",
+      "lines": [
+        { "s": "Impiegata", "t": "Buongiorno, desidera?" },
+        { "s": "Cliente", "t": "Vorrei andare in Sicilia a giugno con mio marito, per una settimana. Che cosa mi consiglia?" },
+        { "s": "Impiegata", "t": "Abbiamo un pacchetto per Palermo: volo e albergo per settecento euro a persona." },
+        { "s": "Cliente", "t": "È un po' caro. C'è qualcosa di più economico?" },
+        { "s": "Impiegata", "t": "Sì, se partite a fine maggio costa cinquecentocinquanta euro. E la colazione è inclusa." },
+        { "s": "Cliente", "t": "Fine maggio va bene. Lo prenoto." }
+      ],
+      "es": "Empleada: Buenos días, ¿qué desea? Cliente: Quisiera ir a Sicilia en junio con mi marido, una semana. ¿Qué me recomienda? Empleada: Tenemos un paquete para Palermo: vuelo y hotel por setecientos euros por persona. Cliente: Es un poco caro. ¿Hay algo más económico? Empleada: Sí, si salen a finales de mayo cuesta quinientos cincuenta euros. Y el desayuno está incluido. Cliente: Finales de mayo me va bien. Lo reservo.",
+      "questions": [
+        { "type": "choice", "q": "Quando parte alla fine la cliente?", "options": ["A fine maggio", "A giugno", "A luglio"], "answer": 0 },
+        { "type": "choice", "q": "Quanto paga a persona?", "options": ["550 €", "700 €", "500 €"], "answer": 0 },
+        { "type": "vf", "q": "La colazione è inclusa nel prezzo.", "answer": true }
+      ]
+    }
+  ],
+  "lettura": [
+    {
+      "id": "e1-r1",
+      "title": "Cartelli e avvisi",
+      "genre": "cartelli",
+      "text": "A) «Si prega di non lasciare biciclette nell'androne.»\nB) «Farmacia di turno: Farmacia Centrale, via Roma 12, aperta tutta la notte.»\nC) «Vietato l'ingresso ai non addetti ai lavori.»\nD) «Offerta: 3 x 2 su tutti i prodotti per la casa.»",
+      "es": "A) «Se ruega no dejar bicicletas en el portal.» B) «Farmacia de guardia: Farmacia Central, calle Roma 12, abierta toda la noche.» C) «Prohibida la entrada a personal no autorizado.» D) «Oferta: 3x2 en todos los productos para el hogar.»",
+      "glossary": { "androne": "portal, zaguán", "di turno": "de guardia", "addetti ai lavori": "personal autorizado" },
+      "match": {
+        "instruction": "Collega ogni situazione al cartello giusto.",
+        "left": ["Hai bisogno di una medicina alle due di notte.", "Vuoi comprare detersivi spendendo meno.", "Non puoi entrare se non lavori lì.", "Non puoi parcheggiare la bici all'ingresso del palazzo."],
+        "right": ["A", "B", "C", "D"],
+        "answer": [1, 3, 2, 0]
+      }
+    },
+    {
+      "id": "e1-r2",
+      "title": "Email di una collega",
+      "genre": "email",
+      "text": "Ciao Emily,\nti scrivo per la riunione di giovedì. Purtroppo la sala grande è occupata, quindi ci vediamo nella sala piccola al terzo piano, sempre alle 10. Il direttore non può venire perché è in viaggio a Londra, ma ci manderà le sue domande per email. Puoi portare tu il computer con la presentazione? Il mio non funziona bene.\nA giovedì,\nFederica",
+      "es": "Hola Emily: te escribo por la reunión del jueves. Desgraciadamente la sala grande está ocupada, así que nos vemos en la sala pequeña de la tercera planta, también a las 10. El director no puede venir porque está de viaje en Londres, pero nos mandará sus preguntas por email. ¿Puedes traer tú el ordenador con la presentación? El mío no funciona bien. Hasta el jueves, Federica",
+      "glossary": { "riunione": "reunión", "occupata": "ocupada", "manderà": "mandará" },
+      "questions": [
+        { "type": "choice", "q": "Dove sarà la riunione?", "options": ["Nella sala piccola", "Nella sala grande", "A Londra"], "answer": 0 },
+        { "type": "choice", "q": "Perché il direttore non viene?", "options": ["È in viaggio", "È malato", "Ha un'altra riunione"], "answer": 0 },
+        { "type": "vf", "q": "La riunione cambia orario.", "answer": false },
+        { "type": "vf", "q": "Federica chiede a Emily di portare il computer.", "answer": true }
+      ]
+    },
+    {
+      "id": "e1-r3",
+      "title": "Corsi estivi in biblioteca",
+      "genre": "annuncio",
+      "text": "La Biblioteca comunale organizza a luglio corsi gratuiti per tutti. Il lunedì e il mercoledì, dalle 18 alle 19.30, c'è il corso di fotografia digitale: portate la vostra macchina fotografica o il cellulare. Il martedì pomeriggio c'è il laboratorio di lettura per bambini dai 6 ai 10 anni. Il giovedì sera, infine, c'è il gruppo di conversazione in italiano per stranieri. I posti sono limitati: per iscriversi bisogna venire in biblioteca con un documento entro il 30 giugno.",
+      "es": "La Biblioteca municipal organiza en julio cursos gratuitos para todos. Los lunes y miércoles, de 18 a 19:30, hay curso de fotografía digital: traed vuestra cámara o el móvil. El martes por la tarde hay taller de lectura para niños de 6 a 10 años. El jueves por la noche, por último, hay grupo de conversación en italiano para extranjeros. Las plazas son limitadas: para inscribirse hay que venir a la biblioteca con un documento antes del 30 de junio.",
+      "glossary": { "gratuiti": "gratuitos", "laboratorio": "taller", "entro": "antes de, como tarde" },
+      "questions": [
+        { "type": "choice", "q": "Quando c'è il corso di fotografia?", "options": ["Lunedì e mercoledì", "Martedì pomeriggio", "Giovedì sera"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa serve per iscriversi?", "options": ["Un documento", "Una foto", "Pagare una quota"], "answer": 0 },
+        { "type": "choice", "q": "Chi può partecipare al gruppo del giovedì?", "options": ["Gli stranieri che studiano italiano", "I bambini", "I fotografi professionisti"], "answer": 0 }
+      ]
+    }
+  ],
+  "strutture": [
+    {
+      "title": "Una lettera",
+      "instruction": "Scegli la forma corretta.",
+      "text": "Cara Lucia,\n[[come/quando/dove]] stai? Io sto bene. Da due settimane abito [[a/in/da]] Firenze. [[La/Il/Lo]] mia casa è piccola ma carina, vicino [[al/allo/alla]] centro. Ieri [[sono andata/ho andato/sono andato]] agli Uffizi con [[una/un/uno]] collega: [[è stato/era/ero]] bellissimo! Il fine settimana [[vieni/venite/viene]] a trovarmi?\nUn abbraccio,\nEmily",
+      "es": "Querida Lucia: ¿cómo estás? Yo estoy bien. Desde hace dos semanas vivo en Florencia. Mi casa es pequeña pero bonita, cerca del centro. Ayer fui a los Uffizi con una compañera: ¡fue precioso! ¿El fin de semana vienes a verme? Un abrazo, Emily"
+    },
+    {
+      "title": "La routine di Paolo",
+      "instruction": "Completa con il verbo al presente.",
+      "text": "Paolo [[si sveglia]] (svegliarsi) alle sette. [[Fa]] (fare) colazione e [[esce]] (uscire) di casa alle otto. [[Va]] (andare) in ufficio in bicicletta. La sera lui e sua moglie [[guardano]] (guardare) un film o [[leggono]] (leggere).",
+      "es": "Paolo se despierta a las siete. Desayuna y sale de casa a las ocho. Va a la oficina en bicicleta. Por la noche él y su mujer ven una película o leen."
+    },
+    {
+      "title": "Al ristorante",
+      "instruction": "Scegli la forma corretta.",
+      "text": "— Buonasera, [[vorrei/voglio/vorrò]] prenotare un tavolo per stasera.\n— Per quante persone?\n— Per quattro. Ah, [[ci/ne/lo]] sono anche due bambini.\n— Benissimo. Preferite un tavolo dentro o fuori?\n— Fuori, se possibile. Mia figlia ama mangiare all'aperto, [[le/la/gli]] piace molto.\n— Va bene. [[Vi/Ci/Li]] aspettiamo alle otto.",
+      "es": "— Buenas noches, quisiera reservar una mesa para esta noche. — ¿Para cuántas personas? — Para cuatro. Ah, también hay dos niños. — Muy bien. ¿Prefieren una mesa dentro o fuera? — Fuera, si es posible. A mi hija le encanta comer al aire libre, le gusta mucho. — De acuerdo. Les esperamos a las ocho."
+    }
+  ],
+  "scritta": [
+    {
+      "id": "e1-w1",
+      "kind": "descrizione",
+      "title": "Una festa in famiglia",
+      "prompt": "Guarda l'immagine e descrivi la festa: dove sono, chi c'è, che cosa fanno.",
+      "promptEs": "Mira la imagen y describe la fiesta: dónde están, quién hay, qué hacen.",
+      "scene": "🎂🎈👨‍👩‍👧‍👦👵🎁🎶",
+      "min": 40,
+      "max": 60,
+      "model": "Nell'immagine c'è una festa di compleanno in famiglia. Sono in una casa, nel soggiorno, e ci sono molti palloncini colorati. La nonna porta una grande torta e i bambini sono felici. I genitori aprono i regali e qualcuno mette la musica. Tutti sorridono: sembra una giornata molto allegra.",
+      "modelEs": "En la imagen hay una fiesta de cumpleaños en familia. Están en una casa, en el salón, y hay muchos globos de colores. La abuela trae una gran tarta y los niños están felices. Los padres abren los regalos y alguien pone música. Todos sonríen: parece un día muy alegre.",
+      "chunks": ["Nell'immagine c'è...", "ci sono molti...", "sembra...", "tutti..."],
+      "checklist": ["Luogo", "Persone", "Azioni al presente", "Opinione"]
+    },
+    {
+      "id": "e1-w2",
+      "kind": "messaggio",
+      "title": "Rispondi a Carla",
+      "prompt": "La tua amica Carla ti scrive: «Domenica vado in montagna con alcuni amici. Vuoi venire? Partiamo alle 7!». Rispondi: accetta o rifiuta, spiega e fai una domanda.",
+      "promptEs": "Tu amiga Carla te escribe: «El domingo voy a la montaña con unos amigos. ¿Quieres venir? ¡Salimos a las 7!». Responde: acepta o rechaza, explica y haz una pregunta.",
+      "min": 15,
+      "max": 30,
+      "model": "Ciao Carla! Grazie, vengo volentieri, ma le sette è prestissimo! Devo portare qualcosa da mangiare? Ci vediamo domenica, un bacio!",
+      "modelEs": "¡Hola Carla! Gracias, voy encantada, ¡pero las siete es tempranísimo! ¿Tengo que llevar algo de comer? Nos vemos el domingo, ¡un beso!",
+      "chunks": ["vengo volentieri", "purtroppo non posso", "Devo portare...?"],
+      "checklist": ["Saluto", "Risposta all'invito", "Una domanda", "Saluto finale"]
+    }
+  ],
+  "orale": {
+    "roleplay": [
+      { "id": "e1-o1", "theme": "presentazione", "q": "Buongiorno. Come si chiama e di dove è?", "es": "Buenos días. ¿Cómo se llama y de dónde es?", "sample": "Buongiorno. Mi chiamo Emily García e sono spagnola, di Madrid.", "hints": ["Mi chiamo...", "Sono di..."] },
+      { "id": "e1-o2", "theme": "lavoro-studio", "q": "Che cosa fa nella vita?", "es": "¿A qué se dedica?", "sample": "Sono ingegnera, lavoro in un'azienda di energia. Mi piace perché è un lavoro utile.", "hints": ["Sono... / Lavoro come...", "Mi piace perché..."] },
+      { "id": "e1-o3", "theme": "tempo-libero", "q": "Che cosa le piace fare nel tempo libero?", "es": "¿Qué le gusta hacer en su tiempo libre?", "sample": "Mi piace leggere e fare yoga. Il fine settimana vado spesso al cinema con gli amici.", "hints": ["Mi piace + infinito", "spesso", "il fine settimana"] },
+      { "id": "e1-o4", "theme": "passato", "q": "Che cosa ha fatto ieri sera?", "es": "¿Qué hizo ayer por la noche?", "sample": "Ieri sera sono tornata a casa tardi, ho cenato e poi ho studiato un po' di italiano.", "hints": ["sono tornata", "ho cenato", "poi"] },
+      { "id": "e1-o5", "theme": "futuro", "q": "Che progetti ha per l'estate?", "es": "¿Qué planes tiene para el verano?", "sample": "Quest'estate andrò in Portogallo con delle amiche. Faremo un viaggio in macchina lungo la costa.", "hints": ["andrò...", "faremo..."] }
+    ],
+    "monologue": {
+      "id": "e1-m1",
+      "title": "Il mio quartiere",
+      "prompt": "Parla del quartiere dove abiti: com'è, che cosa c'è, che cosa ti piace e che cosa vorresti cambiare.",
+      "promptEs": "Habla del barrio donde vives: cómo es, qué hay, qué te gusta y qué te gustaría cambiar.",
+      "scene": "🏘️🛒🌳🚌☕",
+      "points": ["Dove si trova", "Servizi e negozi", "Che cosa ti piace", "Che cosa non ti piace", "Che cosa vorresti cambiare"],
+      "sample": "Abito in un quartiere tranquillo, a quindici minuti dal centro in autobus. Ci sono un supermercato, una farmacia, un parco e alcuni bar. Mi piace perché è silenzioso e i vicini sono gentili. La mattina prendo il caffè sempre nello stesso bar. Non mi piace che la sera ci sono pochi autobus. Vorrei più mezzi pubblici e una biblioteca."
+    }
+  }
+}

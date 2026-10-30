@@ -1,0 +1,474 @@
+[
+  {
+    "id": "r01",
+    "title": "Avviso in biblioteca",
+    "genre": "Aviso",
+    "text": "BIBLIOTECA COMUNALE «G. RODARI»\n\nDal 1° al 15 agosto la biblioteca resterà chiusa per lavori di ristrutturazione.\nI libri in prestito si possono restituire nella cassetta davanti all'ingresso principale.\nDal 16 agosto la biblioteca riaprirà con il solito orario: dal lunedì al venerdì 9.00–19.00, il sabato 9.00–13.00.\nCi scusiamo per il disagio.",
+    "es": "BIBLIOTECA MUNICIPAL «G. RODARI». Del 1 al 15 de agosto la biblioteca permanecerá cerrada por obras de reforma. Los libros prestados se pueden devolver en el buzón delante de la entrada principal. Desde el 16 de agosto la biblioteca volverá a abrir con el horario habitual: de lunes a viernes 9:00–19:00, el sábado 9:00–13:00. Disculpen las molestias.",
+    "glossary": {
+      "resterà chiusa": "permanecerá cerrada",
+      "lavori": "obras",
+      "in prestito": "prestados",
+      "restituire": "devolver",
+      "cassetta": "buzón",
+      "ingresso": "entrada",
+      "solito": "habitual",
+      "disagio": "molestia"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Perché la biblioteca chiude?",
+        "options": [
+          "Per lavori",
+          "Per le vacanze del personale",
+          "Per uno sciopero"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Dove si possono lasciare i libri ad agosto?",
+        "options": [
+          "Nella cassetta davanti all'ingresso",
+          "In un'altra biblioteca",
+          "Al bar vicino"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "Il sabato pomeriggio la biblioteca è aperta.",
+        "answer": false,
+        "explain": "Il sabato apre solo 9.00–13.00."
+      },
+      {
+        "type": "vf",
+        "q": "La biblioteca riapre il 16 agosto.",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "r02",
+    "title": "Una mail da un'amica",
+    "genre": "Correo electrónico",
+    "text": "Ciao Emily!\nCome stai? Io finalmente ho finito gli esami e sono in vacanza! Sabato prossimo organizzo una piccola festa a casa mia per il mio compleanno. Vengono anche Paolo, Sara e i miei colleghi dell'università. Comincia alle otto e mezza: io preparo la pizza e le bevande, tu puoi portare un dolce? Se non trovi la strada, scendi alla fermata «Piazza Verdi» dell'autobus 14: casa mia è proprio di fronte alla farmacia.\nFammi sapere se vieni!\nUn abbraccio,\nGiulia",
+    "es": "¡Hola Emily! ¿Cómo estás? Yo por fin he terminado los exámenes y estoy de vacaciones. El sábado que viene organizo una pequeña fiesta en mi casa por mi cumpleaños. Vienen también Paolo, Sara y mis compañeros de la universidad. Empieza a las ocho y media: yo preparo la pizza y las bebidas, ¿tú puedes traer un postre? Si no encuentras el camino, bájate en la parada «Piazza Verdi» del autobús 14: mi casa está justo enfrente de la farmacia. ¡Dime si vienes! Un abrazo, Giulia",
+    "glossary": {
+      "finalmente": "por fin",
+      "organizzo": "organizo",
+      "bevande": "bebidas",
+      "portare": "traer / llevar",
+      "scendi": "bájate",
+      "di fronte alla": "enfrente de la",
+      "Fammi sapere": "dime / avísame"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Perché Giulia fa una festa?",
+        "options": [
+          "Per il suo compleanno",
+          "Perché ha finito gli esami",
+          "Per una nuova casa"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Che cosa deve portare Emily?",
+        "options": [
+          "Un dolce",
+          "La pizza",
+          "Le bevande"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Dove si trova la casa di Giulia?",
+        "options": [
+          "Di fronte alla farmacia",
+          "Accanto all'università",
+          "Dietro la fermata del 14"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "La festa comincia alle 20.30.",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "r03",
+    "title": "Cartelli in città",
+    "genre": "Carteles",
+    "text": "A) «Vietato fumare in tutto l'edificio.»\nB) «Chiuso per ferie. Riapriamo lunedì 26 agosto.»\nC) «Saldi! Sconto del 30% su tutti i maglioni.»\nD) «Attenzione: pavimento bagnato.»\nE) «Si accettano solo pagamenti con carta.»",
+    "es": "A) «Prohibido fumar en todo el edificio.» B) «Cerrado por vacaciones. Volvemos a abrir el lunes 26 de agosto.» C) «¡Rebajas! Descuento del 30 % en todos los jerséis.» D) «Atención: suelo mojado.» E) «Solo se aceptan pagos con tarjeta.»",
+    "glossary": {
+      "Vietato": "prohibido",
+      "edificio": "edificio",
+      "ferie": "vacaciones",
+      "Sconto": "descuento",
+      "maglioni": "jerséis",
+      "pavimento": "suelo",
+      "bagnato": "mojado"
+    },
+    "match": {
+      "instruction": "¿Dónde puedes leer cada cartel? Une cada lugar con el cartel (A–E).",
+      "left": [
+        "In un negozio di abbigliamento",
+        "Sulla porta di un bar ad agosto",
+        "In un ufficio pubblico",
+        "In un supermercato dopo le pulizie",
+        "Al parcheggio con la macchinetta automatica"
+      ],
+      "right": [
+        "Vietato fumare in tutto l'edificio.",
+        "Chiuso per ferie. Riapriamo lunedì 26 agosto.",
+        "Saldi! Sconto del 30% su tutti i maglioni.",
+        "Attenzione: pavimento bagnato.",
+        "Si accettano solo pagamenti con carta."
+      ],
+      "answer": [
+        2,
+        1,
+        0,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "r04",
+    "title": "Cercasi baby-sitter",
+    "genre": "Anuncio",
+    "text": "CERCASI BABY-SITTER\nSiamo una famiglia con due bambini di 4 e 7 anni. Cerchiamo una ragazza o un ragazzo per tre pomeriggi alla settimana (lunedì, mercoledì e venerdì) dalle 16.00 alle 19.30. Deve andare a prendere i bambini a scuola, aiutare il più grande con i compiti e preparare la merenda. È importante avere esperienza con i bambini e parlare bene l'italiano; l'inglese è un vantaggio. Offriamo 9 euro all'ora.\nChiamare Laura al 347 2208915 dopo le 20.",
+    "es": "SE BUSCA CANGURO. Somos una familia con dos niños de 4 y 7 años. Buscamos una chica o un chico para tres tardes a la semana (lunes, miércoles y viernes) de 16:00 a 19:30. Tiene que ir a buscar a los niños al colegio, ayudar al mayor con los deberes y preparar la merienda. Es importante tener experiencia con niños y hablar bien italiano; el inglés es una ventaja. Ofrecemos 9 euros la hora. Llamar a Laura al 347 2208915 después de las 20.",
+    "glossary": {
+      "Cercasi": "se busca",
+      "andare a prendere": "ir a buscar",
+      "compiti": "deberes",
+      "merenda": "merienda",
+      "vantaggio": "ventaja",
+      "all'ora": "por hora"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Quanti giorni alla settimana deve lavorare la baby-sitter?",
+        "options": [
+          "Tre",
+          "Due",
+          "Cinque"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Che cosa NON deve fare la baby-sitter?",
+        "options": [
+          "Pulire la casa",
+          "Preparare la merenda",
+          "Aiutare con i compiti"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "Parlare inglese è obbligatorio.",
+        "answer": false,
+        "explain": "L'inglese è solo un vantaggio."
+      },
+      {
+        "type": "vf",
+        "q": "Si può telefonare a Laura alle dieci di sera.",
+        "answer": true,
+        "explain": "Bisogna chiamare dopo le 20."
+      }
+    ]
+  },
+  {
+    "id": "r05",
+    "title": "Il mercato di Porta Palazzo",
+    "genre": "Texto informativo",
+    "text": "Porta Palazzo, a Torino, è uno dei mercati all'aperto più grandi d'Europa. È aperto tutti i giorni tranne la domenica, dalla mattina presto fino all'ora di pranzo; il sabato resta aperto anche il pomeriggio. Qui si possono comprare frutta, verdura, carne, pesce e formaggi a prezzi bassi, ma anche vestiti e oggetti per la casa. Molti venditori vengono da paesi diversi, quindi al mercato si sentono tante lingue e si trovano prodotti di tutto il mondo. Il consiglio: andateci verso mezzogiorno, quando i venditori fanno gli sconti per finire la merce!",
+    "es": "Porta Palazzo, en Turín, es uno de los mercados al aire libre más grandes de Europa. Abre todos los días excepto el domingo, desde primera hora de la mañana hasta la hora de comer; el sábado también abre por la tarde. Aquí se pueden comprar fruta, verdura, carne, pescado y quesos a precios bajos, pero también ropa y objetos para la casa. Muchos vendedores vienen de países distintos, así que en el mercado se oyen muchas lenguas y se encuentran productos de todo el mundo. El consejo: id hacia mediodía, cuando los vendedores hacen descuentos para terminar la mercancía.",
+    "glossary": {
+      "all'aperto": "al aire libre",
+      "tranne": "excepto",
+      "prezzi": "precios",
+      "venditori": "vendedores",
+      "consiglio": "consejo",
+      "andateci": "id allí",
+      "merce": "mercancía"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Quando è chiuso il mercato?",
+        "options": [
+          "La domenica",
+          "Il sabato pomeriggio",
+          "Il lunedì"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Perché è bene andare a mezzogiorno?",
+        "options": [
+          "Perché ci sono gli sconti",
+          "Perché c'è meno gente",
+          "Perché arriva il pesce fresco"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "Al mercato si vendono solo prodotti alimentari.",
+        "answer": false,
+        "explain": "Ci sono anche vestiti e oggetti per la casa."
+      },
+      {
+        "type": "vf",
+        "q": "Al mercato lavorano persone di diverse nazionalità.",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "r06",
+    "title": "Messaggio dal capo",
+    "genre": "Mensaje",
+    "text": "Buongiorno a tutti,\nvi ricordo che domani, giovedì, la riunione non sarà alle 9 ma alle 11, perché il direttore arriva da Milano con il treno delle 10. La riunione si farà nella sala grande al secondo piano e non nel mio ufficio. Per favore, portate il computer e le statistiche del mese di marzo. Dopo la riunione pranzeremo tutti insieme al ristorante «Da Mario»: l'azienda offre il pranzo!\nGrazie e a domani,\nRoberto",
+    "es": "Buenos días a todos: os recuerdo que mañana, jueves, la reunión no será a las 9 sino a las 11, porque el director llega de Milán en el tren de las 10. La reunión será en la sala grande del segundo piso y no en mi despacho. Por favor, traed el ordenador y las estadísticas del mes de marzo. Después de la reunión comeremos todos juntos en el restaurante «Da Mario»: ¡la empresa invita a la comida! Gracias y hasta mañana, Roberto",
+    "glossary": {
+      "ricordo": "recuerdo",
+      "riunione": "reunión",
+      "sala": "sala",
+      "portate": "traed",
+      "pranzeremo": "comeremos",
+      "offre": "invita / paga"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "A che ora comincia la riunione?",
+        "options": [
+          "Alle 11",
+          "Alle 9",
+          "Alle 10"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Dove si fa la riunione?",
+        "options": [
+          "Nella sala grande",
+          "Nell'ufficio di Roberto",
+          "Al ristorante"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Chi paga il pranzo?",
+        "options": [
+          "L'azienda",
+          "Il direttore",
+          "Ognuno paga per sé"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "Il direttore arriva in aereo.",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "id": "r07",
+    "title": "Corsi in palestra",
+    "genre": "Folleto",
+    "text": "PALESTRA «FORMA&BENESSERE» — NUOVI CORSI DA OTTOBRE\n• Yoga: martedì e giovedì 18.30–19.30. Adatto a tutti.\n• Pilates: lunedì e mercoledì 13.00–14.00, ideale per la pausa pranzo.\n• Nuoto per adulti: sabato 10.00–11.30, piscina coperta.\n• Zumba: venerdì 20.00–21.00.\nPrima lezione di prova gratuita! Abbonamento mensile: 45 euro (un corso) o 70 euro (corsi illimitati). Studenti sotto i 26 anni: sconto del 20%.",
+    "es": "GIMNASIO «FORMA&BIENESTAR» — NUEVOS CURSOS DESDE OCTUBRE. Yoga: martes y jueves 18:30–19:30. Apto para todos. Pilates: lunes y miércoles 13:00–14:00, ideal para la pausa de la comida. Natación para adultos: sábado 10:00–11:30, piscina cubierta. Zumba: viernes 20:00–21:00. ¡Primera clase de prueba gratis! Abono mensual: 45 euros (un curso) o 70 euros (cursos ilimitados). Estudiantes menores de 26 años: 20 % de descuento.",
+    "glossary": {
+      "Adatto a": "apto para",
+      "pausa pranzo": "pausa de la comida",
+      "coperta": "cubierta",
+      "di prova": "de prueba",
+      "gratuita": "gratuita",
+      "Abbonamento": "abono"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Quale corso si fa durante la pausa pranzo?",
+        "options": [
+          "Pilates",
+          "Yoga",
+          "Zumba"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Quanto costa fare tutti i corsi per un mese?",
+        "options": [
+          "70 euro",
+          "45 euro",
+          "20 euro"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "La prima lezione è gratis.",
+        "answer": true
+      },
+      {
+        "type": "vf",
+        "q": "Il corso di nuoto è la domenica.",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "id": "r08",
+    "title": "Una giornata di Marco",
+    "genre": "Texto personal",
+    "text": "Mi chiamo Marco, ho 34 anni e faccio il cuoco in un ristorante del centro di Bologna. La mia giornata è diversa da quella di molte persone: mi sveglio verso le dieci, faccio colazione con calma e poi vado in palestra. Alle due vado al ristorante e comincio a preparare i piatti per la sera. Il ristorante apre alle sette e mezza e di solito finisco di lavorare verso mezzanotte. Il lunedì il ristorante è chiuso: è il mio giorno libero e lo passo con mia figlia, che ha sei anni. Andiamo al parco o al cinema e la sera cucino per lei il suo piatto preferito, le lasagne.",
+    "es": "Me llamo Marco, tengo 34 años y soy cocinero en un restaurante del centro de Bolonia. Mi día es distinto del de mucha gente: me despierto hacia las diez, desayuno con calma y luego voy al gimnasio. A las dos voy al restaurante y empiezo a preparar los platos para la noche. El restaurante abre a las siete y media y normalmente termino de trabajar hacia medianoche. Los lunes el restaurante está cerrado: es mi día libre y lo paso con mi hija, que tiene seis años. Vamos al parque o al cine y por la noche cocino para ella su plato favorito, la lasaña.",
+    "glossary": {
+      "cuoco": "cocinero",
+      "verso le": "hacia las",
+      "con calma": "con calma",
+      "giorno libero": "día libre",
+      "preferito": "favorito"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Che lavoro fa Marco?",
+        "options": [
+          "Il cuoco",
+          "Il cameriere",
+          "L'istruttore in palestra"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Che cosa fa Marco la mattina?",
+        "options": [
+          "Va in palestra",
+          "Lavora al ristorante",
+          "Porta la figlia a scuola"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "Il ristorante è chiuso la domenica.",
+        "answer": false,
+        "explain": "È chiuso il lunedì."
+      },
+      {
+        "type": "vf",
+        "q": "La figlia di Marco ama le lasagne.",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "r09",
+    "title": "Treni e scioperi",
+    "genre": "Aviso",
+    "text": "AVVISO AI VIAGGIATORI\nVenerdì 14 marzo, dalle ore 9.00 alle ore 17.00, è previsto uno sciopero nazionale del personale ferroviario. Durante lo sciopero alcuni treni regionali potrebbero essere cancellati. Sono comunque garantiti i treni in partenza dalle 6.00 alle 9.00 e dalle 18.00 alle 21.00. I viaggiatori con un biglietto per un treno cancellato possono chiedere il rimborso in biglietteria o sul sito internet entro sette giorni.",
+    "es": "AVISO A LOS VIAJEROS. El viernes 14 de marzo, de las 9:00 a las 17:00, está prevista una huelga nacional del personal ferroviario. Durante la huelga algunos trenes regionales podrían ser cancelados. En todo caso están garantizados los trenes que salen de 6:00 a 9:00 y de 18:00 a 21:00. Los viajeros con billete para un tren cancelado pueden pedir el reembolso en la taquilla o en la página web en un plazo de siete días.",
+    "glossary": {
+      "è previsto": "está previsto",
+      "sciopero": "huelga",
+      "ferroviario": "ferroviario",
+      "cancellati": "cancelados",
+      "garantiti": "garantizados",
+      "rimborso": "reembolso",
+      "entro": "dentro de / antes de"
+    },
+    "questions": [
+      {
+        "type": "choice",
+        "q": "Quale treno parte sicuramente?",
+        "options": [
+          "Un treno delle 7.30",
+          "Un treno delle 12.00",
+          "Un treno delle 16.30"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "choice",
+        "q": "Che cosa si può fare con un biglietto per un treno cancellato?",
+        "options": [
+          "Chiedere i soldi indietro",
+          "Viaggiare gratis il giorno dopo",
+          "Prendere un autobus gratuito"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "vf",
+        "q": "Lo sciopero dura tutto il giorno.",
+        "answer": false
+      },
+      {
+        "type": "vf",
+        "q": "Il rimborso si può chiedere anche online.",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": "r10",
+    "title": "Annunci di case",
+    "genre": "Anuncios",
+    "text": "1) Affittasi monolocale arredato in zona università, 30 m², ideale per studenti. 420 € al mese, spese escluse.\n2) Vendesi villetta con giardino e garage a 10 km dalla città. Tre camere da letto, due bagni.\n3) Cercasi ragazza per condividere appartamento in centro. Camera singola con balcone, 350 € tutto incluso. No animali.\n4) Affittasi per le vacanze casa al mare in Liguria, 4 posti letto, a 200 metri dalla spiaggia. Disponibile luglio e agosto.",
+    "es": "1) Se alquila estudio amueblado en la zona de la universidad, 30 m², ideal para estudiantes. 420 € al mes, gastos no incluidos. 2) Se vende chalé con jardín y garaje a 10 km de la ciudad. Tres dormitorios, dos baños. 3) Se busca chica para compartir piso en el centro. Habitación individual con balcón, 350 € todo incluido. No animales. 4) Se alquila para las vacaciones casa en la playa en Liguria, 4 plazas, a 200 metros de la playa. Disponible julio y agosto.",
+    "glossary": {
+      "Affittasi": "se alquila",
+      "monolocale": "estudio",
+      "spese escluse": "gastos no incluidos",
+      "Vendesi": "se vende",
+      "villetta": "chalé",
+      "condividere": "compartir",
+      "posti letto": "camas / plazas"
+    },
+    "match": {
+      "instruction": "¿Qué anuncio (1–4) es adecuado para cada persona?",
+      "left": [
+        "Luca e tre amici vogliono passare due settimane al mare.",
+        "Sofia studia all'università e vuole vivere da sola.",
+        "Anna cerca una stanza economica in centro e vuole dividere le spese.",
+        "Una famiglia con tre figli vuole comprare una casa fuori città."
+      ],
+      "right": [
+        "Annuncio 1 (monolocale)",
+        "Annuncio 2 (villetta)",
+        "Annuncio 3 (stanza)",
+        "Annuncio 4 (casa al mare)"
+      ],
+      "answer": [
+        3,
+        0,
+        2,
+        1
+      ]
+    }
+  }
+]

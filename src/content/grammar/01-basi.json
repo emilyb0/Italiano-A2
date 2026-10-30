@@ -1,0 +1,268 @@
+[
+  {
+    "id": "articoli-det",
+    "topic": "articoli",
+    "title": "Artículos determinados: il, lo, l', la, i, gli, le",
+    "body": "El artículo depende del **género** y de **cómo empieza** la palabra siguiente.\n\n| | singular | plural |\n|---|---|---|\n| masc. + consonante | **il** libro | **i** libri |\n| masc. + s+cons., z, ps, gn, y | **lo** studente, **lo** zaino | **gli** studenti, **gli** zaini |\n| masc. + vocal | **l'**amico | **gli** amici |\n| fem. + consonante | **la** casa | **le** case |\n| fem. + vocal | **l'**amica | **le** amiche |\n\n- Trampa: en español «el agua», en italiano **l'acqua** (femenino).\n- **gli** se pronuncia como «lli» suave: *gli amici* ≈ «lli amichi».",
+    "examples": [
+      ["Il treno parte alle otto.", "El tren sale a las ocho."],
+      ["Lo zaino è sotto il tavolo.", "La mochila está debajo de la mesa."],
+      ["Gli studenti sono in classe.", "Los estudiantes están en clase."],
+      ["L'amica di Marta si chiama Giulia.", "La amiga de Marta se llama Giulia."]
+    ],
+    "drills": [
+      { "q": "___ zio di Paolo abita a Napoli.", "a": "Lo", "hint": "zio: masculino, empieza por z" },
+      { "q": "___ amici di Luca sono simpatici.", "a": "Gli", "hint": "masc. plural + vocal" },
+      { "q": "___ acqua è fredda.", "a": "L'", "hint": "acqua es femenino + vocal" },
+      { "q": "___ studenti hanno un esame.", "a": "Gli", "hint": "s + consonante, plural" },
+      { "q": "___ ragazze vanno al cinema.", "a": "Le", "hint": "fem. plural" }
+    ]
+  },
+  {
+    "id": "articoli-indet",
+    "topic": "articoli",
+    "title": "Artículos indeterminados: un, uno, una, un'",
+    "body": "- **un** + masculino (consonante o vocal): *un libro, un amico*\n- **uno** + masculino con s+consonante, z, ps, gn: *uno studente, uno zaino*\n- **una** + femenino con consonante: *una casa*\n- **un'** + femenino con vocal: *un'amica* (¡con apóstrofo!)\n\nOjo: *un amico* (masc.) **sin** apóstrofo, *un'amica* (fem.) **con** apóstrofo.\n\nPara el plural («unos/unas») se usa **dei, degli, delle**: *dei libri, degli amici, delle amiche*.",
+    "examples": [
+      ["Ho un fratello e una sorella.", "Tengo un hermano y una hermana."],
+      ["C'è uno sciopero dei treni.", "Hay una huelga de trenes."],
+      ["Vorrei un'aranciata, per favore.", "Quisiera una naranjada, por favor."]
+    ],
+    "drills": [
+      { "q": "Ho ___ amica a Milano.", "a": "un'", "hint": "femenino + vocal" },
+      { "q": "Cerco ___ appartamento in centro.", "a": "un", "hint": "masculino + vocal" },
+      { "q": "Mio padre è ___ psicologo.", "a": "uno", "hint": "ps-" },
+      { "q": "Vorrei ___ bottiglia d'acqua.", "a": "una" }
+    ]
+  },
+  {
+    "id": "genere-plurale",
+    "topic": "articoli",
+    "title": "Género y plural de sustantivos",
+    "body": "| singular | plural | ejemplo |\n|---|---|---|\n| -o (masc.) | **-i** | libro → libri |\n| -a (fem.) | **-e** | casa → case |\n| -e (m./f.) | **-i** | padre → padri, chiave → chiavi |\n| -ca / -ga | **-che / -ghe** | amica → amiche |\n| -co / -go | -chi / -ghi (o -ci) | gioco → giochi, amico → amici |\n\n- **No cambian**: palabras con acento final (*città, caffè, università*), palabras extranjeras (*bar, film, sport*) y abreviadas (*foto, bici, moto, cinema*).\n- Irregulares: *l'uomo → gli uomini*, *il braccio → le braccia*, *l'uovo → le uova*, *la mano → le mani*.\n- Trampa: en italiano no se añade -s: *due bar*, *le città*.",
+    "examples": [
+      ["Le città italiane sono bellissime.", "Las ciudades italianas son bellísimas."],
+      ["Ho comprato due chiavi nuove.", "Compré dos llaves nuevas."],
+      ["Le mie amiche sono simpatiche.", "Mis amigas son simpáticas."]
+    ],
+    "drills": [
+      { "q": "una città → due ___", "a": "città" },
+      { "q": "un'amica → due ___", "a": "amiche" },
+      { "q": "la chiave → le ___", "a": "chiavi" },
+      { "q": "l'uomo → gli ___", "a": "uomini" },
+      { "q": "la foto → le ___", "a": "foto" }
+    ]
+  },
+  {
+    "id": "aggettivi",
+    "topic": "articoli",
+    "title": "Adjetivos: concordancia",
+    "body": "El adjetivo concuerda en género y número con el sustantivo.\n\n- Adjetivos en **-o**: *rosso, rossa, rossi, rosse*\n- Adjetivos en **-e**: *grande* (m./f.), *grandi* (plural m./f.)\n- Normalmente van **después** del sustantivo: *una casa grande*.\n- Algunos van antes: *bello, buono, grande, piccolo* (*una bella città*).\n- **bello** cambia como el artículo: *un bel ragazzo, un bello zaino, un bell'albero, i bei libri* → en A2 basta con *bel / bella / bei / belle*.",
+    "examples": [
+      ["Ho una macchina rossa.", "Tengo un coche rojo."],
+      ["I miei vicini sono molto gentili.", "Mis vecinos son muy amables."],
+      ["Firenze è una bella città.", "Florencia es una ciudad bonita."]
+    ],
+    "drills": [
+      { "q": "Le ragazze sono molto ___ (simpatico).", "a": "simpatiche" },
+      { "q": "Due case (grande) → due case ___", "a": "grandi" },
+      { "q": "Una gonna (nero) → una gonna ___", "a": "nera" },
+      { "q": "I pantaloni (bianco) → i pantaloni ___", "a": "bianchi" }
+    ]
+  },
+  {
+    "id": "presente-are",
+    "topic": "presente",
+    "title": "Presente de los verbos en -ARE",
+    "body": "Ejemplo: **parlare**\n\n| io | tu | lui/lei | noi | voi | loro |\n|---|---|---|---|---|---|\n| parl**o** | parl**i** | parl**a** | parl**iamo** | parl**ate** | parl**ano** |\n\n- Acento de *loro*: **PAR**lano (no parlàno).\n- Verbos en **-care/-gare** añaden h: *cerchi, cerchiamo; paghi, paghiamo*.\n- Verbos en **-iare** no duplican la i: *mangi* (no mangii), *studi*.\n- El pronombre sujeto suele omitirse, como en español.",
+    "examples": [
+      ["Lavoro in un ufficio in centro.", "Trabajo en una oficina en el centro."],
+      ["Mangiamo insieme stasera?", "¿Comemos juntos esta noche?"],
+      ["Paghi tu o pago io?", "¿Pagas tú o pago yo?"]
+    ],
+    "drills": [
+      { "q": "Noi ___ (abitare) a Roma.", "a": "abitiamo" },
+      { "q": "Tu ___ (studiare) l'italiano?", "a": "studi" },
+      { "q": "Loro ___ (lavorare) il sabato.", "a": "lavorano" },
+      { "q": "Voi ___ (cercare) casa?", "a": "cercate" },
+      { "q": "Tu ___ (pagare) con la carta?", "a": "paghi" }
+    ]
+  },
+  {
+    "id": "presente-ere-ire",
+    "topic": "presente",
+    "title": "Presente de los verbos en -ERE e -IRE",
+    "body": "| | io | tu | lui/lei | noi | voi | loro |\n|---|---|---|---|---|---|---|\n| scrivere | scriv**o** | scriv**i** | scriv**e** | scriv**iamo** | scriv**ete** | scriv**ono** |\n| dormire | dorm**o** | dorm**i** | dorm**e** | dorm**iamo** | dorm**ite** | dorm**ono** |\n\n- Solo cambia *voi*: -**ete** (ere) / -**ite** (ire).\n- Ojo con la pronunciación: *leggo* [léggo], *leggi* [léddʒi], *conosco* [konósko], *conosci* [konóʃʃi].",
+    "examples": [
+      ["Leggo il giornale ogni mattina.", "Leo el periódico cada mañana."],
+      ["A che ora parte il treno?", "¿A qué hora sale el tren?"],
+      ["Dormite bene in questo albergo?", "¿Dormís bien en este hotel?"]
+    ],
+    "drills": [
+      { "q": "Loro ___ (prendere) l'autobus.", "a": "prendono" },
+      { "q": "Voi ___ (sentire) la musica?", "a": "sentite" },
+      { "q": "Io ___ (vivere) con due amiche.", "a": "vivo" },
+      { "q": "Noi ___ (aprire) il negozio alle nove.", "a": "apriamo" }
+    ]
+  },
+  {
+    "id": "presente-isc",
+    "topic": "presente",
+    "title": "Verbos en -IRE con -isc-",
+    "body": "Muchos verbos en -ire añaden **-isc-** en io, tu, lui/lei y loro: *capire, finire, preferire, pulire, spedire*.\n\n| io | tu | lui/lei | noi | voi | loro |\n|---|---|---|---|---|---|\n| cap**isc**o | cap**isc**i | cap**isc**e | capiamo | capite | cap**isc**ono |\n\n- Pronunciación: *capisco* [kapísko], *capisci* [kapíʃʃi].\n- Truco: si no sabes, los más frecuentes del A2 son **capire, finire, preferire, pulire, spedire**.",
+    "examples": [
+      ["Scusi, non capisco. Può ripetere?", "Disculpe, no entiendo. ¿Puede repetir?"],
+      ["Preferisco il mare alla montagna.", "Prefiero el mar a la montaña."],
+      ["A che ora finisci di lavorare?", "¿A qué hora terminas de trabajar?"]
+    ],
+    "drills": [
+      { "q": "Io ___ (preferire) il tè.", "a": "preferisco" },
+      { "q": "La lezione ___ (finire) alle sei.", "a": "finisce" },
+      { "q": "Noi ___ (capire) tutto.", "a": "capiamo" },
+      { "q": "I ragazzi ___ (pulire) la cucina.", "a": "puliscono" }
+    ]
+  },
+  {
+    "id": "irregolari-1",
+    "topic": "irregolari",
+    "title": "Irregulares: essere, avere, fare, stare",
+    "body": "| | essere | avere | fare | stare |\n|---|---|---|---|---|\n| io | sono | ho | faccio | sto |\n| tu | sei | hai | fai | stai |\n| lui/lei | è | ha | fa | sta |\n| noi | siamo | abbiamo | facciamo | stiamo |\n| voi | siete | avete | fate | state |\n| loro | sono | hanno | fanno | stanno |\n\n- La **h** de *ho, hai, ha, hanno* no se pronuncia.\n- **è** (es/está) lleva acento; **e** (y) no.\n- Con **avere**: *ho fame, ho sete, ho freddo, ho caldo, ho 30 anni, ho fretta* (¡no «sono 30 anni»!).\n- **fare**: *fa caldo, fa freddo* (tiempo), *faccio colazione, faccio la doccia*.",
+    "examples": [
+      ["Ho ventotto anni e sono spagnola.", "Tengo veintiocho años y soy española."],
+      ["Oggi fa molto caldo.", "Hoy hace mucho calor."],
+      ["Come stai? Sto bene, grazie.", "¿Cómo estás? Estoy bien, gracias."]
+    ],
+    "drills": [
+      { "q": "Quanti anni ___ (tu-avere)?", "a": "hai" },
+      { "q": "Noi ___ (fare) colazione al bar.", "a": "facciamo" },
+      { "q": "I miei genitori ___ (stare) bene.", "a": "stanno" },
+      { "q": "Voi ___ (essere) di Madrid?", "a": "siete" },
+      { "q": "Loro ___ (avere) fretta.", "a": "hanno" }
+    ]
+  },
+  {
+    "id": "irregolari-2",
+    "topic": "irregolari",
+    "title": "Irregulares: andare, venire, dare, dire, uscire, bere",
+    "body": "| | andare | venire | uscire | dire | bere | dare |\n|---|---|---|---|---|---|---|\n| io | vado | vengo | esco | dico | bevo | do |\n| tu | vai | vieni | esci | dici | bevi | dai |\n| lui/lei | va | viene | esce | dice | beve | dà |\n| noi | andiamo | veniamo | usciamo | diciamo | beviamo | diamo |\n| voi | andate | venite | uscite | dite | bevete | date |\n| loro | vanno | vengono | escono | dicono | bevono | danno |\n\n- **uscire** = salir (de un lugar). ¡**salire** = subir!\n- **venire** = venir hacia donde está quien habla: *Vieni alla festa?*",
+    "examples": [
+      ["Stasera esco con i miei colleghi.", "Esta noche salgo con mis compañeros."],
+      ["Vieni con noi al concerto?", "¿Vienes con nosotros al concierto?"],
+      ["Di solito bevo un caffè dopo pranzo.", "Normalmente tomo un café después de comer."]
+    ],
+    "drills": [
+      { "q": "Io ___ (andare) al lavoro in bici.", "a": "vado" },
+      { "q": "Marco ___ (venire) da Torino.", "a": "viene" },
+      { "q": "Il sabato noi ___ (uscire) con gli amici.", "a": "usciamo" },
+      { "q": "Cosa ___ (dire, voi)?", "a": "dite" },
+      { "q": "Loro non ___ (bere) vino.", "a": "bevono" }
+    ]
+  },
+  {
+    "id": "modali",
+    "topic": "irregolari",
+    "title": "Modales y sapere: potere, volere, dovere, sapere",
+    "body": "| | potere | volere | dovere | sapere |\n|---|---|---|---|---|\n| io | posso | voglio | devo | so |\n| tu | puoi | vuoi | devi | sai |\n| lui/lei | può | vuole | deve | sa |\n| noi | possiamo | vogliamo | dobbiamo | sappiamo |\n| voi | potete | volete | dovete | sapete |\n| loro | possono | vogliono | devono | sanno |\n\n- Van seguidos de **infinitivo**: *Devo lavorare. Posso entrare?*\n- **sapere** + infinitivo = saber hacer algo: *So nuotare.* | **conoscere** = conocer (persona/lugar).\n- Cortesía: mejor **vorrei** que *voglio* en tiendas y bares.",
+    "examples": [
+      ["Posso pagare con la carta?", "¿Puedo pagar con tarjeta?"],
+      ["Domani devo alzarmi presto.", "Mañana tengo que levantarme temprano."],
+      ["Sai dov'è la stazione?", "¿Sabes dónde está la estación?"]
+    ],
+    "drills": [
+      { "q": "Scusi, ___ (io-potere) aprire la finestra?", "a": "posso" },
+      { "q": "Noi ___ (dovere) studiare per l'esame.", "a": "dobbiamo" },
+      { "q": "Tu ___ (volere) un caffè?", "a": "vuoi" },
+      { "q": "Loro non ___ (sapere) cucinare.", "a": "sanno" },
+      { "q": "Lei ___ (potere) venire domani?", "a": "può" }
+    ]
+  },
+  {
+    "id": "prep-semplici",
+    "topic": "preposizioni",
+    "title": "Preposiciones simples: di, a, da, in, con, su, per, tra/fra",
+    "body": "- **di**: posesión y origen con *essere* (*il libro di Anna, sono di Madrid*), material (*di legno*).\n- **a**: ciudades (*vivo a Roma*), con infinitivo tras *andare/venire* (*vado a mangiare*), hora (*alle otto*).\n- **in**: países y regiones (*in Italia, in Toscana*), medios de transporte (*in treno, in macchina*), muchos lugares (*in banca, in ufficio, in piazza*).\n- **da**: desde/procedencia (*vengo da Milano*), a casa de una persona (*vado dal medico, da Marco*), «desde hace» (*studio italiano da due mesi*).\n- **per**: finalidad, destino, duración (*parto per Napoli, per tre giorni*).\n- **tra / fra**: dentro de (tiempo), entre (*tra un'ora*).",
+    "examples": [
+      ["Vivo a Bologna, ma sono di Siviglia.", "Vivo en Bolonia, pero soy de Sevilla."],
+      ["Vado in Spagna in aereo.", "Voy a España en avión."],
+      ["Studio italiano da tre settimane.", "Estudio italiano desde hace tres semanas."],
+      ["Il film comincia tra dieci minuti.", "La película empieza dentro de diez minutos."]
+    ],
+    "drills": [
+      { "q": "Abito ___ Firenze.", "a": "a", "hint": "ciudad" },
+      { "q": "Andiamo ___ Francia.", "a": "in", "hint": "país" },
+      { "q": "Vado ___ dentista.", "a": "dal", "hint": "a casa/consulta de una persona" },
+      { "q": "Lavoro qui ___ due anni.", "a": "da", "hint": "desde hace" },
+      { "q": "Torno ___ un'ora.", "a": "tra|fra", "hint": "dentro de" }
+    ]
+  },
+  {
+    "id": "prep-articolate",
+    "topic": "preposizioni",
+    "title": "Preposiciones articuladas",
+    "body": "Las preposiciones **di, a, da, in, su** se unen al artículo:\n\n| | il | lo | l' | la | i | gli | le |\n|---|---|---|---|---|---|---|---|\n| di | del | dello | dell' | della | dei | degli | delle |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n- *con* y *per* normalmente no se unen: *con il treno, per la mamma*.\n- Horas: *alle otto, all'una, a mezzogiorno*.",
+    "examples": [
+      ["Il libro è sul tavolo.", "El libro está sobre la mesa."],
+      ["La farmacia è vicino alla stazione.", "La farmacia está cerca de la estación."],
+      ["Metto il latte nel frigorifero.", "Pongo la leche en el frigorífico."]
+    ],
+    "drills": [
+      { "q": "Le chiavi sono ___ (in + la) borsa.", "a": "nella" },
+      { "q": "Vado ___ (a + il) supermercato.", "a": "al" },
+      { "q": "Questo treno arriva ___ (da + la) Francia.", "a": "dalla" },
+      { "q": "Il gatto dorme ___ (su + il) divano.", "a": "sul" },
+      { "q": "La casa ___ (di + i) nonni è grande.", "a": "dei" }
+    ]
+  },
+  {
+    "id": "prep-luogo",
+    "topic": "preposizioni",
+    "title": "Ir y estar: a, in, da + lugar",
+    "body": "Los usos más frecuentes en el examen:\n\n- **a**: *a casa, a scuola, a teatro, a letto, a Roma*, *al cinema, al mare, al bar, al supermercato, alla stazione*.\n- **in**: *in banca, in farmacia, in ufficio, in biblioteca, in piscina, in montagna, in centro, in città, in vacanza, in Italia*.\n- **da** + persona: *dal medico, dal parrucchiere, da mia madre, da Luca*.\n- **di** + venire: *vengo di sera?* ✗ → *vengo la sera* ✓\n\nTruco: con nombres de tiendas en **-ia** se usa **in**: *in farmacia, in pizzeria, in macelleria, in libreria*.",
+    "examples": [
+      ["Stasera andiamo al cinema o a teatro?", "¿Esta noche vamos al cine o al teatro?"],
+      ["Devo andare in banca e poi in farmacia.", "Tengo que ir al banco y luego a la farmacia."],
+      ["Domenica pranziamo da mia nonna.", "El domingo comemos en casa de mi abuela."]
+    ],
+    "drills": [
+      { "q": "D'estate andiamo ___ mare.", "a": "al" },
+      { "q": "Domani vado ___ ufficio presto.", "a": "in" },
+      { "q": "Stasera resto ___ casa.", "a": "a" },
+      { "q": "Ho mal di denti, vado ___ dentista.", "a": "dal" },
+      { "q": "D'inverno andiamo ___ montagna.", "a": "in" }
+    ]
+  },
+  {
+    "id": "riflessivi",
+    "topic": "riflessivi",
+    "title": "Verbos reflexivos y la rutina diaria",
+    "body": "| io | tu | lui/lei | noi | voi | loro |\n|---|---|---|---|---|---|\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\n- Los más usados: *svegliarsi, alzarsi, lavarsi, vestirsi, prepararsi, riposarsi, divertirsi, addormentarsi, chiamarsi, trovarsi*.\n- Con modal, el pronombre puede ir delante o pegado: *mi devo alzare* = *devo alzarmi*.\n- En passato prossimo usan **essere**: *mi sono alzata*.",
+    "examples": [
+      ["Di solito mi sveglio alle sette.", "Normalmente me despierto a las siete."],
+      ["Ci vediamo dopo la lezione?", "¿Nos vemos después de la clase?"],
+      ["Come ti chiami? Mi chiamo Sofia.", "¿Cómo te llamas? Me llamo Sofía."]
+    ],
+    "drills": [
+      { "q": "La mattina io ___ (alzarsi) alle sette.", "a": "mi alzo" },
+      { "q": "Tu ___ (vestirsi) in fretta.", "a": "ti vesti" },
+      { "q": "I bambini ___ (divertirsi) al parco.", "a": "si divertono" },
+      { "q": "Noi ___ (riposarsi) la domenica.", "a": "ci riposiamo" }
+    ]
+  },
+  {
+    "id": "orari",
+    "topic": "riflessivi",
+    "title": "La hora, los días y los números",
+    "body": "- *Che ore sono? / Che ora è?* → **È l'una. Sono le due. Sono le tre e mezza. Sono le quattro meno un quarto.**\n- *A che ora…?* → **all'una, alle otto, a mezzogiorno, a mezzanotte**.\n- Días (sin artículo = este día; con artículo = cada): *lunedì vado in palestra* (este lunes) / *il lunedì vado in palestra* (todos los lunes).\n- Fechas: **il 3 maggio**, **il primo giugno**. Años: *nel 2024*.\n- Frecuencia: *sempre, di solito, spesso, qualche volta, raramente, mai* (*non… mai*).",
+    "examples": [
+      ["La banca apre alle otto e mezza.", "El banco abre a las ocho y media."],
+      ["Il sabato mattina faccio la spesa.", "Los sábados por la mañana hago la compra."],
+      ["Il mio compleanno è il ventidue aprile.", "Mi cumpleaños es el veintidós de abril."]
+    ],
+    "drills": [
+      { "q": "13:00 → È ___ .", "a": "l'una|l una", "hint": "una de la tarde" },
+      { "q": "8:30 → Sono le otto e ___ .", "a": "mezza|mezzo|trenta" },
+      { "q": "Il negozio chiude ___ sette.", "a": "alle" },
+      { "q": "Non bevo ___ caffè la sera.", "a": "mai", "hint": "nunca" }
+    ]
+  }
+]

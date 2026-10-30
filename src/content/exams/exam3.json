@@ -1,0 +1,184 @@
+{
+  "id": "exam3",
+  "title": "Simulacro 3",
+  "ascolto": [
+    {
+      "id": "e3-l1",
+      "title": "Messaggio della scuola",
+      "kind": "annuncio",
+      "lines": [
+        { "s": "Segreteria", "t": "Buongiorno, questo è un messaggio della scuola di lingue Dante. Vi informiamo che lunedì prossimo la scuola sarà chiusa per la festa della città." },
+        { "s": "Segreteria", "t": "La lezione di lunedì si farà mercoledì alla stessa ora, nell'aula 4. L'esame finale resta il venti, alle nove. Per informazioni chiamate la segreteria dalle dieci all'una." }
+      ],
+      "es": "Buenos días, este es un mensaje de la escuela de idiomas Dante. Os informamos de que el lunes que viene la escuela estará cerrada por la fiesta de la ciudad. La clase del lunes se hará el miércoles a la misma hora, en el aula 4. El examen final sigue siendo el día veinte, a las nueve. Para información llamad a secretaría de diez a una.",
+      "questions": [
+        { "type": "choice", "q": "Perché la scuola è chiusa lunedì?", "options": ["Per la festa della città", "Per uno sciopero", "Per lavori"], "answer": 0 },
+        { "type": "choice", "q": "Quando si recupera la lezione?", "options": ["Mercoledì", "Martedì", "Il venti"], "answer": 0 },
+        { "type": "vf", "q": "La data dell'esame cambia.", "answer": false }
+      ]
+    },
+    {
+      "id": "e3-l2",
+      "title": "In panetteria",
+      "kind": "dialogo",
+      "lines": [
+        { "s": "Panettiera", "t": "Buongiorno, che cosa le do?" },
+        { "s": "Cliente", "t": "Mezzo chilo di pane integrale e quattro pezzi di focaccia, per favore." },
+        { "s": "Panettiera", "t": "La focaccia con le olive o con le cipolle?" },
+        { "s": "Cliente", "t": "Due con le olive e due semplici. Avete anche dei biscotti senza zucchero?" },
+        { "s": "Panettiera", "t": "Oggi no, mi dispiace. Li facciamo solo il venerdì." },
+        { "s": "Cliente", "t": "Va bene, torno venerdì allora." }
+      ],
+      "es": "Panadera: Buenos días, ¿qué le pongo? Cliente: Medio kilo de pan integral y cuatro trozos de focaccia, por favor. Panadera: ¿La focaccia con aceitunas o con cebolla? Cliente: Dos con aceitunas y dos sencillas. ¿Tienen también galletas sin azúcar? Panadera: Hoy no, lo siento. Solo las hacemos los viernes. Cliente: Vale, entonces vuelvo el viernes.",
+      "questions": [
+        { "type": "choice", "q": "Quanto pane compra?", "options": ["Mezzo chilo", "Un chilo", "Quattro pezzi"], "answer": 0 },
+        { "type": "choice", "q": "Quante focacce con le olive prende?", "options": ["Due", "Quattro", "Nessuna"], "answer": 0 },
+        { "type": "vf", "q": "Oggi ci sono i biscotti senza zucchero.", "answer": false }
+      ]
+    },
+    {
+      "id": "e3-l3",
+      "title": "Abitare in campagna",
+      "kind": "monologo",
+      "lines": [
+        { "s": "Franco", "t": "Fino a cinque anni fa vivevo a Roma e lavoravo in banca. Ero sempre stressato, passavo due ore al giorno nel traffico." },
+        { "s": "Franco", "t": "Poi io e mia moglie abbiamo deciso di cambiare vita: abbiamo comprato una vecchia casa in Umbria e adesso facciamo l'olio e il vino. Guadagniamo meno, è vero, ma dormiamo meglio e i nostri figli giocano all'aria aperta. Torniamo a Roma solo per vedere i nonni." }
+      ],
+      "es": "Hasta hace cinco años vivía en Roma y trabajaba en un banco. Siempre estaba estresado, pasaba dos horas al día en el tráfico. Luego mi mujer y yo decidimos cambiar de vida: compramos una casa vieja en Umbría y ahora hacemos aceite y vino. Ganamos menos, es verdad, pero dormimos mejor y nuestros hijos juegan al aire libre. Volvemos a Roma solo para ver a los abuelos.",
+      "questions": [
+        { "type": "choice", "q": "Che lavoro faceva Franco a Roma?", "options": ["Lavorava in banca", "Faceva il vino", "Era tassista"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa producono adesso?", "options": ["Olio e vino", "Formaggio", "Pane"], "answer": 0 },
+        { "type": "vf", "q": "Adesso Franco guadagna di più.", "answer": false }
+      ]
+    },
+    {
+      "id": "e3-l4",
+      "title": "Prenotare un tavolo",
+      "kind": "dialogo",
+      "lines": [
+        { "s": "Ristorante", "t": "Trattoria da Gino, buonasera." },
+        { "s": "Cliente", "t": "Buonasera, vorrei prenotare un tavolo per sabato sera, per sei persone." },
+        { "s": "Ristorante", "t": "Sabato alle otto è tutto pieno. Posso darle un tavolo alle nove e mezza." },
+        { "s": "Cliente", "t": "Un po' tardi... E venerdì alle otto?" },
+        { "s": "Ristorante", "t": "Venerdì alle otto va bene. A che nome?" },
+        { "s": "Cliente", "t": "Martini. Ah, uno di noi è vegetariano." },
+        { "s": "Ristorante", "t": "Nessun problema, abbiamo diversi piatti vegetariani." }
+      ],
+      "es": "Restaurante: Trattoria da Gino, buenas noches. Cliente: Buenas noches, quisiera reservar una mesa para el sábado por la noche, para seis personas. Restaurante: El sábado a las ocho está todo lleno. Puedo darle una mesa a las nueve y media. Cliente: Un poco tarde... ¿Y el viernes a las ocho? Restaurante: El viernes a las ocho va bien. ¿A qué nombre? Cliente: Martini. Ah, uno de nosotros es vegetariano. Restaurante: No hay problema, tenemos varios platos vegetarianos.",
+      "questions": [
+        { "type": "choice", "q": "Quando va a cena il gruppo?", "options": ["Venerdì alle otto", "Sabato alle otto", "Sabato alle nove e mezza"], "answer": 0 },
+        { "type": "choice", "q": "Quante persone sono?", "options": ["Sei", "Otto", "Nove"], "answer": 0 },
+        { "type": "vf", "q": "Il ristorante non ha piatti vegetariani.", "answer": false }
+      ]
+    }
+  ],
+  "lettura": [
+    {
+      "id": "e3-r1",
+      "title": "Che cosa fare nel weekend",
+      "genre": "annunci",
+      "text": "A) Sagra del tartufo – sabato e domenica in piazza: degustazioni e musica dal vivo.\nB) Mercatino dell'usato – domenica mattina al parco: vestiti, libri e mobili a prezzi bassi.\nC) Concerto di musica classica – sabato sera in cattedrale, ingresso gratuito.\nD) Escursione in montagna – domenica, partenza alle 7 dalla stazione, pranzo al sacco.",
+      "es": "A) Fiesta de la trufa – sábado y domingo en la plaza: degustaciones y música en directo. B) Mercadillo de segunda mano – domingo por la mañana en el parque: ropa, libros y muebles a precios bajos. C) Concierto de música clásica – sábado por la noche en la catedral, entrada gratuita. D) Excursión a la montaña – domingo, salida a las 7 desde la estación, comida de picnic.",
+      "glossary": { "sagra": "fiesta popular gastronómica", "usato": "segunda mano", "pranzo al sacco": "comida que lleva uno mismo" },
+      "match": {
+        "instruction": "Collega ogni persona all'evento giusto.",
+        "left": ["Gianni ama camminare nella natura.", "Sofia cerca libri vecchi economici.", "Pietro vuole assaggiare prodotti tipici.", "Laura ama Mozart ma non ha soldi."],
+        "right": ["A", "B", "C", "D"],
+        "answer": [3, 1, 0, 2]
+      }
+    },
+    {
+      "id": "e3-r2",
+      "title": "Un messaggio dalla padrona di casa",
+      "genre": "messaggio",
+      "text": "Gentile Emily,\nle ricordo che domani mattina, tra le 9 e le 11, viene il tecnico per controllare la caldaia. Se lei non è in casa, può lasciare le chiavi alla signora Bassi del secondo piano. Inoltre, da questo mese l'affitto si paga entro il giorno 5 e non più entro il 10. Per qualsiasi problema mi chiami pure.\nCordiali saluti,\nAnna Ferri",
+      "es": "Estimada Emily: le recuerdo que mañana por la mañana, entre las 9 y las 11, viene el técnico a revisar la caldera. Si usted no está en casa, puede dejar las llaves a la señora Bassi del segundo piso. Además, desde este mes el alquiler se paga antes del día 5 y ya no antes del 10. Para cualquier problema llámeme sin problema. Atentamente, Anna Ferri",
+      "glossary": { "caldaia": "caldera", "entro": "antes de, como tarde", "mi chiami pure": "llámeme sin problema" },
+      "questions": [
+        { "type": "choice", "q": "Perché viene il tecnico?", "options": ["Per controllare la caldaia", "Per riparare la porta", "Per leggere il contatore"], "answer": 0 },
+        { "type": "choice", "q": "A chi può lasciare le chiavi Emily?", "options": ["A una vicina", "Al tecnico", "Alla padrona di casa"], "answer": 0 },
+        { "type": "vf", "q": "Da questo mese l'affitto si paga entro il 10.", "answer": false }
+      ]
+    },
+    {
+      "id": "e3-r3",
+      "title": "Il caffè in Italia",
+      "genre": "articolo",
+      "text": "Per gli italiani il caffè non è solo una bevanda: è un momento sociale. Di solito si beve in piedi al bancone del bar, in pochi minuti. La mattina molti prendono un cappuccino con un cornetto, ma dopo pranzo quasi nessuno ordina il cappuccino: si preferisce un espresso. In alcune città, come Napoli, esiste la tradizione del «caffè sospeso»: un cliente paga due caffè, ne beve uno e lascia l'altro per una persona che non può pagarlo.",
+      "es": "Para los italianos el café no es solo una bebida: es un momento social. Normalmente se toma de pie en la barra del bar, en pocos minutos. Por la mañana muchos toman un capuchino con un cruasán, pero después de comer casi nadie pide capuchino: se prefiere un espresso. En algunas ciudades, como Nápoles, existe la tradición del «café pendiente»: un cliente paga dos cafés, se toma uno y deja el otro para una persona que no puede pagarlo.",
+      "glossary": { "bancone": "barra", "sospeso": "pendiente, en suspenso", "ordina": "pide" },
+      "questions": [
+        { "type": "choice", "q": "Dove si beve di solito il caffè?", "options": ["In piedi al bancone", "Seduti al tavolo", "A casa"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa si beve di solito dopo pranzo?", "options": ["Un espresso", "Un cappuccino", "Un tè"], "answer": 0 },
+        { "type": "vf", "q": "Il «caffè sospeso» è un caffè pagato per un'altra persona.", "answer": true }
+      ]
+    }
+  ],
+  "strutture": [
+    {
+      "title": "Ricordi d'infanzia",
+      "instruction": "Scegli tra passato prossimo e imperfetto.",
+      "text": "Quando [[ero/sono stata/sarò]] piccola, [[abitavo/ho abitato/abito]] con i nonni in un paese di montagna. Ogni inverno [[nevicava/è nevicato/nevica]] molto. Un giorno, però, mio nonno [[è caduto/cadeva/cade]] sul ghiaccio e [[si è rotto/si rompeva/si rompe]] una gamba. Da quel giorno [[abbiamo comprato/compravamo/compriamo]] le scarpe con i chiodi!",
+      "es": "Cuando era pequeña, vivía con mis abuelos en un pueblo de montaña. Cada invierno nevaba mucho. Un día, sin embargo, mi abuelo se cayó en el hielo y se rompió una pierna. ¡Desde aquel día compramos zapatos con clavos!"
+    },
+    {
+      "title": "Al negozio",
+      "instruction": "Completa con l'articolo o la preposizione articolata.",
+      "text": "Ho comprato [[un]] cappotto e [[una]] sciarpa. [[Il]] cappotto era [[nella]] vetrina del negozio, vicino [[alla]] porta. Ho pagato [[con]] la carta.",
+      "es": "He comprado un abrigo y una bufanda. El abrigo estaba en el escaparate de la tienda, cerca de la puerta. He pagado con tarjeta."
+    },
+    {
+      "title": "Progetti",
+      "instruction": "Scegli la forma corretta.",
+      "text": "L'anno prossimo [[andrò/vado/sono andata]] a vivere in Italia. [[Mi piacerebbe/Mi piace/Mi è piaciuto]] trovare un lavoro a Milano. Prima, però, [[devo/dovevo/ho dovuto]] superare l'esame di italiano. Il mio insegnante dice che sono [[più/meno/come]] brava di quanto penso. [[Studia/Studi/Studiate]] ogni giorno! mi dice sempre.",
+      "es": "El año que viene iré a vivir a Italia. Me gustaría encontrar trabajo en Milán. Antes, sin embargo, tengo que aprobar el examen de italiano. Mi profesor dice que soy más buena de lo que pienso. ¡Estudia todos los días!, me dice siempre."
+    }
+  ],
+  "scritta": [
+    {
+      "id": "e3-w1",
+      "kind": "descrizione",
+      "title": "La mia stanza",
+      "prompt": "Descrivi la tua stanza: che cosa c'è, dove sono le cose, che cosa fai lì.",
+      "promptEs": "Describe tu habitación: qué hay, dónde están las cosas, qué haces allí.",
+      "scene": "🛏️🪟📚💡🪴🧸",
+      "min": 40,
+      "max": 60,
+      "model": "La mia stanza non è grande, ma è molto luminosa. Il letto è vicino alla finestra e accanto c'è un comodino con una lampada. Davanti al letto c'è una scrivania dove studio e lavoro al computer. Sulle pareti ci sono foto dei miei viaggi e sugli scaffali molti libri. È il mio posto preferito per rilassarmi.",
+      "modelEs": "Mi habitación no es grande, pero es muy luminosa. La cama está cerca de la ventana y al lado hay una mesilla con una lámpara. Delante de la cama hay un escritorio donde estudio y trabajo con el ordenador. En las paredes hay fotos de mis viajes y en las estanterías muchos libros. Es mi lugar favorito para relajarme.",
+      "chunks": ["vicino a", "accanto c'è", "davanti a", "sulle pareti", "il mio posto preferito"],
+      "checklist": ["Preposizioni di luogo", "C'è / ci sono", "Che cosa fai lì", "Opinione"]
+    },
+    {
+      "id": "e3-w2",
+      "kind": "messaggio",
+      "title": "Rispondi a Marco",
+      "prompt": "Il tuo amico Marco ti scrive: «Ho saputo che fai l'esame di italiano! Quando è? Come ti prepari?». Rispondi alle sue domande.",
+      "promptEs": "Tu amigo Marco te escribe: «¡Me he enterado de que haces el examen de italiano! ¿Cuándo es? ¿Cómo te preparas?». Responde a sus preguntas.",
+      "min": 15,
+      "max": 30,
+      "model": "Ciao Marco! Sì, l'esame è venerdì prossimo. Studio tre ore al giorno con un'app e parlo con le mie amiche italiane. Speriamo bene!",
+      "modelEs": "¡Hola Marco! Sí, el examen es el viernes que viene. Estudio tres horas al día con una app y hablo con mis amigas italianas. ¡Crucemos los dedos!",
+      "chunks": ["l'esame è...", "studio ... ore al giorno", "Speriamo bene!"],
+      "checklist": ["Saluto", "Quando", "Come ti prepari", "Saluto finale"]
+    }
+  ],
+  "orale": {
+    "roleplay": [
+      { "id": "e3-o1", "theme": "presentazione", "q": "Buongiorno. Mi dica il suo nome e da quanto tempo studia l'italiano.", "es": "Buenos días. Dígame su nombre y desde cuándo estudia italiano.", "sample": "Buongiorno, mi chiamo Emily. Ho studiato l'italiano in Italia qualche anno fa e ho ricominciato due settimane fa.", "hints": ["Mi chiamo...", "Studio l'italiano da...", "ho ricominciato"] },
+      { "id": "e3-o2", "theme": "famiglia", "q": "Ha fratelli o sorelle?", "es": "¿Tiene hermanos o hermanas?", "sample": "Sì, ho un fratello più piccolo. Si chiama Pablo e studia medicina a Salamanca.", "hints": ["Ho un fratello...", "più piccolo / più grande", "si chiama..."] },
+      { "id": "e3-o3", "theme": "citta", "q": "Che cosa consiglia di vedere nella sua città?", "es": "¿Qué recomienda ver en su ciudad?", "sample": "Consiglio di visitare il centro storico e il museo del Prado, e di passeggiare nel parco del Retiro.", "hints": ["Consiglio di...", "e poi..."] },
+      { "id": "e3-o4", "theme": "passato", "q": "Com'era la sua scuola quando era bambina?", "es": "¿Cómo era su escuela cuando era niña?", "sample": "La mia scuola era piccola e vicino a casa. Ci andavo a piedi con mio fratello e avevo una maestra molto brava.", "hints": ["era...", "ci andavo...", "avevo..."] },
+      { "id": "e3-o5", "theme": "acquisti", "q": "Siamo in un negozio di abbigliamento. Lei vuole comprare un maglione. Che cosa mi chiede?", "es": "Estamos en una tienda de ropa. Usted quiere comprar un jersey. ¿Qué me pregunta?", "sample": "Buongiorno, cerco un maglione blu, taglia media. Posso provarlo? Quanto costa?", "hints": ["Cerco...", "taglia...", "Posso provarlo?", "Quanto costa?"] }
+    ],
+    "monologue": {
+      "id": "e3-m1",
+      "title": "Una giornata speciale",
+      "prompt": "Racconta una giornata speciale della tua vita: quando è stata, che cosa è successo, come ti sentivi.",
+      "promptEs": "Cuenta un día especial de tu vida: cuándo fue, qué pasó, cómo te sentías.",
+      "scene": "🎓🎉📸👨‍👩‍👧😊",
+      "points": ["Quando e dove", "Chi c'era", "Che cosa è successo", "Come ti sentivi", "Perché la ricordi"],
+      "sample": "Una giornata speciale per me è stata il giorno della mia laurea, sei anni fa. Era luglio e faceva molto caldo. C'erano i miei genitori, mio fratello e i miei amici. La mattina ero nervosissima, ma la presentazione è andata benissimo. Dopo abbiamo pranzato tutti insieme in un ristorante e abbiamo fatto tantissime foto. Ero stanca ma felicissima. La ricordo perché è stata la fine di un percorso lungo e difficile."
+    }
+  }
+}

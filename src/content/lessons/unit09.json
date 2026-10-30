@@ -1,0 +1,82 @@
+{
+  "id": "u09",
+  "order": 9,
+  "title": "Posesivos, c'è / ci sono, ci y ne",
+  "description": "Mia madre, i miei amici; hay; ci vado; ne ho due. Familia y casa.",
+  "emoji": "🏠",
+  "lessons": [
+    {
+      "id": "u09l1",
+      "title": "Il mio, la tua, i suoi",
+      "grammar": "possessivi",
+      "vocabTopics": ["casa"],
+      "exercises": [
+        { "type": "cloze", "text": "[[La mia]] casa è piccola, ma [[il mio]] balcone è grande.", "instruction": "Posesivo de «io» con artículo" },
+        { "type": "choice", "question": "Questi sono ___ libri? (di te)", "options": ["i tuoi", "tuoi", "i tui"], "answer": 0 },
+        { "type": "choice", "question": "Paolo ama molto ___ macchina.", "options": ["la sua", "il suo", "sua"], "answer": 0, "explain": "Concuerda con la cosa poseída (macchina, f.), no con Paolo." },
+        { "type": "cloze", "text": "Ragazzi, dov'è [[la vostra]] classe? — [[La nostra]] classe è al secondo piano.", "instruction": "vostro / nostro" },
+        { "type": "translate", "es": "Nuestro piso tiene dos dormitorios.", "it": "Il nostro appartamento ha due camere da letto.", "alts": ["Il nostro appartamento ha due camere."] },
+        { "type": "translate", "es": "¿Dónde están mis llaves?", "it": "Dove sono le mie chiavi?" },
+        { "type": "dictation", "it": "La loro casa ha un giardino molto grande.", "es": "Su casa (de ellos) tiene un jardín muy grande." }
+      ]
+    },
+    {
+      "id": "u09l2",
+      "title": "Mia madre, i miei fratelli",
+      "grammar": "possessivi",
+      "vocabTopics": ["famiglia"],
+      "exercises": [
+        { "type": "choice", "question": "___ sorella vive a Milano.", "options": ["Mia", "La mia", "Il mio"], "answer": 0, "explain": "Familiar en singular → sin artículo." },
+        { "type": "choice", "question": "___ genitori sono in pensione.", "options": ["I miei", "Miei", "Le mie"], "answer": 0, "explain": "Familiares en plural → con artículo." },
+        { "type": "choice", "question": "Ti presento ___ fratello più piccolo.", "options": ["il mio", "mio", "la mia"], "answer": 0, "explain": "Familiar con adjetivo → con artículo." },
+        { "type": "cloze", "text": "Anna vive con [[suo]] marito e [[i suoi]] figli.", "explain": "marito (singular) sin artículo; figli (plural) con artículo." },
+        { "type": "cloze", "text": "Marco e Lucia sono venuti con [[la loro]] figlia.", "explain": "«loro» lleva siempre artículo, también con familiares." },
+        { "type": "translate", "es": "Mi padre es médico y mi madre es profesora.", "it": "Mio padre è medico e mia madre è professoressa.", "alts": ["Mio padre è medico e mia madre è insegnante.", "Mio padre fa il medico e mia madre fa l'insegnante."] },
+        { "type": "answer-oral", "question": "Con chi vivi? Parlami delle persone con cui abiti.", "es": "¿Con quién vives? Háblame de las personas con las que vives.", "sample": "Vivo con il mio ragazzo e il nostro gatto. Il mio ragazzo si chiama Andrea, è italiano e lavora in un ospedale. Il nostro appartamento è piccolo ma luminoso.", "checks": ["Posesivos correctos", "Descripción con 2–3 frases"] }
+      ]
+    },
+    {
+      "id": "u09l3",
+      "title": "C'è, ci sono",
+      "grammar": "ce-ci-sono",
+      "vocabTopics": ["casa", "citta"],
+      "exercises": [
+        { "type": "choice", "question": "Nel mio quartiere ___ due supermercati.", "options": ["ci sono", "c'è", "sono"], "answer": 0 },
+        { "type": "choice", "question": "Scusi, ___ un bagno qui?", "options": ["c'è", "ci sono", "è"], "answer": 0 },
+        { "type": "choice", "question": "Scusi, dove ___ il bagno?", "options": ["è", "c'è", "ci sono"], "answer": 0, "explain": "Localizar algo concreto → essere: dov'è…?" },
+        { "type": "cloze", "text": "In camera mia [[c'è]] un letto, ma non [[ci sono]] sedie.", "instruction": "c'è o ci sono" },
+        { "type": "translate", "es": "En la nevera hay leche y huevos.", "it": "Nel frigo ci sono latte e uova.", "alts": ["Nel frigorifero ci sono latte e uova.", "Nel frigo c'è il latte e ci sono le uova.", "Nel frigorifero c'è latte e ci sono uova."] },
+        { "type": "answer-oral", "question": "Descrivi la tua camera.", "es": "Describe tu habitación.", "sample": "La mia camera non è molto grande ma è luminosa. C'è un letto matrimoniale, accanto al letto c'è un comodino e davanti alla finestra c'è una scrivania. Sulle pareti ci sono alcune foto dei miei viaggi.", "checks": ["c'è / ci sono", "Preposiciones de lugar (accanto a, davanti a)"] }
+      ]
+    },
+    {
+      "id": "u09l4",
+      "title": "Ci vado, ne ho due",
+      "grammar": "ci-ne",
+      "vocabTopics": ["acquisti"],
+      "exercises": [
+        { "type": "choice", "question": "Vai spesso a Roma? Sì, ___ vado ogni mese.", "options": ["ci", "ne", "lo"], "answer": 0, "explain": "ci = allí (lugar)." },
+        { "type": "choice", "question": "Quanti figli hai? ___ ho tre.", "options": ["Ne", "Ci", "Li"], "answer": 0, "explain": "ne = de ellos (cantidad)." },
+        { "type": "cloze", "text": "Vuoi delle fragole? Sì, grazie, [[ne]] prendo un po'.", "explain": "cantidad indeterminada → ne." },
+        { "type": "cloze", "text": "Quanto tempo [[ci]] vuole per arrivare in centro? — [[Ci]] vogliono venti minuti.", "explain": "ci vuole (singular) / ci vogliono (plural)." },
+        { "type": "translate", "es": "¿Cuántos cafés tomas? Tomo dos.", "it": "Quanti caffè bevi? Ne bevo due.", "alts": ["Quanti caffè prendi? Ne prendo due."] },
+        { "type": "translate", "es": "¿Vienes al parque? No, no voy hoy.", "it": "Vieni al parco? No, oggi non ci vado.", "alts": ["Vieni al parco? No, non ci vado oggi."] },
+        { "type": "listen-choose", "audio": "Quante mele vuole, signora? — Ne vorrei sei, e anche un chilo di arance.", "question": "Quante mele compra la signora?", "options": ["Sei", "Una", "Un chilo"], "answer": 0, "es": "¿Cuántas manzanas quiere, señora? — Quisiera seis, y también un kilo de naranjas." }
+      ]
+    },
+    {
+      "id": "u09l5",
+      "title": "Buscar piso",
+      "grammar": "ce-ci-sono",
+      "vocabTopics": ["casa", "servizi"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Affittasi bilocale in centro, terzo piano con ascensore, arredato, seicentocinquanta euro al mese, spese incluse.", "question": "Quanto costa l'appartamento?", "options": ["650 euro al mese", "350 euro al mese", "615 euro al mese"], "answer": 0, "es": "Se alquila piso de dos habitaciones en el centro, tercer piso con ascensor, amueblado, 650 euros al mes, gastos incluidos." },
+        { "type": "cloze", "text": "Buongiorno, chiamo per l'annuncio. L'appartamento [[è]] ancora libero? [[C'è]] il riscaldamento autonomo?", "instruction": "Completa" },
+        { "type": "translate", "es": "¿El piso está amueblado?", "it": "L'appartamento è arredato?" },
+        { "type": "translate", "es": "¿Cuánto es el alquiler?", "it": "Quanto è l'affitto?", "alts": ["Quanto costa l'affitto?"] },
+        { "type": "match", "instruction": "Une italiano y español", "pairs": [["l'affitto", "el alquiler"], ["arredato", "amueblado"], ["il riscaldamento", "la calefacción"], ["le spese", "los gastos"]] },
+        { "type": "speak", "it": "Vorrei sapere se l'appartamento ha un balcone.", "es": "Quisiera saber si el piso tiene balcón." }
+      ]
+    }
+  ]
+}

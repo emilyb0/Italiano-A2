@@ -1,0 +1,179 @@
+[
+  {
+    "id": "l11",
+    "title": "Chiedere la strada",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Turista", "t": "Scusi, sa dov'è il Museo Archeologico?" },
+      { "s": "Signora", "t": "Sì, non è lontano. Vada sempre dritto fino alla piazza con la fontana. Lì giri a destra e prenda via Garibaldi." },
+      { "s": "Turista", "t": "Via Garibaldi, a destra. E poi?" },
+      { "s": "Signora", "t": "Continui per circa duecento metri. Il museo è sulla sinistra, di fronte a una banca." },
+      { "s": "Turista", "t": "Posso andare a piedi?" },
+      { "s": "Signora", "t": "Certo, ci vogliono dieci minuti al massimo." }
+    ],
+    "es": "Turista: Disculpe, ¿sabe dónde está el Museo Arqueológico? Señora: Sí, no está lejos. Vaya todo recto hasta la plaza con la fuente. Allí gire a la derecha y tome la calle Garibaldi. Turista: Calle Garibaldi, a la derecha. ¿Y luego? Señora: Siga unos doscientos metros. El museo está a la izquierda, enfrente de un banco. Turista: ¿Puedo ir a pie? Señora: Claro, se tarda diez minutos como máximo.",
+    "questions": [
+      { "type": "choice", "q": "Dove deve girare il turista?", "options": ["Alla piazza con la fontana", "Al semaforo", "Davanti alla banca"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa c'è di fronte al museo?", "options": ["Una banca", "Una chiesa", "Una farmacia"], "answer": 0 },
+      { "type": "vf", "q": "Il museo è lontano e bisogna prendere l'autobus.", "answer": false }
+    ]
+  },
+  {
+    "id": "l12",
+    "title": "Il lavoro di Giorgio",
+    "kind": "monologo",
+    "lines": [
+      { "s": "Giorgio", "t": "Faccio l'infermiere in un ospedale di Torino da otto anni. Il mio lavoro mi piace molto perché aiuto le persone, ma è anche molto faticoso." },
+      { "s": "Giorgio", "t": "Faccio i turni: una settimana lavoro la mattina, dalle sette alle due, e la settimana dopo lavoro di notte. I turni di notte sono i più difficili, perché poi di giorno non riesco a dormire bene. Nel tempo libero vado in montagna con mia moglie: camminare nella natura mi rilassa tantissimo." }
+    ],
+    "es": "Soy enfermero en un hospital de Turín desde hace ocho años. Mi trabajo me gusta mucho porque ayudo a las personas, pero también es muy cansado. Hago turnos: una semana trabajo por la mañana, de siete a dos, y la semana siguiente trabajo de noche. Los turnos de noche son los más difíciles, porque luego de día no consigo dormir bien. En mi tiempo libre voy a la montaña con mi mujer: caminar en la naturaleza me relaja muchísimo.",
+    "questions": [
+      { "type": "choice", "q": "Da quanto tempo Giorgio fa l'infermiere?", "options": ["Da otto anni", "Da due anni", "Da diciotto anni"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa è difficile per Giorgio?", "options": ["I turni di notte", "Parlare con i pazienti", "Andare in montagna"], "answer": 0 },
+      { "type": "vf", "q": "Giorgio è sposato.", "answer": true }
+    ]
+  },
+  {
+    "id": "l13",
+    "title": "Prenotazione in albergo",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Receptionist", "t": "Hotel Bellavista, buonasera." },
+      { "s": "Cliente", "t": "Buonasera. Avete una camera doppia libera per il weekend del dodici e tredici aprile?" },
+      { "s": "Receptionist", "t": "Un momento... Sì, abbiamo una doppia con balcone. Costa centodieci euro a notte, con la colazione." },
+      { "s": "Cliente", "t": "C'è il parcheggio?" },
+      { "s": "Receptionist", "t": "No, mi dispiace, ma c'è un garage pubblico a cinquanta metri, costa quindici euro al giorno." },
+      { "s": "Cliente", "t": "Va bene. E si possono portare animali? Viaggiamo con il nostro cane." },
+      { "s": "Receptionist", "t": "Sì, i cani piccoli sono benvenuti." }
+    ],
+    "es": "Recepcionista: Hotel Bellavista, buenas noches. Cliente: Buenas noches. ¿Tienen una habitación doble libre para el fin de semana del doce y trece de abril? Recepcionista: Un momento... Sí, tenemos una doble con balcón. Cuesta ciento diez euros por noche, con desayuno. Cliente: ¿Hay aparcamiento? Recepcionista: No, lo siento, pero hay un garaje público a cincuenta metros, cuesta quince euros al día. Cliente: De acuerdo. ¿Y se pueden llevar animales? Viajamos con nuestro perro. Recepcionista: Sí, los perros pequeños son bienvenidos.",
+    "questions": [
+      { "type": "choice", "q": "Quanto costa la camera a notte?", "options": ["110 €", "15 €", "150 €"], "answer": 0 },
+      { "type": "choice", "q": "Dove si può lasciare la macchina?", "options": ["In un garage pubblico vicino", "Nel parcheggio dell'hotel", "Davanti all'hotel gratis"], "answer": 0 },
+      { "type": "vf", "q": "Il cane non può entrare in albergo.", "answer": false }
+    ]
+  },
+  {
+    "id": "l14",
+    "title": "Annuncio al supermercato",
+    "kind": "annuncio",
+    "lines": [
+      { "s": "Altoparlante", "t": "Gentili clienti, solo per oggi al reparto frutta e verdura tutte le arance sono in offerta a un euro e venti al chilo." },
+      { "s": "Altoparlante", "t": "Vi ricordiamo inoltre che il supermercato chiuderà tra quindici minuti. Vi preghiamo di avvicinarvi alle casse. Grazie e arrivederci." }
+    ],
+    "es": "Estimados clientes, solo por hoy en la sección de fruta y verdura todas las naranjas están en oferta a un euro veinte el kilo. Les recordamos además que el supermercado cerrará dentro de quince minutos. Les rogamos que se dirijan a las cajas. Gracias y hasta luego.",
+    "questions": [
+      { "type": "choice", "q": "Che cosa è in offerta?", "options": ["Le arance", "Le mele", "Il pane"], "answer": 0 },
+      { "type": "choice", "q": "Quando chiude il supermercato?", "options": ["Tra quindici minuti", "Tra un'ora", "Domani"], "answer": 0 },
+      { "type": "vf", "q": "L'offerta dura tutta la settimana.", "answer": false }
+    ]
+  },
+  {
+    "id": "l15",
+    "title": "Il weekend di Chiara",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Paolo", "t": "Ciao Chiara! Com'è andato il weekend a Venezia?" },
+      { "s": "Chiara", "t": "Benissimo! Siamo partiti venerdì sera e siamo tornati ieri. Sabato abbiamo visitato Piazza San Marco e il Palazzo Ducale." },
+      { "s": "Paolo", "t": "C'era tanta gente?" },
+      { "s": "Chiara", "t": "Tantissima! Però domenica abbiamo preso il vaporetto per Burano, un'isola piccola con le case colorate. Era molto più tranquilla." },
+      { "s": "Paolo", "t": "E avete mangiato bene?" },
+      { "s": "Chiara", "t": "Sì, ma è tutto carissimo: abbiamo speso ottanta euro per una cena in due!" }
+    ],
+    "es": "Paolo: ¡Hola Chiara! ¿Qué tal el fin de semana en Venecia? Chiara: ¡Estupendo! Salimos el viernes por la noche y volvimos ayer. El sábado visitamos la Plaza de San Marcos y el Palacio Ducal. Paolo: ¿Había mucha gente? Chiara: ¡Muchísima! Pero el domingo cogimos el vaporetto para Burano, una isla pequeña con las casas de colores. Era mucho más tranquila. Paolo: ¿Y comisteis bien? Chiara: Sí, pero todo es carísimo: ¡gastamos ochenta euros en una cena para dos!",
+    "questions": [
+      { "type": "choice", "q": "Che cosa hanno fatto domenica?", "options": ["Sono andati a Burano", "Hanno visitato il Palazzo Ducale", "Sono tornati a casa"], "answer": 0 },
+      { "type": "choice", "q": "Com'era Burano?", "options": ["Tranquilla", "Piena di gente", "Molto cara"], "answer": 0 },
+      { "type": "vf", "q": "La cena è costata ottanta euro a persona.", "answer": false, "explain": "Ottanta euro in due." }
+    ]
+  },
+  {
+    "id": "l16",
+    "title": "Iscrizione in palestra",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Cliente", "t": "Buongiorno, vorrei informazioni sui corsi di nuoto." },
+      { "s": "Receptionist", "t": "Certo. Per gli adulti ci sono corsi il martedì e il giovedì alle sette di sera, oppure il sabato mattina alle dieci." },
+      { "s": "Cliente", "t": "Il sabato è perfetto. Quanto costa?" },
+      { "s": "Receptionist", "t": "Il corso del sabato costa quaranta euro al mese. Ma se si iscrive a tre mesi, paga cento euro." },
+      { "s": "Cliente", "t": "Allora mi iscrivo per tre mesi. Che cosa devo portare?" },
+      { "s": "Receptionist", "t": "Un certificato medico e una foto. E in piscina ricordi la cuffia!" }
+    ],
+    "es": "Cliente: Buenos días, quisiera información sobre los cursos de natación. Recepcionista: Claro. Para adultos hay cursos el martes y el jueves a las siete de la tarde, o el sábado por la mañana a las diez. Cliente: El sábado es perfecto. ¿Cuánto cuesta? Recepcionista: El curso del sábado cuesta cuarenta euros al mes. Pero si se inscribe tres meses, paga cien euros. Cliente: Entonces me inscribo tres meses. ¿Qué tengo que traer? Recepcionista: Un certificado médico y una foto. ¡Y en la piscina acuérdese del gorro!",
+    "questions": [
+      { "type": "choice", "q": "Quale corso sceglie il cliente?", "options": ["Il sabato mattina", "Il martedì sera", "Il giovedì sera"], "answer": 0 },
+      { "type": "choice", "q": "Quanto paga in totale?", "options": ["100 €", "40 €", "120 €"], "answer": 0 },
+      { "type": "vf", "q": "Deve portare un certificato medico.", "answer": true }
+    ]
+  },
+  {
+    "id": "l17",
+    "title": "Ricordi d'infanzia",
+    "kind": "monologo",
+    "lines": [
+      { "s": "Nonna Rita", "t": "Quando ero bambina vivevo in campagna, vicino a Parma. Eravamo in sei: i miei genitori, io e i miei tre fratelli. Non avevamo la televisione e la sera giocavamo a carte o ascoltavamo la radio." },
+      { "s": "Nonna Rita", "t": "Andavo a scuola a piedi, ci volevano quaranta minuti, anche d'inverno con la neve! La domenica era il giorno più bello: la mamma preparava i tortelli e venivano a pranzo gli zii e i cugini." }
+    ],
+    "es": "Cuando era niña vivía en el campo, cerca de Parma. Éramos seis: mis padres, yo y mis tres hermanos. No teníamos televisión y por la noche jugábamos a las cartas o escuchábamos la radio. Iba a la escuela a pie, se tardaban cuarenta minutos, ¡incluso en invierno con la nieve! El domingo era el día más bonito: mamá preparaba los tortelli y venían a comer los tíos y los primos.",
+    "questions": [
+      { "type": "choice", "q": "Quanti fratelli aveva Rita?", "options": ["Tre", "Sei", "Quattro"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa facevano la sera?", "options": ["Giocavano a carte", "Guardavano la televisione", "Andavano al cinema"], "answer": 0 },
+      { "type": "vf", "q": "Rita andava a scuola in autobus.", "answer": false }
+    ]
+  },
+  {
+    "id": "l18",
+    "title": "Al ristorante",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Cameriere", "t": "Buonasera, avete già scelto?" },
+      { "s": "Cliente", "t": "Sì. Per me un risotto ai frutti di mare e poi un'insalata mista." },
+      { "s": "Cameriere", "t": "Mi dispiace, oggi il risotto non c'è. Le consiglio gli spaghetti alle vongole, sono freschissime." },
+      { "s": "Cliente", "t": "Va bene, gli spaghetti. E da bere una bottiglia di acqua frizzante." },
+      { "s": "Cameriere", "t": "Benissimo. Desidera anche un dolce?" },
+      { "s": "Cliente", "t": "Forse dopo, vediamo. Ah, e il pane senza glutine ce l'avete?" },
+      { "s": "Cameriere", "t": "Sì, certo, glielo porto subito." }
+    ],
+    "es": "Camarero: Buenas noches, ¿han elegido ya? Cliente: Sí. Para mí un risotto de marisco y luego una ensalada mixta. Camarero: Lo siento, hoy no hay risotto. Le recomiendo los espaguetis con almejas, son fresquísimas. Cliente: Vale, los espaguetis. Y de beber una botella de agua con gas. Camarero: Muy bien. ¿Desea también un postre? Cliente: Quizá después, ya veremos. Ah, ¿tienen pan sin gluten? Camarero: Sí, claro, se lo traigo enseguida.",
+    "questions": [
+      { "type": "choice", "q": "Che primo ordina alla fine il cliente?", "options": ["Spaghetti alle vongole", "Risotto ai frutti di mare", "Insalata mista"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa beve?", "options": ["Acqua frizzante", "Vino bianco", "Acqua naturale"], "answer": 0 },
+      { "type": "vf", "q": "Il ristorante non ha pane senza glutine.", "answer": false }
+    ]
+  },
+  {
+    "id": "l19",
+    "title": "Cercare casa",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Studentessa", "t": "Buongiorno, chiamo per l'annuncio della stanza in via Mazzini. È ancora libera?" },
+      { "s": "Proprietario", "t": "Sì, è libera da settembre. È una camera singola in un appartamento con altre due ragazze." },
+      { "s": "Studentessa", "t": "Quanto costa?" },
+      { "s": "Proprietario", "t": "Trecentottanta euro al mese, più le spese: luce, gas e internet, circa cinquanta euro." },
+      { "s": "Studentessa", "t": "La stanza ha la scrivania? Devo studiare molto." },
+      { "s": "Proprietario", "t": "Sì, c'è una scrivania grande vicino alla finestra. Vuole venire a vederla domani alle sei?" },
+      { "s": "Studentessa", "t": "Sì, grazie, perfetto." }
+    ],
+    "es": "Estudiante: Buenos días, llamo por el anuncio de la habitación en la calle Mazzini. ¿Sigue libre? Propietario: Sí, está libre desde septiembre. Es una habitación individual en un piso con otras dos chicas. Estudiante: ¿Cuánto cuesta? Propietario: Trescientos ochenta euros al mes, más los gastos: luz, gas e internet, unos cincuenta euros. Estudiante: ¿La habitación tiene escritorio? Tengo que estudiar mucho. Propietario: Sí, hay un escritorio grande cerca de la ventana. ¿Quiere venir a verla mañana a las seis? Estudiante: Sí, gracias, perfecto.",
+    "questions": [
+      { "type": "choice", "q": "Con chi vivrà la studentessa?", "options": ["Con due ragazze", "Da sola", "Con il proprietario"], "answer": 0 },
+      { "type": "choice", "q": "Quanto pagherà circa in totale al mese?", "options": ["430 €", "380 €", "50 €"], "answer": 0 },
+      { "type": "vf", "q": "La studentessa va a vedere la stanza oggi.", "answer": false }
+    ]
+  },
+  {
+    "id": "l20",
+    "title": "Audioguida del museo",
+    "kind": "annuncio",
+    "lines": [
+      { "s": "Audioguida", "t": "Benvenuti al Museo Egizio di Torino, il museo egizio più antico del mondo. La visita dura circa due ore." },
+      { "s": "Audioguida", "t": "Al piano terra trovate la biglietteria, il guardaroba e il bookshop. Le sale con le statue e i sarcofagi sono al primo e al secondo piano. Vi ricordiamo che è vietato fare foto con il flash e mangiare nelle sale. Il bar del museo è aperto fino alle diciotto." }
+    ],
+    "es": "Bienvenidos al Museo Egipcio de Turín, el museo egipcio más antiguo del mundo. La visita dura unas dos horas. En la planta baja encontráis la taquilla, el guardarropa y la tienda. Las salas con las estatuas y los sarcófagos están en la primera y la segunda planta. Os recordamos que está prohibido hacer fotos con flash y comer en las salas. El bar del museo está abierto hasta las dieciocho.",
+    "questions": [
+      { "type": "choice", "q": "Quanto dura la visita?", "options": ["Circa due ore", "Mezz'ora", "Tutto il giorno"], "answer": 0 },
+      { "type": "choice", "q": "Dove si trova il guardaroba?", "options": ["Al piano terra", "Al primo piano", "Al secondo piano"], "answer": 0 },
+      { "type": "vf", "q": "Si possono fare foto senza flash.", "answer": true }
+    ]
+  }
+]

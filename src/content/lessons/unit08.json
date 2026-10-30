@@ -1,0 +1,83 @@
+{
+  "id": "u08",
+  "order": 8,
+  "title": "Pronombres y piacere",
+  "description": "Lo, la, li, le; gli, le; mi piace / mi piacciono. Comida, restaurante y compras.",
+  "emoji": "🍝",
+  "lessons": [
+    {
+      "id": "u08l1",
+      "title": "Lo, la, li, le",
+      "grammar": "pronomi-diretti",
+      "vocabTopics": ["acquisti"],
+      "exercises": [
+        { "type": "cloze", "text": "Questa giacca è bellissima, [[la]] prendo! E questi pantaloni? No, [[li]] lascio.", "explain": "giacca (f. sing.) → la; pantaloni (m. pl.) → li." },
+        { "type": "choice", "question": "Conosci Marco? Sì, ___ conosco da anni.", "options": ["lo", "gli", "le"], "answer": 0, "explain": "Objeto directo masculino → lo (nunca «le» como en el español leísta)." },
+        { "type": "choice", "question": "Dove sono le chiavi? Non ___ trovo!", "options": ["le", "li", "la"], "answer": 0 },
+        { "type": "cloze", "text": "Hai visto Anna? Sì, [[l'|la]] ho vista ieri.", "explain": "la + ho → l'ho; el participio concuerda: vista." },
+        { "type": "translate", "es": "¿Compras tú el pan? Sí, lo compro yo.", "it": "Compri tu il pane? Sì, lo compro io." },
+        { "type": "translate", "es": "Las fotos las he mandado esta mañana.", "it": "Le foto le ho mandate stamattina.", "alts": ["Le foto le ho spedite stamattina.", "Ho mandato le foto stamattina."] },
+        { "type": "speak", "it": "Questo vestito mi piace molto, lo prendo.", "es": "Este vestido me gusta mucho, me lo llevo." }
+      ]
+    },
+    {
+      "id": "u08l2",
+      "title": "Gli, le: a él, a ella",
+      "grammar": "pronomi-indiretti",
+      "vocabTopics": ["famiglia"],
+      "exercises": [
+        { "type": "choice", "question": "Hai telefonato a Luca? Sì, ___ ho telefonato.", "options": ["gli", "lo", "le"], "answer": 0, "explain": "telefonare A qualcuno → indirecto; a él = gli." },
+        { "type": "choice", "question": "Cosa regali a tua sorella? ___ regalo un libro.", "options": ["Le", "Gli", "La"], "answer": 0, "explain": "a ella = le." },
+        { "type": "cloze", "text": "Hai scritto ai tuoi genitori? Sì, [[gli]] ho scritto una cartolina.", "instruction": "Completa con el pronombre (a ellos)", "explain": "a ellos → gli (en italiano hablado)." },
+        { "type": "cloze", "text": "Signora, [[Le]] posso offrire un caffè?", "explain": "Le (mayúscula) = a usted." },
+        { "type": "translate", "es": "Le escribo un mensaje a Marta.", "it": "Scrivo un messaggio a Marta.", "alts": ["Le scrivo un messaggio."], "explain": "En italiano no se duplica el pronombre: «Scrivo a Marta» o «Le scrivo», no «Le scrivo a Marta»." },
+        { "type": "translate", "es": "¿Qué le has dicho (a él)?", "it": "Che cosa gli hai detto?", "alts": ["Cosa gli hai detto?", "Che gli hai detto?"] },
+        { "type": "dictation", "it": "Mi puoi dare il tuo numero di telefono?", "es": "¿Me puedes dar tu número de teléfono?" }
+      ]
+    },
+    {
+      "id": "u08l3",
+      "title": "Mi piace, mi piacciono",
+      "grammar": "piacere",
+      "vocabTopics": ["cibo", "tempo-libero"],
+      "exercises": [
+        { "type": "choice", "question": "Mi ___ molto gli spaghetti alle vongole.", "options": ["piacciono", "piace", "piaccio"], "answer": 0, "explain": "plural → piacciono." },
+        { "type": "choice", "question": "A Paolo non ___ ballare.", "options": ["piace", "piacciono", "piaci"], "answer": 0, "explain": "infinitivo → piace." },
+        { "type": "cloze", "text": "A me [[piace]] il mare, ma a mio marito [[piace]] la montagna. Ai bambini [[piacciono]] tutti e due!", "instruction": "piace o piacciono" },
+        { "type": "choice", "question": "Mi piace il cioccolato. — ___ (yo también)", "options": ["Anche a me!", "Anche io!", "Neanche a me!"], "answer": 0, "explain": "Con piacere se responde «anche a me / neanche a me»." },
+        { "type": "translate", "es": "Me gustan los libros de historia.", "it": "Mi piacciono i libri di storia." },
+        { "type": "translate", "es": "¿Te gusta cocinar?", "it": "Ti piace cucinare?" },
+        { "type": "answer-oral", "question": "Che cosa ti piace fare nel tempo libero?", "es": "¿Qué te gusta hacer en tu tiempo libre?", "sample": "Nel tempo libero mi piace molto leggere e andare al cinema. Mi piacciono soprattutto i film italiani. Non mi piace invece guardare la televisione.", "checks": ["piace + infinitivo/singular", "piacciono + plural", "Una cosa que NO te gusta"] }
+      ]
+    },
+    {
+      "id": "u08l4",
+      "title": "Mi è piaciuto",
+      "grammar": "piacere",
+      "vocabTopics": ["tempo-libero", "viaggi"],
+      "exercises": [
+        { "type": "choice", "question": "Ti ___ il concerto di ieri?", "options": ["è piaciuto", "ha piaciuto", "è piaciuta"], "answer": 0, "explain": "piacere en pasado → essere; concierto (m.) → piaciuto." },
+        { "type": "cloze", "text": "La città mi [[è piaciuta]] molto, ma i musei non mi [[sono piaciuti]].", "instruction": "piacere en passato prossimo" },
+        { "type": "choice", "question": "Le foto ti ___?", "options": ["sono piaciute", "è piaciuto", "sono piaciuti"], "answer": 0 },
+        { "type": "translate", "es": "Me gustó mucho la película.", "it": "Il film mi è piaciuto molto.", "alts": ["Mi è piaciuto molto il film."] },
+        { "type": "answer-oral", "question": "Qual è l'ultimo film o libro che ti è piaciuto?", "es": "¿Cuál es la última película o libro que te gustó?", "sample": "L'ultimo libro che mi è piaciuto è «L'amica geniale» di Elena Ferrante. Mi è piaciuto perché racconta la storia di due amiche a Napoli ed è molto emozionante.", "checks": ["«mi è piaciuto/a»", "Explica por qué"] },
+        { "type": "speak", "it": "La vacanza mi è piaciuta tantissimo.", "es": "Las vacaciones me gustaron muchísimo." }
+      ]
+    },
+    {
+      "id": "u08l5",
+      "title": "Al restaurante",
+      "grammar": "pronomi-diretti",
+      "vocabTopics": ["cibo", "chunks"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Buonasera, avete un tavolo per tre? — Mi dispiace, ora è tutto pieno. Se volete, tra venti minuti si libera un tavolo in terrazza.", "question": "Quando sarà libero il tavolo?", "options": ["Tra venti minuti", "Tra tre minuti", "Subito"], "answer": 0, "es": "Buenas noches, ¿tienen mesa para tres? — Lo siento, ahora está todo lleno. Si queréis, dentro de veinte minutos se queda libre una mesa en la terraza." },
+        { "type": "match", "instruction": "Une el plato con la categoría", "pairs": [["il primo", "risotto ai funghi"], ["il secondo", "bistecca ai ferri"], ["il contorno", "patate al forno"], ["il dolce", "tiramisù"]] },
+        { "type": "cloze", "text": "Il tiramisù è fatto in casa? Sì, [[lo]] facciamo noi ogni mattina.", "explain": "tiramisù (m.) → lo." },
+        { "type": "translate", "es": "Para mí un agua sin gas, por favor.", "it": "Per me un'acqua naturale, per favore.", "alts": ["Per me acqua naturale, per favore."] },
+        { "type": "translate", "es": "Disculpe, ¿nos trae la cuenta?", "it": "Scusi, ci porta il conto?", "alts": ["Scusi, ci può portare il conto?", "Scusi, il conto per favore?"] },
+        { "type": "speak", "it": "Vorrei prenotare un tavolo per due per stasera alle otto.", "es": "Quisiera reservar una mesa para dos para esta noche a las ocho." },
+        { "type": "answer-oral", "question": "Buonasera! Cosa prende?", "es": "¡Buenas noches! ¿Qué va a tomar?", "sample": "Buonasera! Per primo vorrei gli spaghetti al pomodoro e per secondo il pesce alla griglia con un'insalata. Da bere un bicchiere di vino bianco, per favore.", "checks": ["«Vorrei…» (cortesía)", "primo / secondo / da bere"] }
+      ]
+    }
+  ]
+}

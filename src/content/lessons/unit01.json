@@ -1,0 +1,84 @@
+{
+  "id": "u01",
+  "order": 1,
+  "title": "Artículos, género y plural",
+  "description": "La base de todo: il, lo, la, gli… y cómo se forma el plural.",
+  "emoji": "🔤",
+  "lessons": [
+    {
+      "id": "u01l1",
+      "title": "Il, lo, la, l'",
+      "grammar": "articoli-det",
+      "vocabTopics": ["presentarsi"],
+      "exercises": [
+        { "type": "choice", "question": "___ studente è simpatico.", "options": ["Lo", "Il", "La"], "answer": 0, "explain": "s + consonante → lo (lo studente)." },
+        { "type": "choice", "question": "___ amica di Paola si chiama Rita.", "options": ["L'", "La", "Lo"], "answer": 0, "explain": "Femenino delante de vocal → l'." },
+        { "type": "cloze", "text": "[[Il/Lo/La]] ragazzo e [[la/il/l']] ragazza sono in classe con [[lo/il/l']] zio di Marco.", "es": "El chico y la chica están en clase con el tío de Marco.", "explain": "ragazzo → il; ragazza → la; zio (z-) → lo." },
+        { "type": "match", "instruction": "Une cada artículo con su sustantivo", "pairs": [["lo", "zaino"], ["l'", "ufficio"], ["la", "chiave"], ["il", "telefono"]] },
+        { "type": "translate", "es": "El tren está en la estación.", "it": "Il treno è alla stazione.", "alts": ["Il treno è in stazione."], "explain": "treno → il; stazione (f.) → la; a + la = alla." },
+        { "type": "dictation", "it": "Lo zaino è sul tavolo.", "es": "La mochila está sobre la mesa." },
+        { "type": "cloze", "text": "[[L'|l']] acqua è fresca e [[il]] caffè è caldo.", "instruction": "Escribe el artículo determinado", "explain": "acqua es femenino → l'acqua; caffè masculino → il caffè." }
+      ]
+    },
+    {
+      "id": "u01l2",
+      "title": "Gli, i, le: el plural",
+      "grammar": "articoli-det",
+      "vocabTopics": ["numeri"],
+      "exercises": [
+        { "type": "choice", "question": "___ amici di Luca sono di Napoli.", "options": ["Gli", "I", "Le"], "answer": 0, "explain": "Masculino plural delante de vocal → gli." },
+        { "type": "choice", "question": "___ zii arrivano domani.", "options": ["Gli", "I", "Lo"], "answer": 0, "explain": "zio → lo zio → gli zii." },
+        { "type": "cloze", "text": "[[I/Gli/Le]] libri sono nuovi, [[le/i/gli]] penne no.", "explain": "libri (m.) → i; penne (f.) → le." },
+        { "type": "match", "instruction": "Singular → plural", "pairs": [["il libro", "i libri"], ["lo studente", "gli studenti"], ["la casa", "le case"], ["l'amico", "gli amici"], ["l'amica", "le amiche"]] },
+        { "type": "translate", "es": "Los estudiantes tienen un examen.", "it": "Gli studenti hanno un esame.", "explain": "studenti (s + consonante) → gli." },
+        { "type": "order", "it": "Gli zaini sono sotto le sedie", "es": "Las mochilas están debajo de las sillas." },
+        { "type": "speak", "it": "Gli amici di Giulia sono simpatici.", "es": "Los amigos de Giulia son simpáticos." }
+      ]
+    },
+    {
+      "id": "u01l3",
+      "title": "Un, uno, una, un'",
+      "grammar": "articoli-indet",
+      "vocabTopics": ["presentarsi"],
+      "exercises": [
+        { "type": "choice", "question": "Ho ___ amica a Firenze.", "options": ["un'", "un", "una"], "answer": 0, "explain": "Femenino + vocal → un' (con apóstrofo)." },
+        { "type": "choice", "question": "Vorrei ___ spremuta d'arancia.", "options": ["una", "un", "uno"], "answer": 0 },
+        { "type": "choice", "question": "C'è ___ sciopero dei treni.", "options": ["uno", "un", "una"], "answer": 0, "explain": "sc + consonante → uno." },
+        { "type": "cloze", "text": "Nel mio quartiere c'è [[un]] bar, [[una]] farmacia e [[un']] edicola.", "instruction": "Escribe el artículo indeterminado", "explain": "bar (m.) → un; farmacia (f.) → una; edicola (f. + vocal) → un'." },
+        { "type": "translate", "es": "Tengo un hermano y una hermana.", "it": "Ho un fratello e una sorella." },
+        { "type": "translate", "es": "Busco un piso en el centro.", "it": "Cerco un appartamento in centro.", "explain": "cercare = buscar; appartamento (m. + vocal) → un, sin apóstrofo." },
+        { "type": "listen-choose", "audio": "Scusi, c'è un'edicola qui vicino?", "question": "Che cosa cerca la persona?", "options": ["Un'edicola", "Una farmacia", "Un ristorante"], "answer": 0, "es": "Disculpe, ¿hay un quiosco cerca de aquí?" }
+      ]
+    },
+    {
+      "id": "u01l4",
+      "title": "Plurales y adjetivos",
+      "grammar": "genere-plurale",
+      "vocabTopics": ["presentarsi", "famiglia"],
+      "exercises": [
+        { "type": "choice", "question": "una città → due ___", "options": ["città", "cittàs", "citte"], "answer": 0, "explain": "Las palabras con acento final no cambian en plural." },
+        { "type": "choice", "question": "un'amica → due ___", "options": ["amiche", "amice", "amicas"], "answer": 0, "explain": "-ca → -che (se mantiene el sonido «k»)." },
+        { "type": "cloze", "text": "Ho due [[bici]] e tre [[foto]] di Roma.", "instruction": "Escribe el plural de «bici» y «foto»", "explain": "Las palabras abreviadas (bici, foto, moto, cinema) no cambian." },
+        { "type": "cloze", "text": "Le ragazze sono molto [[simpatiche]] e i ragazzi sono [[simpatici]].", "instruction": "Completa con «simpatico» en la forma correcta", "explain": "simpatico → simpatica → simpatici → simpatiche." },
+        { "type": "translate", "es": "Las casas son grandes.", "it": "Le case sono grandi.", "explain": "grande → grandi (m. y f. plural)." },
+        { "type": "translate", "es": "Tengo los ojos verdes y el pelo castaño.", "it": "Ho gli occhi verdi e i capelli castani.", "explain": "En italiano «capelli» es plural: i capelli." },
+        { "type": "order", "it": "Mia sorella ha i capelli lunghi e biondi", "es": "Mi hermana tiene el pelo largo y rubio." }
+      ]
+    },
+    {
+      "id": "u01l5",
+      "title": "Me presento",
+      "grammar": "aggettivi",
+      "vocabTopics": ["presentarsi", "chunks"],
+      "exercises": [
+        { "type": "speak", "it": "Mi chiamo Emily, ho ventotto anni e sono spagnola.", "es": "Me llamo Emily, tengo veintiocho años y soy española.", "topic": "irregolari" },
+        { "type": "translate", "es": "Soy de Madrid pero vivo en Roma.", "it": "Sono di Madrid ma abito a Roma.", "alts": ["Sono di Madrid ma vivo a Roma.", "Sono di Madrid però abito a Roma.", "Sono di Madrid però vivo a Roma."], "explain": "Origen: essere di; ciudad: a Roma." },
+        { "type": "cloze", "text": "Ciao! Mi [[chiamo]] Laura. [[Sono]] di Siviglia e [[ho]] trent'anni.", "es": "¡Hola! Me llamo Laura. Soy de Sevilla y tengo treinta años.", "explain": "La edad se dice con avere: ho trent'anni.", "topic": "irregolari" },
+        { "type": "choice", "question": "Quanti anni hai?", "options": ["Ho trentadue anni.", "Sono trentadue anni.", "Faccio trentadue anni."], "answer": 0, "explain": "Edad = avere + anni.", "topic": "irregolari" },
+        { "type": "answer-oral", "question": "Come ti chiami e di dove sei?", "es": "¿Cómo te llamas y de dónde eres?", "sample": "Mi chiamo Emily e sono spagnola, di Madrid. Adesso abito in Italia.", "checks": ["Frase completa con «Mi chiamo…»", "Origen con «Sono di…»"] },
+        { "type": "answer-oral", "question": "Come sei? Descrivi il tuo carattere.", "es": "¿Cómo eres? Describe tu carácter.", "sample": "Sono una persona allegra e abbastanza timida. Sono anche molto curiosa e mi piace conoscere persone nuove.", "checks": ["Adjetivos en femenino (allegra, timida…)", "Al menos dos frases"] },
+        { "type": "dictation", "it": "Piacere, sono Marco. Sono italiano, di Bologna.", "es": "Encantado, soy Marco. Soy italiano, de Bolonia." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "u12",
+  "order": 12,
+  "title": "Trampas para hispanohablantes",
+  "description": "Falsos amigos, dobles consonantes, sonidos difíciles, essere/stare y preposiciones.",
+  "emoji": "⚠️",
+  "lessons": [
+    {
+      "id": "u12l1",
+      "title": "Falsos amigos",
+      "grammar": "falsi-amici",
+      "vocabTopics": ["falsi-amici"],
+      "exercises": [
+        { "type": "choice", "question": "«Vorrei pane e burro» significa…", "options": ["Quisiera pan y mantequilla", "Quisiera pan y un burro", "Quisiera pan y queso"], "answer": 0 },
+        { "type": "choice", "question": "«Saliamo con l'ascensore» significa…", "options": ["Subimos en ascensor", "Salimos en ascensor", "Bajamos en ascensor"], "answer": 0 },
+        { "type": "match", "instruction": "Une el falso amigo con su significado real", "pairs": [["guardare", "mirar"], ["caldo", "calor"], ["aceto", "vinagre"], ["imbarazzata", "avergonzada"], ["camera", "habitación"]] },
+        { "type": "translate", "es": "Mi amiga está embarazada.", "it": "La mia amica è incinta.", "explain": "Embarazada = incinta. «Imbarazzata» = avergonzada." },
+        { "type": "translate", "es": "Salgo de casa a las siete.", "it": "Esco di casa alle sette.", "alts": ["Esco da casa alle sette."], "explain": "Salir = uscire. «Salire» = subir." },
+        { "type": "cloze", "text": "Che [[caldo]]! Apri la finestra, per favore. E poi [[guarda]] che bel tramonto!", "instruction": "calor / mira", "explain": "caldo = calor; guardare = mirar." },
+        { "type": "translate", "es": "Esta calle es muy ancha.", "it": "Questa strada è molto larga.", "alts": ["Questa via è molto larga."], "explain": "largo = ancho; «lungo» = largo." }
+      ]
+    },
+    {
+      "id": "u12l2",
+      "title": "Dobles consonantes",
+      "grammar": "doppie",
+      "vocabTopics": ["numeri", "famiglia"],
+      "exercises": [
+        { "type": "minimal-pair", "words": ["pala", "palla"], "target": 1, "es": ["pala", "pelota"] },
+        { "type": "minimal-pair", "words": ["sete", "sette"], "target": 0, "es": ["sed", "siete"] },
+        { "type": "minimal-pair", "words": ["nono", "nonno"], "target": 1, "es": ["noveno", "abuelo"] },
+        { "type": "dictation", "it": "Mio nonno ha settantasette anni.", "es": "Mi abuelo tiene setenta y siete años.", "explain": "nonno, settanta, sette: ¡todas con doble!" },
+        { "type": "cloze", "text": "Ho [[sete]], vorrei un bicchiere d'acqua. Sono le [[sette]] e il bar chiude presto.", "instruction": "sete o sette" },
+        { "type": "dictation", "it": "Ho comprato due cappelli e una borsa.", "es": "He comprado dos sombreros y un bolso." },
+        { "type": "speak", "it": "Abbiamo fatto una bella passeggiata.", "es": "Dimos un bonito paseo." }
+      ]
+    },
+    {
+      "id": "u12l3",
+      "title": "C, g, gl, gn, sc",
+      "grammar": "suoni",
+      "vocabTopics": ["cibo", "famiglia"],
+      "exercises": [
+        { "type": "minimal-pair", "words": ["Cina", "china"], "target": 1, "es": ["China (país)", "cuesta / pendiente"] },
+        { "type": "dictation", "it": "Mia figlia mangia gli gnocchi.", "es": "Mi hija come ñoquis." },
+        { "type": "dictation", "it": "Il pesce è fresco e buonissimo.", "es": "El pescado es fresco y buenísimo." },
+        { "type": "choice", "question": "¿Cómo se escribe [kiave] (la llave)?", "options": ["chiave", "ciave", "kiave"], "answer": 0, "explain": "El sonido «k» ante i/e se escribe ch." },
+        { "type": "choice", "question": "¿Cómo se escribe [baño] (el baño)?", "options": ["bagno", "baño", "banio"], "answer": 0, "explain": "ñ = gn." },
+        { "type": "speak", "it": "Ci vediamo giovedì in piazza per un gelato.", "es": "Nos vemos el jueves en la plaza para un helado." },
+        { "type": "speak", "it": "La famiglia di Giorgio vive in Spagna.", "es": "La familia de Giorgio vive en España." }
+      ]
+    },
+    {
+      "id": "u12l4",
+      "title": "Essere o stare",
+      "grammar": "essere-stare",
+      "vocabTopics": ["salute", "casa"],
+      "exercises": [
+        { "type": "choice", "question": "Dove ___ le chiavi? — Sono sul tavolo.", "options": ["sono", "stanno", "ci sono"], "answer": 0, "explain": "Ubicación de algo concreto → essere." },
+        { "type": "choice", "question": "Oggi ___ molto stanca.", "options": ["sono", "sto", "ho"], "answer": 0, "explain": "Estados → essere (sono stanca, sono contenta)." },
+        { "type": "choice", "question": "Ciao Marco, come ___?", "options": ["stai", "sei", "hai"], "answer": 0 },
+        { "type": "cloze", "text": "Non posso venire adesso, [[sto]] lavorando. Il negozio [[è]] chiuso fino alle quattro.", "instruction": "stare / essere", "explain": "stare + gerundio; estado de algo (chiuso) → essere." },
+        { "type": "translate", "es": "El museo está cerrado los lunes.", "it": "Il museo è chiuso il lunedì." },
+        { "type": "translate", "es": "Estoy a punto de salir.", "it": "Sto per uscire." },
+        { "type": "translate", "es": "Mi hermana está muy contenta con su nuevo trabajo.", "it": "Mia sorella è molto contenta del suo nuovo lavoro.", "alts": ["Mia sorella è molto contenta con il suo nuovo lavoro.", "Mia sorella è molto contenta per il suo nuovo lavoro."] }
+      ]
+    },
+    {
+      "id": "u12l5",
+      "title": "Preposiciones traicioneras",
+      "grammar": "prep-trappole",
+      "vocabTopics": ["connettivi"],
+      "exercises": [
+        { "type": "choice", "question": "Ieri ho visto ___ al bar.", "options": ["Paolo", "a Paolo", "da Paolo"], "answer": 0, "explain": "En italiano no hay «a» personal." },
+        { "type": "choice", "question": "Penso sempre ___ te.", "options": ["a", "in", "di"], "answer": 0, "explain": "pensare a = pensar en." },
+        { "type": "cloze", "text": "Vado al lavoro [[a]] piedi, ma il sabato vado [[in]] centro [[in]] bici.", "explain": "a piedi; in centro; in bici." },
+        { "type": "cloze", "text": "Mi sono innamorata [[di]] questa città e la sogno [[di]] notte.", "explain": "innamorarsi di; di notte." },
+        { "type": "translate", "es": "Estudio italiano desde hace dos meses.", "it": "Studio italiano da due mesi.", "alts": ["Studio l'italiano da due mesi."] },
+        { "type": "translate", "es": "Llamo a mi madre todos los domingos.", "it": "Chiamo mia madre ogni domenica.", "alts": ["Telefono a mia madre ogni domenica.", "Chiamo mia madre tutte le domeniche.", "Telefono a mia madre tutte le domeniche.", "La domenica chiamo mia madre."], "explain": "chiamare + persona (sin «a»); telefonare a + persona." },
+        { "type": "dictation", "it": "Una tazza di tè e un bicchiere d'acqua, per favore.", "es": "Una taza de té y un vaso de agua, por favor." }
+      ]
+    }
+  ]
+}

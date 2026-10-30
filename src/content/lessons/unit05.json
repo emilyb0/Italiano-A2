@@ -1,0 +1,81 @@
+{
+  "id": "u05",
+  "order": 5,
+  "title": "Reflexivos, rutina y horarios",
+  "description": "Mi sveglio, mi alzo… la hora, los días y la frecuencia.",
+  "emoji": "⏰",
+  "lessons": [
+    {
+      "id": "u05l1",
+      "title": "Mi sveglio, mi alzo",
+      "grammar": "riflessivi",
+      "vocabTopics": ["routine"],
+      "exercises": [
+        { "type": "cloze", "text": "La mattina io [[mi sveglio]] alle sette e [[mi alzo]] subito.", "instruction": "svegliarsi y alzarsi (io)" },
+        { "type": "choice", "question": "Come ___ tuo fratello?", "options": ["si chiama", "ti chiami", "chiama"], "answer": 0 },
+        { "type": "cloze", "text": "Noi [[ci vestiamo]] in fretta perché siamo in ritardo.", "instruction": "vestirsi (noi)" },
+        { "type": "choice", "question": "I bambini ___ molto al parco.", "options": ["si divertono", "ci divertono", "divertono"], "answer": 0 },
+        { "type": "translate", "es": "¿A qué hora te levantas?", "it": "A che ora ti alzi?" },
+        { "type": "translate", "es": "Me ducho por la noche.", "it": "Faccio la doccia la sera.", "alts": ["Mi faccio la doccia la sera.", "Faccio la doccia di sera."], "explain": "En italiano «ducharse» = fare la doccia." },
+        { "type": "dictation", "it": "Mi lavo i denti e mi pettino.", "es": "Me lavo los dientes y me peino." }
+      ]
+    },
+    {
+      "id": "u05l2",
+      "title": "Mi día a día",
+      "grammar": "riflessivi",
+      "vocabTopics": ["routine", "chunks"],
+      "exercises": [
+        { "type": "order", "it": "Dopo cena mi riposo sul divano", "es": "Después de cenar descanso en el sofá." },
+        { "type": "cloze", "text": "Di solito mia sorella [[si trucca]] in bagno e poi [[si prepara]] la colazione.", "instruction": "truccarsi y prepararsi (lei)" },
+        { "type": "choice", "question": "Domani devo ___ presto.", "options": ["alzarmi", "alzarsi", "mi alzare"], "answer": 0, "explain": "Con modal: devo alzarmi o mi devo alzare." },
+        { "type": "translate", "es": "Normalmente me acuesto a las once.", "it": "Di solito vado a letto alle undici.", "alts": ["Di solito vado a dormire alle undici.", "Normalmente vado a letto alle undici."] },
+        { "type": "answer-oral", "question": "Com'è una tua giornata tipica?", "es": "¿Cómo es un día típico tuyo?", "sample": "Di solito mi sveglio alle sette, faccio la doccia e faccio colazione. Poi vado al lavoro in metro. Pranzo con i colleghi verso l'una e torno a casa alle sei. La sera cucino, guardo una serie e vado a letto alle undici.", "checks": ["Verbos reflexivos (mi sveglio…)", "Conectores: poi, dopo, la sera", "Horas con «alle»"] },
+        { "type": "speak", "it": "Di solito mi sveglio alle sette e mezza.", "es": "Normalmente me despierto a las siete y media." }
+      ]
+    },
+    {
+      "id": "u05l3",
+      "title": "¿Qué hora es?",
+      "grammar": "orari",
+      "vocabTopics": ["numeri"],
+      "exercises": [
+        { "type": "choice", "question": "13:00 → ___", "options": ["È l'una.", "Sono le una.", "È la una."], "answer": 0 },
+        { "type": "choice", "question": "18:45 → ___", "options": ["Sono le sette meno un quarto.", "Sono le sei meno un quarto.", "È le sette e quarto."], "answer": 0 },
+        { "type": "cloze", "text": "La banca apre [[alle]] otto e mezza e chiude [[all']] una.", "explain": "a + le = alle; a + l' = all'una." },
+        { "type": "listen-choose", "audio": "Il museo è aperto dal martedì alla domenica, dalle nove alle diciannove. Il lunedì è chiuso.", "question": "Quando è chiuso il museo?", "options": ["Il lunedì", "La domenica", "Il martedì"], "answer": 0, "es": "El museo abre de martes a domingo, de nueve a diecinueve. Los lunes está cerrado." },
+        { "type": "translate", "es": "Mi cumpleaños es el doce de marzo.", "it": "Il mio compleanno è il dodici marzo.", "alts": ["Il mio compleanno è il 12 marzo."] },
+        { "type": "dictation", "it": "Ci vediamo giovedì alle cinque e un quarto.", "es": "Nos vemos el jueves a las cinco y cuarto." },
+        { "type": "match", "instruction": "Une la hora", "pairs": [["8:30", "le otto e mezza"], ["12:00", "mezzogiorno"], ["9:15", "le nove e un quarto"], ["20:50", "le nove meno dieci"]] }
+      ]
+    },
+    {
+      "id": "u05l4",
+      "title": "Sempre, spesso, mai",
+      "grammar": "avverbi",
+      "vocabTopics": ["connettivi"],
+      "exercises": [
+        { "type": "choice", "question": "Non bevo ___ alcol.", "options": ["mai", "sempre", "spesso"], "answer": 0, "explain": "non … mai = nunca." },
+        { "type": "cloze", "text": "Il lunedì vado [[sempre]] in palestra, ma il venerdì non ci vado [[mai]].", "instruction": "Usa «sempre» o «mai»" },
+        { "type": "choice", "question": "«Il sabato faccio la spesa» significa…", "options": ["Todos los sábados hago la compra.", "Este sábado hago la compra.", "El sábado pasado hice la compra."], "answer": 0, "explain": "Día con artículo = costumbre." },
+        { "type": "translate", "es": "A veces como en el restaurante.", "it": "Qualche volta mangio al ristorante.", "alts": ["A volte mangio al ristorante.", "Ogni tanto mangio al ristorante."] },
+        { "type": "translate", "es": "Voy al cine a menudo.", "it": "Vado spesso al cinema.", "alts": ["Spesso vado al cinema."] },
+        { "type": "answer-oral", "question": "Che cosa fai di solito il fine settimana?", "es": "¿Qué haces normalmente el fin de semana?", "sample": "Di solito il sabato mattina dormo fino a tardi e poi faccio la spesa. La sera esco spesso con gli amici. La domenica invece resto a casa e mi riposo.", "checks": ["Adverbios de frecuencia", "Días con artículo (il sabato)"] }
+      ]
+    },
+    {
+      "id": "u05l5",
+      "title": "Horarios y citas",
+      "grammar": "orari",
+      "vocabTopics": ["numeri", "routine"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Allora ci vediamo domani alle otto meno un quarto davanti al bar della stazione.", "question": "A che ora è l'appuntamento?", "options": ["Alle sette e quarantacinque", "Alle otto e un quarto", "Alle otto e quarantacinque"], "answer": 0, "es": "Entonces nos vemos mañana a las ocho menos cuarto delante del bar de la estación." },
+        { "type": "cloze", "text": "Il corso di italiano è [[il]] martedì e [[il]] giovedì, [[dalle]] sei [[alle]] otto.", "explain": "Costumbre → il martedì; dalle… alle… (de… a…)." },
+        { "type": "translate", "es": "La tienda está abierta de lunes a sábado.", "it": "Il negozio è aperto dal lunedì al sabato." },
+        { "type": "speak", "it": "Facciamo alle sette davanti al cinema?", "es": "¿Quedamos a las siete delante del cine?" },
+        { "type": "order", "it": "Il treno arriva a Roma alle dieci e venti", "es": "El tren llega a Roma a las diez y veinte." },
+        { "type": "answer-oral", "question": "A che ora ti alzi la domenica? E durante la settimana?", "es": "¿A qué hora te levantas los domingos? ¿Y entre semana?", "sample": "Durante la settimana mi alzo alle sette perché lavoro alle nove. La domenica invece mi alzo verso le dieci, faccio colazione con calma e leggo il giornale.", "checks": ["Contraste con «invece»", "Horas con «alle»"] }
+      ]
+    }
+  ]
+}

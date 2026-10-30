@@ -1,0 +1,81 @@
+{
+  "id": "u07",
+  "order": 7,
+  "title": "Imperfetto",
+  "description": "Describir el pasado, hábitos de la infancia y el contraste con el passato prossimo.",
+  "emoji": "🕰️",
+  "lessons": [
+    {
+      "id": "u07l1",
+      "title": "Era, c'era, faceva",
+      "grammar": "imperfetto",
+      "vocabTopics": ["clima"],
+      "exercises": [
+        { "type": "cloze", "text": "Ieri [[era]] una bella giornata: [[c'era]] il sole e [[faceva]] caldo.", "instruction": "essere, esserci, fare (imperfetto)" },
+        { "type": "choice", "question": "Quando eravamo piccoli, ___ sempre al parco.", "options": ["giocavamo", "abbiamo giocato", "giocamo"], "answer": 0, "explain": "Hábito en el pasado → imperfetto." },
+        { "type": "cloze", "text": "I miei nonni [[abitavano]] in campagna e [[avevano]] molti animali.", "instruction": "abitare y avere (loro)" },
+        { "type": "choice", "question": "Da bambina ___ i capelli lunghi.", "options": ["avevo", "ho avuto", "aveva"], "answer": 0 },
+        { "type": "translate", "es": "Hacía frío y llovía.", "it": "Faceva freddo e pioveva." },
+        { "type": "translate", "es": "La casa era pequeña pero muy bonita.", "it": "La casa era piccola ma molto bella.", "alts": ["La casa era piccola però molto bella."] },
+        { "type": "dictation", "it": "C'erano tante persone in piazza.", "es": "Había mucha gente en la plaza." }
+      ]
+    },
+    {
+      "id": "u07l2",
+      "title": "Cuando era pequeña…",
+      "grammar": "imperfetto",
+      "vocabTopics": ["famiglia", "chunks"],
+      "exercises": [
+        { "type": "cloze", "text": "Quando [[ero]] piccola, ogni estate [[andavo]] dai nonni e [[facevo]] il bagno nel fiume.", "instruction": "essere, andare, fare (io)" },
+        { "type": "choice", "question": "Mio padre ___ in banca, ora è in pensione.", "options": ["lavorava", "lavorò", "lavorerà"], "answer": 0 },
+        { "type": "choice", "question": "Da piccoli noi non ___ la verdura.", "options": ["mangiavamo", "mangiavano", "abbiamo mangiato"], "answer": 0 },
+        { "type": "translate", "es": "De niña quería ser veterinaria.", "it": "Da bambina volevo fare la veterinaria.", "alts": ["Da bambina volevo diventare veterinaria.", "Da piccola volevo fare la veterinaria.", "Da piccola volevo diventare veterinaria.", "Da bambina volevo essere veterinaria."] },
+        { "type": "answer-oral", "question": "Com'era la tua vita quando eri bambina?", "es": "¿Cómo era tu vida cuando eras niña?", "sample": "Quando ero bambina abitavo in un paese vicino al mare. Andavo a scuola a piedi e il pomeriggio giocavo con i miei cugini. D'estate passavamo le giornate in spiaggia.", "checks": ["Imperfetto (abitavo, giocavo…)", "Marcadores: quando ero bambina, d'estate"] },
+        { "type": "speak", "it": "Quando ero piccola passavo l'estate dai nonni.", "es": "Cuando era pequeña pasaba el verano en casa de mis abuelos." }
+      ]
+    },
+    {
+      "id": "u07l3",
+      "title": "Mientras… de repente",
+      "grammar": "imperf-vs-pp",
+      "vocabTopics": ["connettivi"],
+      "exercises": [
+        { "type": "cloze", "text": "Mentre [[aspettavo]] l'autobus, [[ho incontrato]] la mia vicina.", "instruction": "aspettare (imperfetto) e incontrare (passato prossimo)", "explain": "Fondo/acción en curso → imperfetto; acción puntual → passato prossimo." },
+        { "type": "choice", "question": "Ieri sera ___ stanca, quindi sono andata a letto presto.", "options": ["ero", "sono stata", "sarò"], "answer": 0, "explain": "Estado/descripción → imperfetto." },
+        { "type": "choice", "question": "All'improvviso ___ il telefono.", "options": ["è suonato", "suonava", "suona"], "answer": 0, "explain": "All'improvviso → acción puntual." },
+        { "type": "cloze", "text": "Quando [[sono arrivata|sono arrivato]] alla stazione, il treno [[era]] già partito.", "instruction": "arrivare y essere" },
+        { "type": "translate", "es": "Mientras cocinaba, escuchaba la radio.", "it": "Mentre cucinavo, ascoltavo la radio.", "explain": "Dos acciones simultáneas de fondo → imperfetto + imperfetto." },
+        { "type": "translate", "es": "Cuando llamaste, estaba en la ducha.", "it": "Quando hai chiamato, ero sotto la doccia.", "alts": ["Quando hai telefonato, ero sotto la doccia.", "Quando mi hai chiamato, ero sotto la doccia.", "Quando hai chiamato, facevo la doccia."] },
+        { "type": "listen-choose", "audio": "Mentre passeggiavo nel parco, ho visto un cane bellissimo e l'ho accarezzato.", "question": "Che cosa faceva la persona?", "options": ["Passeggiava nel parco", "Correva al parco", "Leggeva in giardino"], "answer": 0, "es": "Mientras paseaba por el parque, vi un perro precioso y lo acaricié." }
+      ]
+    },
+    {
+      "id": "u07l4",
+      "title": "Contar una historia",
+      "grammar": "imperf-vs-pp",
+      "vocabTopics": ["viaggi", "connettivi"],
+      "exercises": [
+        { "type": "cloze", "text": "Era sabato e [[faceva]] bel tempo. Io e Marco [[siamo andati]] al lago. L'acqua [[era]] fredda, ma [[abbiamo fatto]] il bagno lo stesso.", "instruction": "fare, andare, essere, fare" },
+        { "type": "choice", "question": "Che cosa ___ quando ti ho chiamato?", "options": ["facevi", "hai fatto", "fai"], "answer": 0 },
+        { "type": "order", "it": "Ero a casa quando è arrivato il pacco", "es": "Estaba en casa cuando llegó el paquete." },
+        { "type": "translate", "es": "Ayer no salí porque estaba enferma.", "it": "Ieri non sono uscita perché ero malata.", "alts": ["Ieri non sono uscito perché ero malato.", "Ieri non sono uscita perché stavo male."] },
+        { "type": "answer-oral", "question": "Racconta una giornata speciale della tua vita.", "es": "Cuenta un día especial de tu vida.", "sample": "Una giornata speciale è stata il giorno della mia laurea. Era luglio e faceva molto caldo. C'erano tutti i miei amici e la mia famiglia. Dopo la cerimonia siamo andati a cena in un ristorante sul mare e abbiamo festeggiato fino a tardi.", "checks": ["Imperfetto para describir (era, faceva, c'erano)", "Passato prossimo para acciones (siamo andati)", "Conectores: dopo, e, ma"] },
+        { "type": "dictation", "it": "Quando eravamo in vacanza, pioveva tutti i giorni.", "es": "Cuando estábamos de vacaciones, llovía todos los días." }
+      ]
+    },
+    {
+      "id": "u07l5",
+      "title": "El tiempo atmosférico",
+      "grammar": "imperfetto",
+      "vocabTopics": ["clima"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Previsioni per domani: al nord nuvoloso con piogge, al centro sereno, al sud sole e temperature fino a trenta gradi.", "question": "Che tempo farà al sud?", "options": ["Ci sarà il sole", "Pioverà", "Sarà nuvoloso"], "answer": 0, "es": "Previsión para mañana: en el norte nublado con lluvias, en el centro despejado, en el sur sol y temperaturas de hasta treinta grados." },
+        { "type": "match", "instruction": "Une tiempo y emoji", "pairs": [["piove", "🌧️"], ["nevica", "❄️"], ["c'è il sole", "☀️"], ["c'è vento", "💨"], ["c'è un temporale", "⛈️"]] },
+        { "type": "cloze", "text": "In inverno qui [[fa]] molto freddo e a volte [[nevica]].", "instruction": "Completa" },
+        { "type": "translate", "es": "Hoy hace treinta grados.", "it": "Oggi ci sono trenta gradi.", "alts": ["Oggi fanno trenta gradi.", "Oggi ci sono 30 gradi."] },
+        { "type": "translate", "es": "Ayer hacía mucho viento.", "it": "Ieri c'era molto vento.", "alts": ["Ieri tirava molto vento."] },
+        { "type": "answer-oral", "question": "Qual è la tua stagione preferita? Perché?", "es": "¿Cuál es tu estación favorita? ¿Por qué?", "sample": "La mia stagione preferita è la primavera perché non fa né troppo caldo né troppo freddo. Mi piace passeggiare quando ci sono i fiori e le giornate sono più lunghe.", "checks": ["«La mia stagione preferita è…»", "Justificación con «perché»"] }
+      ]
+    }
+  ]
+}

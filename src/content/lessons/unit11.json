@@ -1,0 +1,82 @@
+{
+  "id": "u11",
+  "order": 11,
+  "title": "Comparativos y adverbios",
+  "description": "Più… di, meno… che, migliore, -issimo; ya, todavía, hace…",
+  "emoji": "⚖️",
+  "lessons": [
+    {
+      "id": "u11l1",
+      "title": "Più di, meno di, come",
+      "grammar": "comparativi",
+      "vocabTopics": ["citta", "acquisti"],
+      "exercises": [
+        { "type": "cloze", "text": "Milano è più grande [[di]] Bologna, ma Bologna è meno cara [[di]] Milano.", "explain": "comparación entre dos sustantivos → di." },
+        { "type": "choice", "question": "Il treno è più comodo ___ autobus.", "options": ["dell'", "che l'", "di l'"], "answer": 0, "explain": "di + l' = dell'." },
+        { "type": "choice", "question": "Mi piace più camminare ___ correre.", "options": ["che", "di", "come"], "answer": 0, "explain": "Entre dos verbos → che." },
+        { "type": "choice", "question": "Mia sorella è alta ___ me.", "options": ["come", "che", "quanto che"], "answer": 0 },
+        { "type": "translate", "es": "Roma es más antigua que Milán.", "it": "Roma è più antica di Milano." },
+        { "type": "translate", "es": "Este bolso es menos caro que aquel.", "it": "Questa borsa è meno cara di quella.", "explain": "borsa es femenino → cara, quella." },
+        { "type": "answer-oral", "question": "Preferisci vivere in città o in campagna? Confronta.", "es": "¿Prefieres vivir en la ciudad o en el campo? Compara.", "sample": "Preferisco vivere in città perché ci sono più servizi e la vita è più interessante. La campagna però è più tranquilla e meno inquinata della città.", "checks": ["più … di / meno … di", "Conector «però»"] }
+      ]
+    },
+    {
+      "id": "u11l2",
+      "title": "Il più bello, bellissimo, migliore",
+      "grammar": "comparativi",
+      "vocabTopics": ["viaggi", "cibo"],
+      "exercises": [
+        { "type": "cloze", "text": "Questa pizza è [[buonissima]]! È la pizza più buona [[della]] città.", "instruction": "buono (superlativo absoluto) y di + la" },
+        { "type": "choice", "question": "Questo vino è ___ di quello.", "options": ["migliore", "più migliore", "meglio"], "answer": 0, "explain": "migliore = más bueno (adjetivo). meglio = mejor (adverbio)." },
+        { "type": "choice", "question": "Ieri stavo male, oggi sto ___.", "options": ["meglio", "migliore", "più bene"], "answer": 0 },
+        { "type": "cloze", "text": "Il Monte Bianco è la montagna più [[alta]] d'Italia.", "instruction": "alto (concordancia)" },
+        { "type": "translate", "es": "¡El hotel era carísimo!", "it": "L'albergo era carissimo!", "alts": ["L'hotel era carissimo!"] },
+        { "type": "translate", "es": "Es el mejor restaurante del barrio.", "it": "È il ristorante migliore del quartiere.", "alts": ["È il miglior ristorante del quartiere.", "È il migliore ristorante del quartiere."] },
+        { "type": "speak", "it": "Secondo me Firenze è la città più bella d'Italia.", "es": "En mi opinión Florencia es la ciudad más bonita de Italia." }
+      ]
+    },
+    {
+      "id": "u11l3",
+      "title": "Già, ancora, fa, appena",
+      "grammar": "avverbi",
+      "vocabTopics": ["connettivi"],
+      "exercises": [
+        { "type": "cloze", "text": "Hai [[già]] mangiato? — No, non ho [[ancora]] mangiato.", "instruction": "già / ancora" },
+        { "type": "choice", "question": "Sono arrivata in Italia tre anni ___.", "options": ["fa", "da", "prima"], "answer": 0, "explain": "hace + tiempo → tiempo + fa." },
+        { "type": "choice", "question": "Abito qui ___ tre anni.", "options": ["da", "fa", "per"], "answer": 0, "explain": "Acción que continúa → da (desde hace)." },
+        { "type": "cloze", "text": "Sono [[appena]] tornata dal lavoro, sono stanchissima!", "explain": "appena = acabar de." },
+        { "type": "translate", "es": "Ya he hecho los deberes.", "it": "Ho già fatto i compiti." },
+        { "type": "translate", "es": "Todavía no he visto a Marco.", "it": "Non ho ancora visto Marco.", "explain": "Sin «a» personal." },
+        { "type": "dictation", "it": "Ci siamo conosciuti cinque anni fa a una festa.", "es": "Nos conocimos hace cinco años en una fiesta." }
+      ]
+    },
+    {
+      "id": "u11l4",
+      "title": "De compras: comparar",
+      "grammar": "comparativi",
+      "vocabTopics": ["acquisti"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Questa giacca costa centoventi euro, quella blu è in saldo: costa solo ottanta euro, ma è un po' più piccola.", "question": "Quanto costa la giacca blu?", "options": ["Ottanta euro", "Centoventi euro", "Ottocento euro"], "answer": 0, "es": "Esta chaqueta cuesta ciento veinte euros, la azul está rebajada: cuesta solo ochenta euros, pero es un poco más pequeña." },
+        { "type": "cloze", "text": "Questi pantaloni sono troppo stretti. Avete una taglia [[più]] grande?", "explain": "più grande = más grande." },
+        { "type": "translate", "es": "¿Me puedo probar la talla 40?", "it": "Posso provare la quaranta?", "alts": ["Posso provare la taglia quaranta?", "Posso provare la taglia 40?", "Posso provare la 40?"] },
+        { "type": "translate", "es": "Me lo llevo, es más bonito que el otro.", "it": "Lo prendo, è più bello dell'altro." },
+        { "type": "speak", "it": "Avete questa maglietta in un altro colore?", "es": "¿Tienen esta camiseta en otro color?" },
+        { "type": "answer-oral", "question": "Sei in un negozio di vestiti. Chiedi un consiglio alla commessa.", "es": "Estás en una tienda de ropa. Pide consejo a la dependienta.", "sample": "Scusi, cerco un vestito per un matrimonio. Questo è bello ma è un po' caro. Ne avete uno simile ma più economico? Porto la quarantadue.", "checks": ["Comparativo (più economico)", "Talla con «porto la…»"] }
+      ]
+    },
+    {
+      "id": "u11l5",
+      "title": "Repaso general",
+      "grammar": "avverbi",
+      "vocabTopics": ["chunks", "connettivi"],
+      "exercises": [
+        { "type": "cloze", "text": "Ieri [[sono andata|sono andato]] al mercato perché [[volevo]] comprare la frutta. [[C'era]] tanta gente!", "instruction": "andare (p. prossimo), volere (imperfetto), esserci (imperfetto)", "topic": "imperfetto" },
+        { "type": "cloze", "text": "[[Gli]] amici di Luca [[vengono]] [[dalla]] Spagna.", "instruction": "artículo, venire (loro), da + la", "topic": "preposizioni" },
+        { "type": "choice", "question": "Ti piacciono i dolci? Sì, ___ mangio tanti!", "options": ["ne", "li", "ci"], "answer": 0, "topic": "ci-ne" },
+        { "type": "translate", "es": "Si mañana hace buen tiempo, iremos a la playa.", "it": "Se domani fa bel tempo, andiamo al mare.", "alts": ["Se domani farà bel tempo, andremo al mare.", "Se domani fa bel tempo, andremo al mare."], "topic": "futuro" },
+        { "type": "translate", "es": "A mi hermano le gustan los coches.", "it": "A mio fratello piacciono le macchine.", "alts": ["A mio fratello piacciono le auto.", "Mio fratello ama le macchine."], "topic": "pronomi" },
+        { "type": "answer-oral", "question": "Perché studi l'italiano e che cosa farai quando parlerai bene?", "es": "¿Por qué estudias italiano y qué harás cuando lo hables bien?", "sample": "Studio l'italiano perché ho vissuto in Italia e mi piace molto la lingua. Quando parlerò bene, vorrei lavorare in un'azienda italiana e viaggiare in tutto il paese.", "checks": ["Pasado + presente + futuro", "Conectores (perché, quando)"], "topic": "futuro" }
+      ]
+    }
+  ]
+}

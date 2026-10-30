@@ -1,0 +1,178 @@
+[
+  {
+    "id": "l21",
+    "title": "Un problema con il telefono",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Cliente", "t": "Buongiorno, ho comprato questo telefono la settimana scorsa, ma la batteria dura pochissimo." },
+      { "s": "Commesso", "t": "Ha lo scontrino?" },
+      { "s": "Cliente", "t": "Sì, eccolo." },
+      { "s": "Commesso", "t": "Allora, possiamo mandarlo in assistenza, ci vogliono circa due settimane. Oppure, visto che l'ha comprato da meno di quattordici giorni, glielo cambiamo subito." },
+      { "s": "Cliente", "t": "Preferisco cambiarlo, grazie. Ne ho bisogno per lavoro." },
+      { "s": "Commesso", "t": "Nessun problema, gliene prendo uno nuovo dal magazzino." }
+    ],
+    "es": "Cliente: Buenos días, compré este teléfono la semana pasada, pero la batería dura poquísimo. Dependiente: ¿Tiene el tique? Cliente: Sí, aquí está. Dependiente: Bueno, podemos mandarlo al servicio técnico, se tarda unas dos semanas. O bien, como lo compró hace menos de catorce días, se lo cambiamos enseguida. Cliente: Prefiero cambiarlo, gracias. Lo necesito para trabajar. Dependiente: No hay problema, le traigo uno nuevo del almacén.",
+    "questions": [
+      { "type": "choice", "q": "Che problema ha il telefono?", "options": ["La batteria dura poco", "Lo schermo è rotto", "Non si accende"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa decide il cliente?", "options": ["Cambiare il telefono", "Mandarlo in assistenza", "Chiedere i soldi indietro"], "answer": 0 },
+      { "type": "vf", "q": "Il cliente ha comprato il telefono un mese fa.", "answer": false }
+    ]
+  },
+  {
+    "id": "l22",
+    "title": "La routine di uno studente",
+    "kind": "monologo",
+    "lines": [
+      { "s": "Ahmed", "t": "Mi chiamo Ahmed, vengo dal Marocco e studio ingegneria a Milano. Durante la settimana mi alzo alle sette, faccio colazione velocemente e prendo la metro per andare all'università." },
+      { "s": "Ahmed", "t": "Le lezioni finiscono verso le quattro. Poi, tre giorni alla settimana, lavoro in una pizzeria per pagare l'affitto. Torno a casa tardi, verso le undici, e sono sempre stanco. Il fine settimana invece mi riposo, cucino piatti marocchini per i miei coinquilini e chiamo la mia famiglia." }
+    ],
+    "es": "Me llamo Ahmed, vengo de Marruecos y estudio ingeniería en Milán. Entre semana me levanto a las siete, desayuno rápido y cojo el metro para ir a la universidad. Las clases terminan hacia las cuatro. Luego, tres días a la semana, trabajo en una pizzería para pagar el alquiler. Vuelvo a casa tarde, hacia las once, y siempre estoy cansado. El fin de semana en cambio descanso, cocino platos marroquíes para mis compañeros de piso y llamo a mi familia.",
+    "questions": [
+      { "type": "choice", "q": "Come va Ahmed all'università?", "options": ["In metro", "In bici", "A piedi"], "answer": 0 },
+      { "type": "choice", "q": "Perché lavora in pizzeria?", "options": ["Per pagare l'affitto", "Per imparare a cucinare", "Per conoscere gente"], "answer": 0 },
+      { "type": "vf", "q": "Ahmed vive da solo.", "answer": false, "explain": "Ha dei coinquilini." }
+    ]
+  },
+  {
+    "id": "l23",
+    "title": "In farmacia",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Farmacista", "t": "Buongiorno, mi dica." },
+      { "s": "Cliente", "t": "Buongiorno. Ho un forte raffreddore e la tosse. Che cosa mi consiglia?" },
+      { "s": "Farmacista", "t": "Ha anche la febbre?" },
+      { "s": "Cliente", "t": "No, la febbre no, ma mi fa male la testa." },
+      { "s": "Farmacista", "t": "Allora le do questo sciroppo per la tosse: ne prenda un cucchiaio tre volte al giorno, dopo i pasti. Per il mal di testa può prendere queste compresse, ma al massimo due al giorno." },
+      { "s": "Cliente", "t": "Grazie. Quanto le devo?" },
+      { "s": "Farmacista", "t": "Sono dodici euro e quaranta." }
+    ],
+    "es": "Farmacéutica: Buenos días, dígame. Cliente: Buenos días. Tengo un resfriado fuerte y tos. ¿Qué me recomienda? Farmacéutica: ¿Tiene también fiebre? Cliente: No, fiebre no, pero me duele la cabeza. Farmacéutica: Entonces le doy este jarabe para la tos: tome una cucharada tres veces al día, después de las comidas. Para el dolor de cabeza puede tomar estas pastillas, pero como máximo dos al día. Cliente: Gracias. ¿Cuánto le debo? Farmacéutica: Son doce euros cuarenta.",
+    "questions": [
+      { "type": "choice", "q": "Quando deve prendere lo sciroppo?", "options": ["Dopo i pasti", "Prima di dormire", "La mattina a digiuno"], "answer": 0 },
+      { "type": "choice", "q": "Quante compresse può prendere al giorno al massimo?", "options": ["Due", "Tre", "Una"], "answer": 0 },
+      { "type": "vf", "q": "Il cliente ha la febbre.", "answer": false }
+    ]
+  },
+  {
+    "id": "l24",
+    "title": "Programmi per l'estate",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Elena", "t": "Allora, Marco, dove andrai in vacanza quest'estate?" },
+      { "s": "Marco", "t": "Quest'anno farò una cosa diversa: andrò in Sardegna in bicicletta con due amici. Partiremo il primo agosto." },
+      { "s": "Elena", "t": "In bicicletta? Che coraggio! E dove dormirete?" },
+      { "s": "Marco", "t": "Nei campeggi, abbiamo già prenotato le tende. E tu?" },
+      { "s": "Elena", "t": "Io resterò in città fino a metà agosto per lavoro, poi andrò una settimana dai miei nonni in Calabria. Lì il mare è bellissimo e non spendo niente!" }
+    ],
+    "es": "Elena: Bueno, Marco, ¿dónde te irás de vacaciones este verano? Marco: Este año haré algo distinto: iré a Cerdeña en bicicleta con dos amigos. Saldremos el uno de agosto. Elena: ¿En bicicleta? ¡Qué valor! ¿Y dónde dormiréis? Marco: En campings, ya hemos reservado las tiendas. ¿Y tú? Elena: Yo me quedaré en la ciudad hasta mediados de agosto por trabajo, luego iré una semana a casa de mis abuelos en Calabria. ¡Allí el mar es precioso y no gasto nada!",
+    "questions": [
+      { "type": "choice", "q": "Come viaggerà Marco?", "options": ["In bicicletta", "In macchina", "In aereo"], "answer": 0 },
+      { "type": "choice", "q": "Dove andrà Elena?", "options": ["Dai nonni in Calabria", "In Sardegna", "In campeggio"], "answer": 0 },
+      { "type": "vf", "q": "Marco dormirà in albergo.", "answer": false }
+    ]
+  },
+  {
+    "id": "l25",
+    "title": "Annuncio all'aeroporto",
+    "kind": "annuncio",
+    "lines": [
+      { "s": "Altoparlante", "t": "I passeggeri del volo AZ 2048 per Madrid sono pregati di recarsi all'uscita B12. L'imbarco inizierà tra venti minuti." },
+      { "s": "Altoparlante", "t": "Si ricorda che ogni passeggero può portare a bordo un solo bagaglio a mano. Il volo per Barcellona delle sedici e trenta è cancellato a causa del maltempo. I passeggeri sono pregati di rivolgersi al banco informazioni." }
+    ],
+    "es": "Se ruega a los pasajeros del vuelo AZ 2048 con destino Madrid que se dirijan a la puerta B12. El embarque comenzará dentro de veinte minutos. Se recuerda que cada pasajero puede llevar a bordo un solo equipaje de mano. El vuelo a Barcelona de las dieciséis treinta está cancelado a causa del mal tiempo. Se ruega a los pasajeros que se dirijan al mostrador de información.",
+    "questions": [
+      { "type": "choice", "q": "Da quale uscita parte il volo per Madrid?", "options": ["B12", "B20", "A12"], "answer": 0 },
+      { "type": "choice", "q": "Perché il volo per Barcellona è cancellato?", "options": ["Per il maltempo", "Per uno sciopero", "Per un problema tecnico"], "answer": 0 },
+      { "type": "vf", "q": "Si possono portare due bagagli a mano.", "answer": false }
+    ]
+  },
+  {
+    "id": "l26",
+    "title": "Un invito",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Francesca", "t": "Pronto, Emily? Sono Francesca. Senti, venerdì è il compleanno di Davide e facciamo una cena a sorpresa a casa mia. Vieni?" },
+      { "s": "Emily", "t": "Che bello! Certo che vengo. A che ora?" },
+      { "s": "Francesca", "t": "Alle otto, ma Davide arriva alle otto e mezza, quindi non fare tardi!" },
+      { "s": "Emily", "t": "Va bene. Porto qualcosa?" },
+      { "s": "Francesca", "t": "Se vuoi, porta una bottiglia di vino. Per il regalo facciamo una colletta: gli compriamo un biglietto per il concerto di Jovanotti." },
+      { "s": "Emily", "t": "Ottima idea. Ci sono anche i suoi colleghi?" },
+      { "s": "Francesca", "t": "Sì, saremo una quindicina di persone." }
+    ],
+    "es": "Francesca: ¿Diga, Emily? Soy Francesca. Oye, el viernes es el cumpleaños de Davide y hacemos una cena sorpresa en mi casa. ¿Vienes? Emily: ¡Qué bien! Claro que voy. ¿A qué hora? Francesca: A las ocho, pero Davide llega a las ocho y media, ¡así que no llegues tarde! Emily: Vale. ¿Llevo algo? Francesca: Si quieres, trae una botella de vino. Para el regalo hacemos un bote: le compramos una entrada para el concierto de Jovanotti. Emily: Muy buena idea. ¿Van también sus compañeros de trabajo? Francesca: Sí, seremos unas quince personas.",
+    "questions": [
+      { "type": "choice", "q": "Perché Emily deve arrivare prima delle 20.30?", "options": ["Perché è una festa a sorpresa", "Perché poi chiude il ristorante", "Perché deve cucinare"], "answer": 0 },
+      { "type": "choice", "q": "Che regalo fanno a Davide?", "options": ["Un biglietto per un concerto", "Una bottiglia di vino", "Un libro"], "answer": 0 },
+      { "type": "vf", "q": "Alla cena ci saranno circa quindici persone.", "answer": true }
+    ]
+  },
+  {
+    "id": "l27",
+    "title": "Il quartiere ieri e oggi",
+    "kind": "monologo",
+    "lines": [
+      { "s": "Signor Bruno", "t": "Abito in questo quartiere da cinquant'anni. Quando sono arrivato, qui c'erano solo campi e poche case. Non c'era la metropolitana e per andare in centro ci voleva quasi un'ora di autobus." },
+      { "s": "Signor Bruno", "t": "Adesso è tutto cambiato: ci sono palazzi alti, un centro commerciale, due scuole e la fermata della metro proprio sotto casa mia. È più comodo, è vero, ma c'è anche più traffico e la gente non si conosce più come prima. Una volta tutti si salutavano per strada!" }
+    ],
+    "es": "Vivo en este barrio desde hace cincuenta años. Cuando llegué, aquí solo había campos y pocas casas. No había metro y para ir al centro se tardaba casi una hora en autobús. Ahora todo ha cambiado: hay edificios altos, un centro comercial, dos escuelas y la parada de metro justo debajo de mi casa. Es más cómodo, es verdad, pero también hay más tráfico y la gente ya no se conoce como antes. ¡Antes todo el mundo se saludaba por la calle!",
+    "questions": [
+      { "type": "choice", "q": "Com'era il quartiere cinquant'anni fa?", "options": ["C'erano campi e poche case", "C'erano molti palazzi", "C'era già la metro"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa NON piace al signor Bruno di oggi?", "options": ["Il traffico", "La metro", "Le scuole"], "answer": 0 },
+      { "type": "vf", "q": "Oggi la metro è vicino a casa sua.", "answer": true }
+    ]
+  },
+  {
+    "id": "l28",
+    "title": "In banca",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Impiegata", "t": "Buongiorno, come posso aiutarla?" },
+      { "s": "Cliente", "t": "Buongiorno, sono spagnola e lavoro in Italia da un mese. Vorrei aprire un conto corrente." },
+      { "s": "Impiegata", "t": "Certo. Ha con sé un documento d'identità e il codice fiscale?" },
+      { "s": "Cliente", "t": "Ho il passaporto e il codice fiscale, sì." },
+      { "s": "Impiegata", "t": "Perfetto. Le serve anche un contratto di lavoro o una busta paga." },
+      { "s": "Cliente", "t": "Ah, quello l'ho lasciato a casa. Posso tornare domani?" },
+      { "s": "Impiegata", "t": "Sì, siamo aperti dalle otto e mezza all'una e mezza. Il pomeriggio solo su appuntamento." }
+    ],
+    "es": "Empleada: Buenos días, ¿en qué puedo ayudarla? Cliente: Buenos días, soy española y trabajo en Italia desde hace un mes. Quisiera abrir una cuenta corriente. Empleada: Claro. ¿Lleva un documento de identidad y el código fiscal? Cliente: Tengo el pasaporte y el código fiscal, sí. Empleada: Perfecto. También necesita un contrato de trabajo o una nómina. Cliente: Ah, eso me lo he dejado en casa. ¿Puedo volver mañana? Empleada: Sí, abrimos de ocho y media a una y media. Por la tarde solo con cita.",
+    "questions": [
+      { "type": "choice", "q": "Che cosa ha dimenticato la cliente?", "options": ["Il contratto di lavoro", "Il passaporto", "Il codice fiscale"], "answer": 0 },
+      { "type": "choice", "q": "Quando può tornare senza appuntamento?", "options": ["La mattina", "Il pomeriggio", "La sera"], "answer": 0 },
+      { "type": "vf", "q": "La cliente lavora in Italia da un anno.", "answer": false }
+    ]
+  },
+  {
+    "id": "l29",
+    "title": "Pubblicità radio",
+    "kind": "annuncio",
+    "lines": [
+      { "s": "Radio", "t": "Hai voglia di imparare a ballare? Vieni alla scuola di danza «Passo dopo passo»! Corsi di salsa, tango e balli latini per tutte le età." },
+      { "s": "Radio", "t": "A settembre la prima settimana è gratuita! Le lezioni sono la sera dal lunedì al venerdì, e il sabato pomeriggio per i bambini. Ci trovi in via Dante 18, vicino alla stazione. Non serve venire in coppia!" }
+    ],
+    "es": "¿Tienes ganas de aprender a bailar? ¡Ven a la escuela de baile «Paso a paso»! Cursos de salsa, tango y bailes latinos para todas las edades. ¡En septiembre la primera semana es gratis! Las clases son por la tarde-noche de lunes a viernes, y el sábado por la tarde para los niños. Nos encuentras en la calle Dante 18, cerca de la estación. ¡No hace falta venir en pareja!",
+    "questions": [
+      { "type": "choice", "q": "Quando sono i corsi per bambini?", "options": ["Il sabato pomeriggio", "La sera dal lunedì al venerdì", "La domenica mattina"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa è gratuito a settembre?", "options": ["La prima settimana", "Il primo mese", "Le scarpe da ballo"], "answer": 0 },
+      { "type": "vf", "q": "Bisogna iscriversi in coppia.", "answer": false }
+    ]
+  },
+  {
+    "id": "l30",
+    "title": "Colloquio di lavoro",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Selezionatrice", "t": "Buongiorno, si accomodi. Allora, mi parli un po' di lei." },
+      { "s": "Candidata", "t": "Buongiorno. Mi chiamo Laura, ho ventinove anni e sono laureata in turismo. Ho lavorato due anni in un'agenzia di viaggi a Valencia." },
+      { "s": "Selezionatrice", "t": "Che lingue parla?" },
+      { "s": "Candidata", "t": "Lo spagnolo è la mia lingua madre, parlo bene l'inglese e l'italiano lo sto studiando: tra due settimane faccio l'esame di livello A2." },
+      { "s": "Selezionatrice", "t": "Bene. Il lavoro è all'accoglienza di un hotel, con turni anche nel fine settimana. Per lei è un problema?" },
+      { "s": "Candidata", "t": "No, nessun problema. Sono abituata a lavorare con il pubblico e mi piace molto." }
+    ],
+    "es": "Seleccionadora: Buenos días, siéntese. Bueno, hábleme un poco de usted. Candidata: Buenos días. Me llamo Laura, tengo veintinueve años y soy licenciada en turismo. He trabajado dos años en una agencia de viajes en Valencia. Seleccionadora: ¿Qué idiomas habla? Candidata: El español es mi lengua materna, hablo bien inglés y el italiano lo estoy estudiando: dentro de dos semanas hago el examen de nivel A2. Seleccionadora: Bien. El trabajo es en la recepción de un hotel, con turnos también el fin de semana. ¿Para usted es un problema? Candidata: No, ningún problema. Estoy acostumbrada a trabajar con el público y me gusta mucho.",
+    "questions": [
+      { "type": "choice", "q": "Dove ha lavorato Laura?", "options": ["In un'agenzia di viaggi", "In un hotel", "In una scuola"], "answer": 0 },
+      { "type": "choice", "q": "Quando fa l'esame di italiano?", "options": ["Tra due settimane", "Tra due mesi", "L'ha già fatto"], "answer": 0 },
+      { "type": "vf", "q": "Per Laura lavorare nel fine settimana è un problema.", "answer": false }
+    ]
+  }
+]

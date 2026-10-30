@@ -1,0 +1,84 @@
+{
+  "id": "u03",
+  "order": 3,
+  "title": "Verbos irregulares",
+  "description": "Essere, avere, fare, stare, andare, venire, uscire… y los modales.",
+  "emoji": "⚡",
+  "lessons": [
+    {
+      "id": "u03l1",
+      "title": "Essere y avere",
+      "grammar": "irregolari-1",
+      "vocabTopics": ["tempo-libero"],
+      "exercises": [
+        { "type": "cloze", "text": "Noi [[siamo]] stanchi e [[abbiamo]] fame.", "instruction": "essere y avere (noi)", "explain": "Hambre, sed, frío, calor → avere: ho fame, ho sete." },
+        { "type": "cloze", "text": "Tu [[sei]] italiana? — No, [[sono]] spagnola, ma mio marito [[è]] di Roma.", "instruction": "Conjuga essere" },
+        { "type": "choice", "question": "I bambini ___ sonno.", "options": ["hanno", "sono", "fanno"], "answer": 0, "explain": "avere sonno = tener sueño." },
+        { "type": "choice", "question": "Lui ___ in ritardo.", "options": ["è", "e", "ha"], "answer": 0, "explain": "è (verbo) lleva acento; e (y) no." },
+        { "type": "translate", "es": "Tengo frío, ¿cerramos la ventana?", "it": "Ho freddo, chiudiamo la finestra?" },
+        { "type": "translate", "es": "Ellos tienen prisa.", "it": "Hanno fretta.", "alts": ["Loro hanno fretta."] },
+        { "type": "dictation", "it": "Abbiamo un cane e due gatti.", "es": "Tenemos un perro y dos gatos." }
+      ]
+    },
+    {
+      "id": "u03l2",
+      "title": "Fare y stare",
+      "grammar": "irregolari-1",
+      "vocabTopics": ["tempo-libero", "clima"],
+      "exercises": [
+        { "type": "cloze", "text": "Il sabato io [[faccio]] sport e mia sorella [[fa]] yoga.", "instruction": "Conjuga fare" },
+        { "type": "choice", "question": "Come ___? — Bene, grazie, e tu?", "options": ["stai", "sei", "fai"], "answer": 0, "explain": "Salud: stare bene/male." },
+        { "type": "choice", "question": "Oggi ___ molto caldo.", "options": ["fa", "è", "ha"], "answer": 0, "explain": "Tiempo atmosférico: fa caldo / fa freddo." },
+        { "type": "cloze", "text": "Cosa [[fate]] stasera? — Noi [[stiamo]] a casa e guardiamo un film.", "instruction": "fare (voi) y stare (noi)", "explain": "stare a casa = quedarse en casa." },
+        { "type": "translate", "es": "Desayuno en el bar.", "it": "Faccio colazione al bar.", "alts": ["Io faccio colazione al bar."] },
+        { "type": "translate", "es": "Mis padres están bien.", "it": "I miei genitori stanno bene." },
+        { "type": "speak", "it": "Che tempo fa oggi? Fa bel tempo e c'è il sole.", "es": "¿Qué tiempo hace hoy? Hace buen tiempo y hace sol." }
+      ]
+    },
+    {
+      "id": "u03l3",
+      "title": "Andare, venire, uscire",
+      "grammar": "irregolari-2",
+      "vocabTopics": ["tempo-libero"],
+      "exercises": [
+        { "type": "cloze", "text": "Stasera io [[esco]] con Marta. [[Vieni]] anche tu?", "instruction": "uscire (io) y venire (tu)", "explain": "uscire = salir; ¡salire = subir!" },
+        { "type": "choice", "question": "Loro ___ al cinema il venerdì.", "options": ["vanno", "andano", "vadono"], "answer": 0 },
+        { "type": "choice", "question": "Da dove ___ il treno?", "options": ["viene", "vene", "vieni"], "answer": 0 },
+        { "type": "cloze", "text": "Di solito noi [[beviamo]] acqua, ma oggi [[bevo]] un bicchiere di vino.", "instruction": "Conjuga bere", "explain": "bere usa la raíz bev-: bevo, beviamo." },
+        { "type": "translate", "es": "¿Qué dices?", "it": "Che cosa dici?", "alts": ["Cosa dici?", "Che dici?"] },
+        { "type": "translate", "es": "Salimos de casa a las ocho.", "it": "Usciamo di casa alle otto.", "alts": ["Usciamo da casa alle otto."], "explain": "uscire di casa = salir de casa." },
+        { "type": "listen-choose", "audio": "Domani vado al mare con i miei amici. Tu vieni?", "question": "Dove va la persona domani?", "options": ["Al mare", "In montagna", "Al cinema"], "answer": 0, "es": "Mañana voy a la playa con mis amigos. ¿Tú vienes?" }
+      ]
+    },
+    {
+      "id": "u03l4",
+      "title": "Potere, volere, dovere",
+      "grammar": "modali",
+      "vocabTopics": ["cibo"],
+      "exercises": [
+        { "type": "cloze", "text": "Scusi, [[posso]] entrare? — Sì, ma [[deve]] aspettare un momento.", "instruction": "potere (io) y dovere (Lei)" },
+        { "type": "choice", "question": "Noi ___ partire domani mattina presto.", "options": ["dobbiamo", "doviamo", "devono"], "answer": 0 },
+        { "type": "choice", "question": "Tu ___ venire alla festa sabato?", "options": ["puoi", "poi", "può"], "answer": 0, "explain": "puoi (puedes) ≠ poi (luego)." },
+        { "type": "cloze", "text": "I bambini [[vogliono]] un gelato, ma [[devono]] prima mangiare.", "instruction": "volere y dovere (loro)" },
+        { "type": "translate", "es": "¿Puedo pagar con tarjeta?", "it": "Posso pagare con la carta?", "alts": ["Posso pagare con carta?", "Posso pagare con la carta di credito?"] },
+        { "type": "translate", "es": "Mañana tengo que trabajar.", "it": "Domani devo lavorare." },
+        { "type": "speak", "it": "Scusi, posso avere il menù, per favore?", "es": "Disculpe, ¿me puede dar el menú, por favor?" }
+      ]
+    },
+    {
+      "id": "u03l5",
+      "title": "Sapere o conoscere",
+      "grammar": "modali",
+      "vocabTopics": ["tempo-libero", "chunks"],
+      "exercises": [
+        { "type": "choice", "question": "___ dov'è la fermata dell'autobus?", "options": ["Sai", "Conosci", "Puoi"], "answer": 0, "explain": "saber un dato → sapere." },
+        { "type": "choice", "question": "___ Marco? È il fratello di Anna.", "options": ["Conosci", "Sai", "Vuoi"], "answer": 0, "explain": "conocer a una persona → conoscere." },
+        { "type": "cloze", "text": "Mia madre [[sa]] cucinare benissimo, ma non [[sa]] guidare.", "instruction": "Conjuga sapere", "explain": "sapere + infinitivo = saber hacer algo." },
+        { "type": "translate", "es": "No sé nadar.", "it": "Non so nuotare." },
+        { "type": "translate", "es": "¿Conoces un buen restaurante?", "it": "Conosci un buon ristorante?", "explain": "buono → buon delante de masculino (como un)." },
+        { "type": "answer-oral", "question": "Che cosa sai fare bene? E che cosa non sai fare?", "es": "¿Qué sabes hacer bien? ¿Y qué no sabes hacer?", "sample": "So cucinare abbastanza bene e so suonare un po' la chitarra. Invece non so sciare e non so ballare.", "checks": ["Usa «so + infinitivo»", "Conector «invece» o «ma»"] },
+        { "type": "dictation", "it": "Non conosco bene questa città, sai dov'è il museo?", "es": "No conozco bien esta ciudad, ¿sabes dónde está el museo?" }
+      ]
+    }
+  ]
+}

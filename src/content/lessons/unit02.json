@@ -1,0 +1,82 @@
+{
+  "id": "u02",
+  "order": 2,
+  "title": "Presente regular",
+  "description": "Verbos en -are, -ere, -ire y con -isc-. Hablar de trabajo y familia.",
+  "emoji": "🗣️",
+  "lessons": [
+    {
+      "id": "u02l1",
+      "title": "Verbos en -are",
+      "grammar": "presente-are",
+      "vocabTopics": ["lavoro"],
+      "exercises": [
+        { "type": "cloze", "text": "Io [[lavoro]] in banca e mio marito [[insegna]] in una scuola.", "instruction": "Conjuga lavorare e insegnare", "explain": "io -o; lui -a." },
+        { "type": "cloze", "text": "Noi [[abitiamo]] a Torino. Voi dove [[abitate]]?", "instruction": "Conjuga abitare", "explain": "noi -iamo; voi -ate." },
+        { "type": "choice", "question": "Loro ___ inglese e francese.", "options": ["parlano", "parlono", "parlate"], "answer": 0, "explain": "-are → loro -ano." },
+        { "type": "choice", "question": "Tu ___ con la carta o in contanti?", "options": ["paghi", "pagi", "paga"], "answer": 0, "explain": "-gare añade h ante i: paghi." },
+        { "type": "translate", "es": "Trabajo en una oficina en el centro.", "it": "Lavoro in un ufficio in centro.", "alts": ["Io lavoro in un ufficio in centro."] },
+        { "type": "translate", "es": "¿Qué estudias?", "it": "Che cosa studi?", "alts": ["Cosa studi?", "Che studi?"], "explain": "studiare → tu studi (una sola i)." },
+        { "type": "dictation", "it": "Il sabato mangiamo sempre dalla nonna.", "es": "Los sábados siempre comemos en casa de la abuela." }
+      ]
+    },
+    {
+      "id": "u02l2",
+      "title": "Verbos en -ere e -ire",
+      "grammar": "presente-ere-ire",
+      "vocabTopics": ["famiglia"],
+      "exercises": [
+        { "type": "cloze", "text": "Mia sorella [[vive]] a Londra e [[scrive]] per un giornale.", "instruction": "Conjuga vivere y scrivere (lei)", "explain": "-ere → lei -e." },
+        { "type": "cloze", "text": "I miei genitori [[dormono]] poco e [[leggono]] molto.", "instruction": "Conjuga dormire y leggere (loro)", "explain": "loro -ono en -ere y -ire." },
+        { "type": "choice", "question": "Voi ___ la televisione la sera?", "options": ["vedete", "vedite", "vedono"], "answer": 0, "explain": "-ere → voi -ete." },
+        { "type": "choice", "question": "A che ora ___ il treno?", "options": ["parte", "parta", "parti"], "answer": 0, "explain": "partire → lui/lei/esso parte." },
+        { "type": "translate", "es": "Mi hermano vive con su novia.", "it": "Mio fratello vive con la sua ragazza.", "alts": ["Mio fratello vive con la sua fidanzata.", "Mio fratello abita con la sua ragazza.", "Mio fratello abita con la sua fidanzata."], "explain": "Posesivo con familiar en singular sin artículo (mio fratello), pero «la sua ragazza» lleva artículo." },
+        { "type": "order", "it": "Noi prendiamo l'autobus alle otto", "es": "Nosotros tomamos el autobús a las ocho." },
+        { "type": "listen-choose", "audio": "Mia madre apre il negozio alle nove e chiude alle sette.", "question": "A che ora chiude il negozio?", "options": ["Alle sette", "Alle nove", "Alle undici"], "answer": 0, "es": "Mi madre abre la tienda a las nueve y cierra a las siete." }
+      ]
+    },
+    {
+      "id": "u02l3",
+      "title": "Capisco, preferisco, finisco",
+      "grammar": "presente-isc",
+      "vocabTopics": ["lavoro"],
+      "exercises": [
+        { "type": "choice", "question": "Scusi, non ___. Può ripetere?", "options": ["capisco", "capo", "capiso"], "answer": 0, "explain": "capire → io capisco." },
+        { "type": "cloze", "text": "Io [[preferisco]] il tè, ma Marco [[preferisce]] il caffè.", "instruction": "Conjuga preferire", "explain": "-isc- en io, tu, lui, loro." },
+        { "type": "cloze", "text": "Noi [[finiamo]] di lavorare alle sei. Voi quando [[finite]]?", "instruction": "Conjuga finire", "explain": "noi y voi NO llevan -isc-: finiamo, finite." },
+        { "type": "choice", "question": "I ragazzi ___ la camera il sabato.", "options": ["puliscono", "pulono", "puliscano"], "answer": 0 },
+        { "type": "translate", "es": "¿A qué hora terminas de trabajar?", "it": "A che ora finisci di lavorare?", "explain": "finire di + infinitivo." },
+        { "type": "speak", "it": "Preferisco il mare alla montagna.", "es": "Prefiero el mar a la montaña." },
+        { "type": "answer-oral", "question": "Preferisci il mare o la montagna? Perché?", "es": "¿Prefieres el mar o la montaña? ¿Por qué?", "sample": "Preferisco il mare perché mi piace nuotare e prendere il sole. In montagna fa troppo freddo per me.", "checks": ["Usa «preferisco»", "Justifica con «perché»"] }
+      ]
+    },
+    {
+      "id": "u02l4",
+      "title": "Mi lavoro, mis estudios",
+      "grammar": "presente-are",
+      "vocabTopics": ["lavoro", "chunks"],
+      "exercises": [
+        { "type": "cloze", "text": "Faccio l'infermiera. [[Lavoro]] in un ospedale e a volte [[comincio]] alle sei di mattina.", "instruction": "Conjuga lavorare y cominciare (io)", "explain": "cominciare → comincio (sin doble i)." },
+        { "type": "translate", "es": "Estudio economía en la universidad.", "it": "Studio economia all'università.", "explain": "a + l'università = all'università." },
+        { "type": "translate", "es": "Busco trabajo a tiempo parcial.", "it": "Cerco lavoro part-time.", "alts": ["Cerco un lavoro part-time.", "Cerco un lavoro a tempo parziale.", "Cerco lavoro a tempo parziale."] },
+        { "type": "match", "instruction": "Une la profesión con el lugar de trabajo", "pairs": [["l'insegnante", "la scuola"], ["l'infermiera", "l'ospedale"], ["il commesso", "il negozio"], ["l'impiegato", "l'ufficio"]] },
+        { "type": "answer-oral", "question": "Che lavoro fai? Ti piace?", "es": "¿En qué trabajas? ¿Te gusta?", "sample": "Lavoro come impiegata in un'azienda di Milano. Il mio lavoro mi piace perché i colleghi sono simpatici, però a volte è stressante.", "checks": ["Profesión con «lavoro come…» o «faccio…»", "Opinión con «mi piace… perché…»"] },
+        { "type": "dictation", "it": "Il mio capo è molto gentile e lo stipendio è buono.", "es": "Mi jefe es muy amable y el sueldo es bueno." }
+      ]
+    },
+    {
+      "id": "u02l5",
+      "title": "Preguntas: chi, che cosa, dove, quando",
+      "grammar": "presente-ere-ire",
+      "vocabTopics": ["famiglia", "presentarsi"],
+      "exercises": [
+        { "type": "match", "instruction": "Une la pregunta con la respuesta", "pairs": [["Dove abiti?", "A Bologna."], ["Quando parti?", "Domani mattina."], ["Chi è quella ragazza?", "È mia cugina."], ["Perché studi italiano?", "Per lavoro."], ["Quanti fratelli hai?", "Due."]] },
+        { "type": "choice", "question": "___ vivi? — Vivo con i miei genitori.", "options": ["Con chi", "Dove", "Quando"], "answer": 0 },
+        { "type": "translate", "es": "¿Dónde viven tus padres?", "it": "Dove vivono i tuoi genitori?", "alts": ["Dove abitano i tuoi genitori?"], "explain": "«i tuoi genitori» lleva artículo (plural)." },
+        { "type": "translate", "es": "¿Cuántos hermanos tienes?", "it": "Quanti fratelli hai?", "explain": "fratelli puede incluir hermanos y hermanas." },
+        { "type": "answer-oral", "question": "Parlami della tua famiglia.", "es": "Háblame de tu familia.", "sample": "La mia famiglia non è molto grande. Ho una sorella più piccola che si chiama Lucía e vive a Valencia. Mio padre è medico e mia madre insegna in una scuola.", "checks": ["Posesivos sin artículo: mia madre, mio padre", "Al menos tres frases"] },
+        { "type": "listen-choose", "audio": "Ho due fratelli: Paolo ha venticinque anni e Luca ne ha diciotto.", "question": "Quanti anni ha Luca?", "options": ["Diciotto", "Venticinque", "Ventotto"], "answer": 0, "es": "Tengo dos hermanos: Paolo tiene veinticinco años y Luca dieciocho." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "u10",
+  "order": 10,
+  "title": "Futuro, condicional e imperativo",
+  "description": "Planes, pedir con cortesía y dar instrucciones. Servicios y salud.",
+  "emoji": "🔮",
+  "lessons": [
+    {
+      "id": "u10l1",
+      "title": "Andrò, farò, sarò",
+      "grammar": "futuro",
+      "vocabTopics": ["viaggi"],
+      "exercises": [
+        { "type": "cloze", "text": "L'anno prossimo io [[studierò]] a Bologna e [[abiterò]] con due amiche.", "instruction": "studiare y abitare (futuro, io)", "explain": "-are → -erò." },
+        { "type": "choice", "question": "Domani ___ al nord.", "options": ["pioverà", "piove", "piovrà"], "answer": 0 },
+        { "type": "choice", "question": "Quando ___ in Italia, ti chiamerò.", "options": ["sarò", "sono", "ero"], "answer": 0, "explain": "En italiano tras «quando» con valor futuro se usa futuro (en español, subjuntivo)." },
+        { "type": "cloze", "text": "A luglio noi [[andremo]] in Puglia e [[faremo]] tanti bagni.", "instruction": "andare y fare (futuro, noi)" },
+        { "type": "translate", "es": "Mañana tendré mucho trabajo.", "it": "Domani avrò molto lavoro.", "alts": ["Domani avrò tanto lavoro."] },
+        { "type": "translate", "es": "¿Vendrás a la fiesta?", "it": "Verrai alla festa?" },
+        { "type": "answer-oral", "question": "Che cosa farai dopo l'esame?", "es": "¿Qué harás después del examen?", "sample": "Dopo l'esame farò una festa con i miei amici. Poi andrò qualche giorno al mare per riposarmi e il mese prossimo comincerò un nuovo lavoro.", "checks": ["Futuro (farò, andrò…)", "Conectores: dopo, poi"] }
+      ]
+    },
+    {
+      "id": "u10l2",
+      "title": "Planes y previsiones",
+      "grammar": "futuro",
+      "vocabTopics": ["clima", "lavoro"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Nel fine settimana il tempo sarà variabile: sabato ci saranno nuvole e qualche pioggia, domenica tornerà il sole.", "question": "Che tempo farà domenica?", "options": ["Ci sarà il sole", "Pioverà", "Nevicherà"], "answer": 0, "es": "El fin de semana el tiempo será variable: el sábado habrá nubes y algo de lluvia, el domingo volverá el sol." },
+        { "type": "cloze", "text": "Il corso [[comincerà]] il 3 ottobre e [[finirà]] a dicembre.", "instruction": "cominciare y finire (futuro)" },
+        { "type": "choice", "question": "Loro ___ tra un'ora.", "options": ["arriveranno", "arrivaranno", "arrivano stati"], "answer": 0 },
+        { "type": "translate", "es": "El año que viene iremos a Sicilia.", "it": "L'anno prossimo andremo in Sicilia." },
+        { "type": "order", "it": "Sabato prossimo mia sorella si sposerà", "es": "El sábado que viene mi hermana se casará." },
+        { "type": "speak", "it": "Quando finirò l'università, cercherò lavoro in Italia.", "es": "Cuando termine la universidad, buscaré trabajo en Italia." }
+      ]
+    },
+    {
+      "id": "u10l3",
+      "title": "Vorrei, potrebbe…",
+      "grammar": "condizionale",
+      "vocabTopics": ["servizi", "chunks"],
+      "exercises": [
+        { "type": "choice", "question": "Buongiorno, ___ un francobollo per la Spagna.", "options": ["vorrei", "voglio", "volevo stato"], "answer": 0, "explain": "Cortesía → vorrei." },
+        { "type": "cloze", "text": "Scusi, [[potrebbe]] parlare più lentamente? Non [[capisco]] bene.", "instruction": "potere (condizionale, Lei) y capire" },
+        { "type": "choice", "question": "Mi ___ visitare la Sicilia.", "options": ["piacerebbe", "piacerei", "piacerebbero"], "answer": 0 },
+        { "type": "translate", "es": "Quisiera abrir una cuenta corriente.", "it": "Vorrei aprire un conto corrente." },
+        { "type": "translate", "es": "¿Podrías ayudarme?", "it": "Potresti aiutarmi?", "alts": ["Mi potresti aiutare?"] },
+        { "type": "speak", "it": "Vorrei sapere a che ora apre l'ufficio postale.", "es": "Quisiera saber a qué hora abre la oficina de correos." },
+        { "type": "answer-oral", "question": "Sei in un ufficio postale. Che cosa dici all'impiegato?", "es": "Estás en correos. ¿Qué le dices al empleado?", "sample": "Buongiorno, vorrei spedire questo pacco in Spagna. Quanto costa? E quanto tempo ci vuole per arrivare? Vorrei anche due francobolli per lettere.", "checks": ["Saludo formal", "«Vorrei…»", "Al menos una pregunta"] }
+      ]
+    },
+    {
+      "id": "u10l4",
+      "title": "Gira, prendi, non preoccuparti",
+      "grammar": "imperativo",
+      "vocabTopics": ["citta"],
+      "exercises": [
+        { "type": "cloze", "text": "[[Prendi]] la prima a destra e poi [[gira]] a sinistra.", "instruction": "prendere y girare (imperativo, tu)" },
+        { "type": "choice", "question": "(tu) ___ preoccuparti, andrà tutto bene!", "options": ["Non", "Non ti", "No"], "answer": 0, "explain": "Imperativo negativo con tu: non + infinitivo → non preoccuparti." },
+        { "type": "choice", "question": "Ragazzi, ___ silenzio, per favore!", "options": ["fate", "fai", "fanno"], "answer": 0 },
+        { "type": "cloze", "text": "[[Vieni]] a casa mia stasera! E [[porta]] il dolce!", "instruction": "venire y portare (tu)" },
+        { "type": "translate", "es": "¡No olvides el pasaporte!", "it": "Non dimenticare il passaporto!" },
+        { "type": "translate", "es": "¡Llámame mañana!", "it": "Chiamami domani!", "alts": ["Telefonami domani!"], "explain": "Pronombre pegado al imperativo: chiama + mi." },
+        { "type": "dictation", "it": "Scusa, aspettami un momento, arrivo subito!", "es": "Perdona, espérame un momento, ¡llego enseguida!" }
+      ]
+    },
+    {
+      "id": "u10l5",
+      "title": "En el médico",
+      "grammar": "imperativo",
+      "vocabTopics": ["salute"],
+      "exercises": [
+        { "type": "listen-choose", "audio": "Allora, signora, ha un po' di febbre. Prenda questo sciroppo tre volte al giorno, beva molta acqua e stia a riposo per due giorni.", "question": "Quante volte al giorno deve prendere lo sciroppo?", "options": ["Tre", "Due", "Una"], "answer": 0, "es": "Bueno, señora, tiene un poco de fiebre. Tome este jarabe tres veces al día, beba mucha agua y haga reposo dos días." },
+        { "type": "cloze", "text": "Dottore, [[ho]] mal di gola e mi [[fa]] male la testa.", "explain": "ho mal di…; mi fa male…" },
+        { "type": "choice", "question": "Mi ___ male i piedi.", "options": ["fanno", "fa", "hanno"], "answer": 0, "explain": "piedi (plural) → mi fanno male." },
+        { "type": "translate", "es": "Me duele la espalda desde ayer.", "it": "Mi fa male la schiena da ieri.", "alts": ["Ho mal di schiena da ieri."] },
+        { "type": "translate", "es": "Quisiera pedir cita con el médico.", "it": "Vorrei prendere un appuntamento con il medico.", "alts": ["Vorrei prendere un appuntamento dal medico.", "Vorrei un appuntamento con il medico.", "Vorrei prenotare una visita dal medico."] },
+        { "type": "match", "instruction": "Une la parte del cuerpo", "pairs": [["la testa", "la cabeza"], ["la gola", "la garganta"], ["la schiena", "la espalda"], ["la gamba", "la pierna"], ["la pancia", "la barriga"]] },
+        { "type": "answer-oral", "question": "Buongiorno, che cosa si sente?", "es": "Buenos días, ¿qué le pasa? (¿cómo se siente?)", "sample": "Buongiorno dottore. Da due giorni ho la febbre e mi fa male la gola. Ho anche un po' di tosse e mi sento molto stanca.", "checks": ["ho mal di… / mi fa male…", "Desde cuándo (da due giorni)"] }
+      ]
+    }
+  ]
+}

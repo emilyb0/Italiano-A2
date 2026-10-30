@@ -1,0 +1,182 @@
+[
+  {
+    "id": "l01",
+    "title": "Al bar",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Barista", "t": "Buongiorno! Che cosa le preparo?" },
+      { "s": "Cliente", "t": "Buongiorno. Un cappuccino e un cornetto alla crema, per favore." },
+      { "s": "Barista", "t": "Mi dispiace, i cornetti alla crema sono finiti. Ci sono quelli alla marmellata o integrali." },
+      { "s": "Cliente", "t": "Allora uno integrale. E anche una spremuta d'arancia." },
+      { "s": "Barista", "t": "Certo. Sono sei euro e cinquanta." },
+      { "s": "Cliente", "t": "Ecco a lei. Posso sedermi fuori?" },
+      { "s": "Barista", "t": "Sì, ma il servizio al tavolo costa un euro in più." }
+    ],
+    "es": "Camarero: ¡Buenos días! ¿Qué le preparo? Cliente: Buenos días. Un capuchino y un cruasán de crema, por favor. Camarero: Lo siento, se han acabado los de crema. Hay de mermelada o integrales. Cliente: Entonces uno integral. Y también un zumo de naranja natural. Camarero: Claro. Son seis euros cincuenta. Cliente: Aquí tiene. ¿Puedo sentarme fuera? Camarero: Sí, pero el servicio en mesa cuesta un euro más.",
+    "questions": [
+      { "type": "choice", "q": "Che cornetto prende il cliente?", "options": ["Integrale", "Alla crema", "Alla marmellata"], "answer": 0 },
+      { "type": "choice", "q": "Quanto paga al bancone?", "options": ["6,50 €", "7,50 €", "5,60 €"], "answer": 0 },
+      { "type": "vf", "q": "Sedersi al tavolo fuori costa di più.", "answer": true }
+    ]
+  },
+  {
+    "id": "l02",
+    "title": "Annuncio in stazione",
+    "kind": "annuncio",
+    "lines": [
+      { "s": "Altoparlante", "t": "Attenzione, attenzione. Il treno Frecciarossa 9542 per Milano Centrale, previsto in partenza alle ore 14 e 25, partirà dal binario 8 invece che dal binario 3." },
+      { "s": "Altoparlante", "t": "Il treno viaggia con un ritardo di circa dieci minuti. Ci scusiamo per il disagio." }
+    ],
+    "es": "Atención, atención. El tren Frecciarossa 9542 para Milano Centrale, previsto con salida a las 14:25, saldrá de la vía 8 en lugar de la vía 3. El tren circula con un retraso de unos diez minutos. Disculpen las molestias.",
+    "questions": [
+      { "type": "choice", "q": "Da quale binario parte il treno?", "options": ["Dal binario 8", "Dal binario 3", "Dal binario 14"], "answer": 0 },
+      { "type": "choice", "q": "Dove va il treno?", "options": ["A Milano", "A Roma", "A Napoli"], "answer": 0 },
+      { "type": "vf", "q": "Il treno è in orario.", "answer": false }
+    ]
+  },
+  {
+    "id": "l03",
+    "title": "Presentazioni a una festa",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Marco", "t": "Ciao! Io sono Marco, l'amico di Giulia. Tu come ti chiami?" },
+      { "s": "Emily", "t": "Piacere, Emily. Sono una collega di Giulia." },
+      { "s": "Marco", "t": "Emily? Non sei italiana, vero?" },
+      { "s": "Emily", "t": "No, sono spagnola, di Madrid. Ma vivo a Bologna da quasi un anno." },
+      { "s": "Marco", "t": "Parli benissimo! E ti piace Bologna?" },
+      { "s": "Emily", "t": "Moltissimo. Si mangia bene e la gente è simpatica. L'unica cosa: d'inverno fa troppo freddo per me!" }
+    ],
+    "es": "Marco: ¡Hola! Soy Marco, el amigo de Giulia. ¿Tú cómo te llamas? Emily: Encantada, Emily. Soy compañera de trabajo de Giulia. Marco: ¿Emily? No eres italiana, ¿verdad? Emily: No, soy española, de Madrid. Pero vivo en Bolonia desde hace casi un año. Marco: ¡Hablas muy bien! ¿Y te gusta Bolonia? Emily: Muchísimo. Se come bien y la gente es simpática. Lo único: en invierno hace demasiado frío para mí.",
+    "questions": [
+      { "type": "choice", "q": "Come conosce Giulia Emily?", "options": ["Lavorano insieme", "Sono vicine di casa", "Studiano insieme"], "answer": 0 },
+      { "type": "choice", "q": "Da quanto tempo Emily vive a Bologna?", "options": ["Da quasi un anno", "Da tre anni", "Da un mese"], "answer": 0 },
+      { "type": "vf", "q": "A Emily non piace il clima invernale di Bologna.", "answer": true }
+    ]
+  },
+  {
+    "id": "l04",
+    "title": "Prenotare dal medico",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Segretaria", "t": "Studio del dottor Galli, buongiorno." },
+      { "s": "Paziente", "t": "Buongiorno, vorrei prendere un appuntamento con il dottore. Ho mal di gola e un po' di febbre da due giorni." },
+      { "s": "Segretaria", "t": "Oggi il dottore è pieno. Va bene domani mattina alle nove e mezza?" },
+      { "s": "Paziente", "t": "Domani mattina lavoro... Non c'è niente nel pomeriggio?" },
+      { "s": "Segretaria", "t": "Domani pomeriggio alle cinque e un quarto." },
+      { "s": "Paziente", "t": "Perfetto. Mi chiamo Sara Conti." },
+      { "s": "Segretaria", "t": "Va bene, signora Conti. Si ricordi di portare la tessera sanitaria." }
+    ],
+    "es": "Secretaria: Consulta del doctor Galli, buenos días. Paciente: Buenos días, quisiera pedir cita con el doctor. Me duele la garganta y tengo un poco de fiebre desde hace dos días. Secretaria: Hoy el doctor está completo. ¿Le va bien mañana por la mañana a las nueve y media? Paciente: Mañana por la mañana trabajo... ¿No hay nada por la tarde? Secretaria: Mañana por la tarde a las cinco y cuarto. Paciente: Perfecto. Me llamo Sara Conti. Secretaria: De acuerdo, señora Conti. Acuérdese de traer la tarjeta sanitaria.",
+    "questions": [
+      { "type": "choice", "q": "Che problema ha la paziente?", "options": ["Mal di gola e febbre", "Mal di schiena", "Mal di denti"], "answer": 0 },
+      { "type": "choice", "q": "A che ora è l'appuntamento?", "options": ["Alle 17.15", "Alle 9.30", "Alle 17.45"], "answer": 0 },
+      { "type": "vf", "q": "La paziente va dal medico oggi.", "answer": false }
+    ]
+  },
+  {
+    "id": "l05",
+    "title": "La mia città",
+    "kind": "monologo",
+    "lines": [
+      { "s": "Paola", "t": "Io abito a Lecce, una città del sud, in Puglia. Non è molto grande, ha circa novantamila abitanti, ma è bellissima: le chiese e i palazzi sono di una pietra chiara che diventa dorata al tramonto." },
+      { "s": "Paola", "t": "Il mare è vicino, a venti minuti in macchina, quindi d'estate andiamo in spiaggia quasi tutti i giorni. La cosa che mi piace di più è la sera: tutti escono, passeggiano nel centro storico e si fermano a mangiare un gelato. L'unico problema sono i mezzi pubblici: gli autobus sono pochi e spesso in ritardo." }
+    ],
+    "es": "Vivo en Lecce, una ciudad del sur, en Apulia. No es muy grande, tiene unos noventa mil habitantes, pero es preciosa: las iglesias y los palacios son de una piedra clara que se vuelve dorada al atardecer. El mar está cerca, a veinte minutos en coche, así que en verano vamos a la playa casi todos los días. Lo que más me gusta es la noche: todo el mundo sale, pasea por el centro histórico y se para a tomar un helado. El único problema es el transporte público: los autobuses son pocos y a menudo llegan tarde.",
+    "questions": [
+      { "type": "choice", "q": "Quanto è lontano il mare?", "options": ["Venti minuti in macchina", "Due ore in treno", "Dieci minuti a piedi"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa piace di più a Paola?", "options": ["Le serate in centro", "I mezzi pubblici", "L'inverno"], "answer": 0 },
+      { "type": "vf", "q": "Secondo Paola gli autobus funzionano bene.", "answer": false }
+    ]
+  },
+  {
+    "id": "l06",
+    "title": "In un negozio di scarpe",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Commessa", "t": "Buonasera, posso aiutarla?" },
+      { "s": "Cliente", "t": "Sì, grazie. Ho visto in vetrina degli stivali marroni. Li avete nel trentotto?" },
+      { "s": "Commessa", "t": "Un attimo che controllo... Nel trentotto ci sono solo neri. Marroni ho il trentanove." },
+      { "s": "Cliente", "t": "Posso provare il trentanove marrone?" },
+      { "s": "Commessa", "t": "Certo, si accomodi. Come vanno?" },
+      { "s": "Cliente", "t": "Sono un po' grandi, ma molto comodi. Quanto costano?" },
+      { "s": "Commessa", "t": "Erano centoventi euro, ma adesso con i saldi costano novanta." },
+      { "s": "Cliente", "t": "Va bene, li prendo." }
+    ],
+    "es": "Dependienta: Buenas tardes, ¿puedo ayudarla? Clienta: Sí, gracias. He visto en el escaparate unas botas marrones. ¿Las tienen en el 38? Dependienta: Un momento que lo compruebo... En el 38 solo hay negras. Marrones tengo el 39. Clienta: ¿Puedo probarme el 39 marrón? Dependienta: Claro, siéntese. ¿Qué tal le quedan? Clienta: Son un poco grandes, pero muy cómodas. ¿Cuánto cuestan? Dependienta: Costaban ciento veinte euros, pero ahora con las rebajas cuestan noventa. Clienta: Vale, me las llevo.",
+    "questions": [
+      { "type": "choice", "q": "Che numero compra la cliente?", "options": ["Il 39", "Il 38", "Il 40"], "answer": 0 },
+      { "type": "choice", "q": "Di che colore sono gli stivali che compra?", "options": ["Marroni", "Neri", "Rossi"], "answer": 0 },
+      { "type": "choice", "q": "Quanto paga?", "options": ["90 €", "120 €", "39 €"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "l07",
+    "title": "Le previsioni del tempo",
+    "kind": "annuncio",
+    "lines": [
+      { "s": "Meteo", "t": "Ed ecco le previsioni per il fine settimana. Sabato al nord cielo coperto e piogge, soprattutto in Liguria e in Lombardia. Al centro nuvole al mattino, ma nel pomeriggio tornerà il sole." },
+      { "s": "Meteo", "t": "Al sud e sulle isole bel tempo con temperature alte per la stagione: fino a ventisei gradi in Sicilia. Domenica il tempo migliora anche al nord, ma attenzione al vento forte sulle coste." }
+    ],
+    "es": "Y aquí está la previsión para el fin de semana. El sábado en el norte cielo cubierto y lluvias, sobre todo en Liguria y Lombardía. En el centro nubes por la mañana, pero por la tarde volverá el sol. En el sur y en las islas buen tiempo con temperaturas altas para la estación: hasta veintiséis grados en Sicilia. El domingo el tiempo mejora también en el norte, pero cuidado con el viento fuerte en las costas.",
+    "questions": [
+      { "type": "choice", "q": "Che tempo farà sabato in Lombardia?", "options": ["Pioverà", "Ci sarà il sole", "Nevicherà"], "answer": 0 },
+      { "type": "choice", "q": "Dove fa più caldo?", "options": ["In Sicilia", "In Liguria", "Al centro"], "answer": 0 },
+      { "type": "vf", "q": "Domenica ci sarà vento forte sulle coste.", "answer": true }
+    ]
+  },
+  {
+    "id": "l08",
+    "title": "Organizzare il sabato",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Luca", "t": "Sara, che fai sabato sera? Ti va di andare al cinema?" },
+      { "s": "Sara", "t": "Sabato sera non posso, vado a cena dai miei genitori. Ma domenica pomeriggio sono libera." },
+      { "s": "Luca", "t": "Domenica pomeriggio gioco a calcio con i colleghi... Facciamo domenica sera, allora?" },
+      { "s": "Sara", "t": "Va benissimo. Che film vuoi vedere?" },
+      { "s": "Luca", "t": "C'è il nuovo film di Garrone, inizia alle nove meno un quarto." },
+      { "s": "Sara", "t": "Perfetto. Ci vediamo alle otto e mezza davanti al cinema?" },
+      { "s": "Luca", "t": "D'accordo, a domenica!" }
+    ],
+    "es": "Luca: Sara, ¿qué haces el sábado por la noche? ¿Te apetece ir al cine? Sara: El sábado por la noche no puedo, voy a cenar a casa de mis padres. Pero el domingo por la tarde estoy libre. Luca: El domingo por la tarde juego al fútbol con los compañeros... ¿Quedamos el domingo por la noche, entonces? Sara: Me va perfecto. ¿Qué película quieres ver? Luca: Está la nueva película de Garrone, empieza a las nueve menos cuarto. Sara: Perfecto. ¿Nos vemos a las ocho y media delante del cine? Luca: ¡De acuerdo, hasta el domingo!",
+    "questions": [
+      { "type": "choice", "q": "Quando vanno al cinema?", "options": ["Domenica sera", "Sabato sera", "Domenica pomeriggio"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa fa Sara sabato sera?", "options": ["Cena dai genitori", "Gioca a calcio", "Lavora"], "answer": 0 },
+      { "type": "choice", "q": "A che ora si incontrano?", "options": ["Alle 20.30", "Alle 20.45", "Alle 21.15"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "l09",
+    "title": "Messaggio in segreteria",
+    "kind": "monologo",
+    "lines": [
+      { "s": "Anna", "t": "Ciao mamma, sono Anna. Ti chiamo per dirti che domani non posso venire a pranzo, purtroppo: il mio capo mi ha chiesto di lavorare anche sabato mattina perché abbiamo un progetto da finire." },
+      { "s": "Anna", "t": "Però posso passare da te domenica, verso le quattro, e porto io il dolce. Se hai bisogno di qualcosa dal supermercato, mandami un messaggio. Un bacio!" }
+    ],
+    "es": "Hola mamá, soy Anna. Te llamo para decirte que mañana no puedo ir a comer, desgraciadamente: mi jefe me ha pedido que trabaje también el sábado por la mañana porque tenemos un proyecto que terminar. Pero puedo pasar por tu casa el domingo, hacia las cuatro, y llevo yo el postre. Si necesitas algo del supermercado, mándame un mensaje. ¡Un beso!",
+    "questions": [
+      { "type": "choice", "q": "Perché Anna non va a pranzo dalla mamma?", "options": ["Deve lavorare", "È malata", "Va dal medico"], "answer": 0 },
+      { "type": "choice", "q": "Quando va dalla mamma?", "options": ["Domenica pomeriggio", "Sabato sera", "Lunedì"], "answer": 0 },
+      { "type": "vf", "q": "Anna porterà il dolce.", "answer": true }
+    ]
+  },
+  {
+    "id": "l10",
+    "title": "All'ufficio postale",
+    "kind": "dialogo",
+    "lines": [
+      { "s": "Impiegato", "t": "Prego, il prossimo." },
+      { "s": "Cliente", "t": "Buongiorno. Vorrei spedire questo pacco in Spagna. Quanto costa?" },
+      { "s": "Impiegato", "t": "Vediamo... pesa due chili. Con la spedizione normale sono diciotto euro e arriva in sette-dieci giorni. Con quella veloce trentadue euro, arriva in tre giorni." },
+      { "s": "Cliente", "t": "È un regalo di compleanno per la settimana prossima... Prendo quella veloce." },
+      { "s": "Impiegato", "t": "Allora deve compilare questo modulo con l'indirizzo e il suo numero di telefono." },
+      { "s": "Cliente", "t": "Posso pagare con il bancomat?" },
+      { "s": "Impiegato", "t": "Certo, nessun problema." }
+    ],
+    "es": "Empleado: Adelante, el siguiente. Cliente: Buenos días. Quisiera enviar este paquete a España. ¿Cuánto cuesta? Empleado: Veamos... pesa dos kilos. Con el envío normal son dieciocho euros y llega en siete a diez días. Con el urgente treinta y dos euros, llega en tres días. Cliente: Es un regalo de cumpleaños para la semana que viene... Me quedo con el urgente. Empleado: Entonces tiene que rellenar este impreso con la dirección y su número de teléfono. Cliente: ¿Puedo pagar con tarjeta de débito? Empleado: Claro, no hay problema.",
+    "questions": [
+      { "type": "choice", "q": "Quale spedizione sceglie il cliente?", "options": ["Quella veloce", "Quella normale", "Nessuna"], "answer": 0 },
+      { "type": "choice", "q": "Quanto paga?", "options": ["32 €", "18 €", "2 €"], "answer": 0 },
+      { "type": "vf", "q": "Il cliente paga in contanti.", "answer": false }
+    ]
+  }
+]

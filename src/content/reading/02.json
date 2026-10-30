@@ -1,0 +1,142 @@
+[
+  {
+    "id": "r11",
+    "title": "Menù del giorno",
+    "genre": "Menú",
+    "text": "TRATTORIA DA NONNA ROSA — MENÙ DEL GIORNO (12.00–15.00)\nPrimi: lasagne alla bolognese · risotto ai funghi · minestrone di verdure\nSecondi: pollo arrosto · pesce spada alla griglia · polpette al sugo\nContorni: patate al forno · insalata mista\nDolce della casa: tiramisù\nMenù completo (primo, secondo, contorno, acqua e caffè): 14 €\nSolo primo o solo secondo con contorno: 9 €\nIl menù del giorno non è disponibile la domenica.",
+    "es": "TRATTORIA DE LA ABUELA ROSA — MENÚ DEL DÍA (12:00–15:00). Primeros: lasaña a la boloñesa, risotto de setas, sopa de verduras. Segundos: pollo asado, pez espada a la plancha, albóndigas en salsa. Guarniciones: patatas al horno, ensalada mixta. Postre de la casa: tiramisú. Menú completo (primero, segundo, guarnición, agua y café): 14 €. Solo primero o solo segundo con guarnición: 9 €. El menú del día no está disponible el domingo.",
+    "glossary": { "arrosto": "asado", "pesce spada": "pez espada", "alla griglia": "a la plancha", "polpette": "albóndigas", "sugo": "salsa de tomate", "disponibile": "disponible" },
+    "questions": [
+      { "type": "choice", "q": "Che cosa è compreso nel menù completo?", "options": ["Il caffè", "Il dolce", "Il vino"], "answer": 0 },
+      { "type": "choice", "q": "Un cliente vegetariano può scegliere…", "options": ["il risotto ai funghi", "le polpette al sugo", "il pollo arrosto"], "answer": 0 },
+      { "type": "vf", "q": "Il menù del giorno si può ordinare anche la sera.", "answer": false, "explain": "È solo dalle 12 alle 15." },
+      { "type": "vf", "q": "La domenica non c'è il menù del giorno.", "answer": true }
+    ]
+  },
+  {
+    "id": "r12",
+    "title": "Il Palio di Siena",
+    "genre": "Texto informativo",
+    "text": "Il Palio di Siena è una corsa di cavalli molto antica che si fa due volte all'anno, il 2 luglio e il 16 agosto, nella famosa Piazza del Campo. Partecipano dieci delle diciassette contrade, cioè i quartieri della città. La corsa dura solo un minuto e mezzo, ma per i senesi è l'evento più importante dell'anno: nei giorni prima ci sono cene in strada, sfilate in costume medievale e grandi feste. La contrada che vince riceve il «palio», un drappo di seta dipinto a mano. Per vedere la corsa bisogna arrivare in piazza molte ore prima, perché ci sono migliaia di persone.",
+    "es": "El Palio de Siena es una carrera de caballos muy antigua que se celebra dos veces al año, el 2 de julio y el 16 de agosto, en la famosa Piazza del Campo. Participan diez de las diecisiete contrade, es decir, los barrios de la ciudad. La carrera dura solo un minuto y medio, pero para los sieneses es el evento más importante del año: en los días anteriores hay cenas en la calle, desfiles con trajes medievales y grandes fiestas. La contrada que gana recibe el «palio», un estandarte de seda pintado a mano. Para ver la carrera hay que llegar a la plaza muchas horas antes, porque hay miles de personas.",
+    "glossary": { "corsa di cavalli": "carrera de caballos", "contrade": "barrios históricos", "cioè": "es decir", "sfilate": "desfiles", "vince": "gana", "drappo": "estandarte / paño", "bisogna": "hay que", "migliaia": "miles" },
+    "questions": [
+      { "type": "choice", "q": "Quante volte all'anno si corre il Palio?", "options": ["Due", "Una", "Diciassette"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa sono le contrade?", "options": ["I quartieri di Siena", "I cavalli", "Le feste medievali"], "answer": 0 },
+      { "type": "vf", "q": "La corsa dura più di dieci minuti.", "answer": false },
+      { "type": "vf", "q": "Il premio è un drappo dipinto.", "answer": true }
+    ]
+  },
+  {
+    "id": "r13",
+    "title": "Istruzioni per la lavatrice",
+    "genre": "Instrucciones",
+    "text": "COME USARE LA LAVATRICE DELLA LAVANDERIA\n1. Metti i vestiti nella lavatrice e chiudi bene la porta.\n2. Aggiungi il detersivo nel cassetto in alto a sinistra.\n3. Scegli il programma: 30° per i colori, 60° per il bianco.\n4. Inserisci le monete (4 € per un lavaggio) e premi il pulsante verde.\n5. Il lavaggio dura circa 45 minuti. Non aprire la porta prima della fine!\nAttenzione: la lavanderia chiude alle 22.00. Dopo quest'ora non è possibile ritirare i vestiti.",
+    "es": "CÓMO USAR LA LAVADORA DE LA LAVANDERÍA. 1. Pon la ropa en la lavadora y cierra bien la puerta. 2. Añade el detergente en el cajón de arriba a la izquierda. 3. Elige el programa: 30° para colores, 60° para blanco. 4. Introduce las monedas (4 € por lavado) y pulsa el botón verde. 5. El lavado dura unos 45 minutos. ¡No abras la puerta antes del final! Atención: la lavandería cierra a las 22:00. Después de esta hora no es posible recoger la ropa.",
+    "glossary": { "Aggiungi": "añade", "detersivo": "detergente", "cassetto": "cajón", "monete": "monedas", "premi": "pulsa", "pulsante": "botón", "ritirare": "recoger" },
+    "questions": [
+      { "type": "choice", "q": "Dove si mette il detersivo?", "options": ["Nel cassetto in alto a sinistra", "Dentro la lavatrice con i vestiti", "Nel cassetto a destra"], "answer": 0 },
+      { "type": "choice", "q": "Che programma scegli per una maglietta rossa?", "options": ["30°", "60°", "90°"], "answer": 0 },
+      { "type": "vf", "q": "Un lavaggio costa quattro euro.", "answer": true },
+      { "type": "vf", "q": "Si possono ritirare i vestiti alle 23.", "answer": false }
+    ]
+  },
+  {
+    "id": "r14",
+    "title": "Una cartolina da Napoli",
+    "genre": "Postal",
+    "text": "Cara mamma,\nti scrivo da Napoli! Siamo arrivati martedì e l'albergo è molto carino, vicino al lungomare. Ieri abbiamo visitato il centro storico e abbiamo mangiato la pizza più buona della mia vita! Oggi pomeriggio prendiamo il traghetto per Capri e domani andiamo a Pompei. Fa caldissimo, ma la sera c'è un bel venticello. Andrea ti saluta. Torniamo domenica sera con il treno delle 18: non c'è bisogno di venirci a prendere alla stazione, prendiamo un taxi.\nUn bacio grande,\nChiara",
+    "es": "Querida mamá: ¡te escribo desde Nápoles! Llegamos el martes y el hotel es muy bonito, cerca del paseo marítimo. Ayer visitamos el centro histórico y comimos la pizza más rica de mi vida. Esta tarde cogemos el ferry para Capri y mañana vamos a Pompeya. Hace muchísimo calor, pero por la noche corre una brisa agradable. Andrea te manda saludos. Volvemos el domingo por la noche en el tren de las 18: no hace falta que vengas a buscarnos a la estación, cogemos un taxi. Un beso grande, Chiara",
+    "glossary": { "carino": "bonito, mono", "lungomare": "paseo marítimo", "traghetto": "ferry", "venticello": "brisa", "ti saluta": "te manda saludos", "non c'è bisogno": "no hace falta" },
+    "questions": [
+      { "type": "choice", "q": "Che cosa fa Chiara oggi pomeriggio?", "options": ["Va a Capri", "Va a Pompei", "Visita il centro storico"], "answer": 0 },
+      { "type": "choice", "q": "Come tornano a casa dalla stazione?", "options": ["In taxi", "Con la mamma", "In autobus"], "answer": 0 },
+      { "type": "vf", "q": "L'albergo è lontano dal mare.", "answer": false },
+      { "type": "vf", "q": "A Napoli fa molto caldo.", "answer": true }
+    ]
+  },
+  {
+    "id": "r15",
+    "title": "Regole del condominio",
+    "genre": "Aviso",
+    "text": "AVVISO AI CONDOMINI\nSi ricorda a tutti i condomini che:\n– la raccolta della carta è il martedì, la plastica il giovedì; i sacchetti vanno lasciati davanti al portone dopo le 20 della sera prima;\n– le biciclette non si possono lasciare nell'ingresso, ma solo nel cortile;\n– dalle 14 alle 16 e dopo le 22 è vietato fare rumore;\n– sabato 12 ci sarà la riunione di condominio alle 10 nella sala al piano terra.\nGrazie per la collaborazione.\nL'amministratore",
+    "es": "AVISO A LOS VECINOS. Se recuerda a todos los vecinos que: la recogida del papel es el martes, el plástico el jueves; las bolsas se dejan delante del portal después de las 20 de la noche anterior; las bicicletas no se pueden dejar en la entrada, sino solo en el patio; de 14 a 16 y después de las 22 está prohibido hacer ruido; el sábado 12 habrá reunión de vecinos a las 10 en la sala de la planta baja. Gracias por la colaboración. El administrador",
+    "glossary": { "condomini": "vecinos (de una comunidad)", "raccolta": "recogida", "sacchetti": "bolsas", "portone": "portal", "cortile": "patio", "rumore": "ruido", "piano terra": "planta baja" },
+    "questions": [
+      { "type": "choice", "q": "Quando si porta fuori la plastica?", "options": ["Il mercoledì sera dopo le 20", "Il martedì mattina", "Il giovedì sera"], "answer": 0, "explain": "La raccolta è il giovedì: i sacchetti vanno lasciati la sera prima." },
+      { "type": "choice", "q": "Dove si possono lasciare le bici?", "options": ["Nel cortile", "Nell'ingresso", "Davanti al portone"], "answer": 0 },
+      { "type": "vf", "q": "Alle 15 si può ascoltare musica ad alto volume.", "answer": false },
+      { "type": "vf", "q": "La riunione è al piano terra.", "answer": true }
+    ]
+  },
+  {
+    "id": "r16",
+    "title": "Corso di cucina",
+    "genre": "Anuncio",
+    "text": "IMPARA A FARE LA PASTA FRESCA!\nLa scuola di cucina «Mani in pasta» organizza un corso di quattro lezioni per principianti. Imparerai a preparare tagliatelle, ravioli, gnocchi e orecchiette, con i sughi tradizionali. Le lezioni sono il mercoledì sera dalle 19 alle 22 e alla fine mangiamo insieme quello che abbiamo cucinato! Il prezzo (180 €) comprende tutti gli ingredienti, il grembiule e un ricettario. Massimo 10 partecipanti. Iscrizioni entro il 30 settembre al numero 051 334455 o in segreteria.",
+    "es": "¡APRENDE A HACER PASTA FRESCA! La escuela de cocina «Mani in pasta» organiza un curso de cuatro clases para principiantes. Aprenderás a preparar tagliatelle, raviolis, ñoquis y orecchiette, con las salsas tradicionales. Las clases son los miércoles por la noche de 19 a 22 y al final comemos juntos lo que hemos cocinado. El precio (180 €) incluye todos los ingredientes, el delantal y un recetario. Máximo 10 participantes. Inscripciones hasta el 30 de septiembre en el número 051 334455 o en secretaría.",
+    "glossary": { "principianti": "principiantes", "sughi": "salsas", "comprende": "incluye", "grembiule": "delantal", "ricettario": "recetario", "Iscrizioni": "inscripciones", "entro": "antes de / hasta" },
+    "questions": [
+      { "type": "choice", "q": "Per chi è il corso?", "options": ["Per chi non sa cucinare la pasta", "Per cuochi professionisti", "Per bambini"], "answer": 0 },
+      { "type": "choice", "q": "Che cosa NON è compreso nel prezzo?", "options": ["Il vino", "Il grembiule", "Gli ingredienti"], "answer": 0 },
+      { "type": "vf", "q": "Il corso ha quattro lezioni.", "answer": true },
+      { "type": "vf", "q": "Possono partecipare venti persone.", "answer": false }
+    ]
+  },
+  {
+    "id": "r17",
+    "title": "Il blog di Lucía",
+    "genre": "Blog",
+    "text": "Sono Lucía, sono argentina e vivo a Firenze da due anni. Quando sono arrivata non parlavo quasi l'italiano e all'inizio è stato difficile: non capivo le persone al supermercato e avevo paura di telefonare. Allora mi sono iscritta a un corso serale e ho cominciato a fare uno scambio linguistico con Matteo, un ragazzo italiano che vuole imparare lo spagnolo. Ci vediamo ogni giovedì in un bar: un'ora parliamo italiano e un'ora spagnolo. Adesso mi sento molto meglio, ho trovato lavoro in un'agenzia di viaggi e ho tanti amici italiani. Il mio consiglio? Non abbiate paura di sbagliare!",
+    "es": "Soy Lucía, soy argentina y vivo en Florencia desde hace dos años. Cuando llegué casi no hablaba italiano y al principio fue difícil: no entendía a la gente en el supermercado y tenía miedo de llamar por teléfono. Entonces me inscribí en un curso nocturno y empecé a hacer un intercambio de idiomas con Matteo, un chico italiano que quiere aprender español. Nos vemos cada jueves en un bar: una hora hablamos italiano y una hora español. Ahora me siento mucho mejor, he encontrado trabajo en una agencia de viajes y tengo muchos amigos italianos. ¿Mi consejo? ¡No tengáis miedo de equivocaros!",
+    "glossary": { "quasi": "casi", "all'inizio": "al principio", "avevo paura": "tenía miedo", "mi sono iscritta": "me inscribí", "serale": "nocturno", "scambio linguistico": "intercambio de idiomas", "sbagliare": "equivocarse" },
+    "questions": [
+      { "type": "choice", "q": "Che problema aveva Lucía all'inizio?", "options": ["Non capiva le persone", "Non trovava casa", "Non le piaceva Firenze"], "answer": 0 },
+      { "type": "choice", "q": "Chi è Matteo?", "options": ["Un ragazzo che vuole imparare lo spagnolo", "Il suo insegnante", "Il suo capo"], "answer": 0 },
+      { "type": "vf", "q": "Lucía e Matteo si vedono il giovedì.", "answer": true },
+      { "type": "vf", "q": "Lucía lavora in un supermercato.", "answer": false }
+    ]
+  },
+  {
+    "id": "r18",
+    "title": "Orari dei musei",
+    "genre": "Horarios",
+    "text": "MUSEI CIVICI — ORARI INVERNALI (novembre–marzo)\nMuseo di Storia Naturale: martedì–domenica 9.00–17.00. Chiuso il lunedì.\nGalleria d'Arte Moderna: mercoledì–lunedì 10.00–18.00. Chiuso il martedì.\nMuseo del Giocattolo: solo sabato e domenica 10.00–19.00.\nBiglietto: intero 8 €, ridotto 5 € (studenti e over 65), gratuito per i bambini sotto i 6 anni.\nLa prima domenica del mese l'ingresso è gratuito per tutti.",
+    "es": "MUSEOS MUNICIPALES — HORARIO DE INVIERNO (noviembre–marzo). Museo de Historia Natural: martes–domingo 9:00–17:00. Cerrado los lunes. Galería de Arte Moderno: miércoles–lunes 10:00–18:00. Cerrado los martes. Museo del Juguete: solo sábado y domingo 10:00–19:00. Entrada: general 8 €, reducida 5 € (estudiantes y mayores de 65), gratis para niños menores de 6 años. El primer domingo del mes la entrada es gratuita para todos.",
+    "glossary": { "invernali": "de invierno", "Giocattolo": "juguete", "intero": "entera / general", "ridotto": "reducido", "over 65": "mayores de 65" },
+    "questions": [
+      { "type": "choice", "q": "Quale museo si può visitare il lunedì?", "options": ["La Galleria d'Arte Moderna", "Il Museo di Storia Naturale", "Il Museo del Giocattolo"], "answer": 0 },
+      { "type": "choice", "q": "Quanto paga una studentessa?", "options": ["5 euro", "8 euro", "Niente"], "answer": 0 },
+      { "type": "vf", "q": "Il Museo del Giocattolo è aperto il venerdì.", "answer": false },
+      { "type": "vf", "q": "La prima domenica del mese non si paga.", "answer": true }
+    ]
+  },
+  {
+    "id": "r19",
+    "title": "Chat tra colleghi",
+    "genre": "Chat",
+    "text": "SARA (8.15): Ciao Luca, sono in ritardo, c'è traffico sulla tangenziale 😩 Puoi dire alla capa che arrivo verso le 9?\nLUCA (8.17): Certo, nessun problema. La riunione è alle 10, quindi hai tempo.\nSARA (8.18): Grazie mille! Ti porto un cornetto 🥐\nLUCA (8.20): Ahah, perfetto: integrale, se lo trovano! Ah, ricordati che oggi pranziamo fuori per il compleanno di Giorgio.\nSARA (8.21): Oddio, me n'ero dimenticata! Devo comprare un regalo… Facciamo una colletta?\nLUCA (8.22): Già fatto: 10 euro a testa, gli prendiamo un buono per un libro.",
+    "es": "SARA (8:15): Hola Luca, llego tarde, hay tráfico en la circunvalación. ¿Puedes decirle a la jefa que llego hacia las 9? LUCA (8:17): Claro, no hay problema. La reunión es a las 10, así que tienes tiempo. SARA (8:18): ¡Mil gracias! Te llevo un cruasán. LUCA (8:20): Jaja, perfecto: integral, ¡si lo encuentran! Ah, acuérdate de que hoy comemos fuera por el cumpleaños de Giorgio. SARA (8:21): ¡Madre mía, se me había olvidado! Tengo que comprar un regalo… ¿Hacemos un bote? LUCA (8:22): Ya está hecho: 10 euros por cabeza, le compramos un vale para un libro.",
+    "glossary": { "in ritardo": "tarde / con retraso", "tangenziale": "circunvalación", "capa": "jefa", "integrale": "integral", "me n'ero dimenticata": "se me había olvidado", "colletta": "colecta / bote", "a testa": "por persona", "buono": "vale / cheque regalo" },
+    "questions": [
+      { "type": "choice", "q": "Perché Sara è in ritardo?", "options": ["Per il traffico", "Perché si è svegliata tardi", "Per uno sciopero"], "answer": 0 },
+      { "type": "choice", "q": "Che regalo fanno a Giorgio?", "options": ["Un buono per un libro", "Un cornetto", "Una cena"], "answer": 0 },
+      { "type": "vf", "q": "La riunione comincia alle 9.", "answer": false },
+      { "type": "vf", "q": "Ogni collega paga dieci euro.", "answer": true }
+    ]
+  },
+  {
+    "id": "r20",
+    "title": "Farmacia di turno",
+    "genre": "Aviso",
+    "text": "FARMACIA CENTRALE\nOrario: lunedì–venerdì 8.30–12.30 / 15.30–19.30; sabato 8.30–12.30.\nQuesta settimana la farmacia è DI TURNO: sarà aperta anche di notte e domenica. Di notte (dalle 20 alle 8.30) bisogna suonare il campanello a destra della porta; il farmacista vi servirà dalla finestrella.\nPer le medicine con ricetta portate la tessera sanitaria.\nIn caso di emergenza chiamate il 118.",
+    "es": "FARMACIA CENTRAL. Horario: lunes–viernes 8:30–12:30 / 15:30–19:30; sábado 8:30–12:30. Esta semana la farmacia está DE GUARDIA: estará abierta también por la noche y el domingo. Por la noche (de 20 a 8:30) hay que tocar el timbre a la derecha de la puerta; el farmacéutico os atenderá por la ventanilla. Para los medicamentos con receta traed la tarjeta sanitaria. En caso de emergencia llamad al 118.",
+    "glossary": { "di turno": "de guardia", "suonare il campanello": "tocar el timbre", "finestrella": "ventanilla", "ricetta": "receta", "tessera sanitaria": "tarjeta sanitaria" },
+    "questions": [
+      { "type": "choice", "q": "Che cosa bisogna fare per comprare medicine di notte?", "options": ["Suonare il campanello", "Chiamare il 118", "Andare in un'altra farmacia"], "answer": 0 },
+      { "type": "choice", "q": "Di solito la farmacia è aperta il sabato…", "options": ["solo la mattina", "tutto il giorno", "solo il pomeriggio"], "answer": 0 },
+      { "type": "vf", "q": "Questa settimana la farmacia è aperta anche la domenica.", "answer": true },
+      { "type": "vf", "q": "Per le medicine con ricetta serve il passaporto.", "answer": false }
+    ]
+  }
+]

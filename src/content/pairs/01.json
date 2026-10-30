@@ -1,0 +1,296 @@
+[
+ {
+  "a": "caro",
+  "b": "carro",
+  "aEs": "caro / querido",
+  "bEs": "carro",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "pala",
+  "b": "palla",
+  "aEs": "pala",
+  "bEs": "pelota",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "nono",
+  "b": "nonno",
+  "aEs": "noveno",
+  "bEs": "abuelo",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "sono",
+  "b": "sonno",
+  "aEs": "soy / son",
+  "bEs": "sueño (ganas de dormir)",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "casa",
+  "b": "cassa",
+  "aEs": "casa",
+  "bEs": "caja (registradora)",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "papa",
+  "b": "pappa",
+  "aEs": "papa (pontífice)",
+  "bEs": "papilla",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "fato",
+  "b": "fatto",
+  "aEs": "destino",
+  "bEs": "hecho",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "pena",
+  "b": "penna",
+  "aEs": "pena",
+  "bEs": "bolígrafo",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "capello",
+  "b": "cappello",
+  "aEs": "pelo (un cabello)",
+  "bEs": "sombrero",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "sete",
+  "b": "sette",
+  "aEs": "sed",
+  "bEs": "siete",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "copia",
+  "b": "coppia",
+  "aEs": "copia",
+  "bEs": "pareja",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "rosa",
+  "b": "rossa",
+  "aEs": "rosa",
+  "bEs": "roja",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "cane",
+  "b": "canne",
+  "aEs": "perro",
+  "bEs": "cañas",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "eco",
+  "b": "ecco",
+  "aEs": "eco",
+  "bEs": "aquí está",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "Cina",
+  "b": "china",
+  "aEs": "China (país)",
+  "bEs": "pendiente / cuesta",
+  "focus": "c / ch"
+ },
+ {
+  "a": "giro",
+  "b": "ghiro",
+  "aEs": "vuelta",
+  "bEs": "lirón",
+  "focus": "g / gh"
+ },
+ {
+  "a": "figli",
+  "b": "fili",
+  "aEs": "hijos",
+  "bEs": "hilos",
+  "focus": "gl"
+ },
+ {
+  "a": "foglia",
+  "b": "folla",
+  "aEs": "hoja",
+  "bEs": "multitud",
+  "focus": "gl"
+ },
+ {
+  "a": "moglie",
+  "b": "molle",
+  "aEs": "esposa",
+  "bEs": "blando",
+  "focus": "gl"
+ },
+ {
+  "a": "agli",
+  "b": "ali",
+  "aEs": "a los / ajos",
+  "bEs": "alas",
+  "focus": "gl"
+ },
+ {
+  "a": "sogno",
+  "b": "sonno",
+  "aEs": "sueño (lo que se sueña)",
+  "bEs": "sueño (ganas de dormir)",
+  "focus": "gn"
+ },
+ {
+  "a": "scena",
+  "b": "schiena",
+  "aEs": "escena",
+  "bEs": "espalda",
+  "focus": "sc / sch"
+ },
+ {
+  "a": "pesce",
+  "b": "pesche",
+  "aEs": "pez / pescado",
+  "bEs": "melocotones",
+  "focus": "sc / sch"
+ },
+ {
+  "a": "è",
+  "b": "e",
+  "aEs": "es / está",
+  "bEs": "y",
+  "focus": "Acento"
+ },
+ {
+  "a": "papà",
+  "b": "papa",
+  "aEs": "papá",
+  "bEs": "papa (pontífice)",
+  "focus": "Acento"
+ },
+ {
+  "a": "pero",
+  "b": "però",
+  "aEs": "peral",
+  "bEs": "pero (sin embargo)",
+  "focus": "Acento"
+ },
+ {
+  "a": "amici",
+  "b": "amiche",
+  "aEs": "amigos",
+  "bEs": "amigas",
+  "focus": "c / ch"
+ },
+ {
+  "a": "baci",
+  "b": "bachi",
+  "aEs": "besos",
+  "bEs": "gusanos de seda",
+  "focus": "c / ch"
+ },
+ {
+  "a": "ceci",
+  "b": "cechi",
+  "aEs": "garbanzos",
+  "bEs": "checos",
+  "focus": "c / ch"
+ },
+ {
+  "a": "getto",
+  "b": "ghetto",
+  "aEs": "chorro",
+  "bEs": "gueto",
+  "focus": "g / gh"
+ },
+ {
+  "a": "giaccio",
+  "b": "ghiaccio",
+  "aEs": "yazco",
+  "bEs": "hielo",
+  "focus": "g / gh"
+ },
+ {
+  "a": "gallo",
+  "b": "callo",
+  "aEs": "gallo",
+  "bEs": "callo",
+  "focus": "g / c"
+ },
+ {
+  "a": "gara",
+  "b": "cara",
+  "aEs": "competición",
+  "bEs": "querida",
+  "focus": "g / c"
+ },
+ {
+  "a": "segno",
+  "b": "seno",
+  "aEs": "señal",
+  "bEs": "pecho",
+  "focus": "gn"
+ },
+ {
+  "a": "lagna",
+  "b": "lana",
+  "aEs": "lamento",
+  "bEs": "lana",
+  "focus": "gn"
+ },
+ {
+  "a": "lisce",
+  "b": "lische",
+  "aEs": "lisas",
+  "bEs": "espinas (de pez)",
+  "focus": "sc / sch"
+ },
+ {
+  "a": "cosce",
+  "b": "cosche",
+  "aEs": "muslos",
+  "bEs": "clanes mafiosos",
+  "focus": "sc / sch"
+ },
+ {
+  "a": "vasca",
+  "b": "basca",
+  "aEs": "bañera",
+  "bEs": "vasca",
+  "focus": "v / b"
+ },
+ {
+  "a": "vello",
+  "b": "bello",
+  "aEs": "vello",
+  "bEs": "bonito",
+  "focus": "v / b"
+ },
+ {
+  "a": "vene",
+  "b": "bene",
+  "aEs": "venas",
+  "bEs": "bien",
+  "focus": "v / b"
+ },
+ {
+  "a": "tuta",
+  "b": "tutta",
+  "aEs": "chándal",
+  "bEs": "toda",
+  "focus": "Doble consonante"
+ },
+ {
+  "a": "ala",
+  "b": "alla",
+  "aEs": "ala",
+  "bEs": "a la",
+  "focus": "Doble consonante"
+ }
+]

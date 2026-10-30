@@ -1,0 +1,182 @@
+{
+  "id": "exam2",
+  "title": "Simulacro 2",
+  "ascolto": [
+    {
+      "id": "e2-l1",
+      "title": "Al museo",
+      "kind": "annuncio",
+      "lines": [
+        { "s": "Altoparlante", "t": "Gentili visitatori, vi informiamo che il museo chiuderà tra trenta minuti, alle diciannove." },
+        { "s": "Altoparlante", "t": "La mostra fotografica al secondo piano resterà aperta fino alle ventidue solo il venerdì. Il bookshop è già chiuso. Grazie per la visita." }
+      ],
+      "es": "Estimados visitantes, les informamos de que el museo cerrará dentro de treinta minutos, a las diecinueve. La exposición fotográfica de la segunda planta permanecerá abierta hasta las veintidós solo los viernes. La tienda ya está cerrada. Gracias por su visita.",
+      "questions": [
+        { "type": "choice", "q": "A che ora chiude il museo oggi?", "options": ["Alle 19", "Alle 22", "Alle 18.30"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa è aperto fino alle 22 il venerdì?", "options": ["La mostra fotografica", "Il bookshop", "Tutto il museo"], "answer": 0 },
+        { "type": "vf", "q": "Il bookshop è ancora aperto.", "answer": false }
+      ]
+    },
+    {
+      "id": "e2-l2",
+      "title": "Dal dottore",
+      "kind": "dialogo",
+      "lines": [
+        { "s": "Dottore", "t": "Allora, signora, che cosa si sente?" },
+        { "s": "Paziente", "t": "Da tre giorni ho mal di schiena. Credo di aver preso freddo in palestra." },
+        { "s": "Dottore", "t": "Fa molto sport?" },
+        { "s": "Paziente", "t": "Sì, vado in palestra quattro volte alla settimana." },
+        { "s": "Dottore", "t": "Per una settimana niente palestra. Prenda questa pomata due volte al giorno e cammini un po' ogni giorno. Se tra sette giorni sta ancora male, torni da me." }
+      ],
+      "es": "Doctor: Bueno, señora, ¿qué le pasa? Paciente: Desde hace tres días me duele la espalda. Creo que cogí frío en el gimnasio. Doctor: ¿Hace mucho deporte? Paciente: Sí, voy al gimnasio cuatro veces por semana. Doctor: Durante una semana nada de gimnasio. Póngase esta pomada dos veces al día y camine un poco cada día. Si dentro de siete días sigue mal, vuelva a verme.",
+      "questions": [
+        { "type": "choice", "q": "Che problema ha la paziente?", "options": ["Mal di schiena", "Mal di testa", "Febbre"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa le consiglia il dottore?", "options": ["Camminare un po' ogni giorno", "Andare in palestra", "Stare a letto"], "answer": 0 },
+        { "type": "vf", "q": "Deve usare la pomata tre volte al giorno.", "answer": false }
+      ]
+    },
+    {
+      "id": "e2-l3",
+      "title": "Il primo giorno all'università",
+      "kind": "monologo",
+      "lines": [
+        { "s": "Lucia", "t": "Mi ricordo benissimo il mio primo giorno all'università. Ero molto nervosa perché non conoscevo nessuno e la città era nuova per me." },
+        { "s": "Lucia", "t": "Sono arrivata in ritardo perché ho preso l'autobus sbagliato! In aula c'erano più di duecento studenti. Mi sono seduta vicino a una ragazza simpatica, Marta. Dopo la lezione abbiamo preso un caffè insieme e da quel giorno siamo migliori amiche." }
+      ],
+      "es": "Me acuerdo perfectamente de mi primer día en la universidad. Estaba muy nerviosa porque no conocía a nadie y la ciudad era nueva para mí. ¡Llegué tarde porque cogí el autobús equivocado! En el aula había más de doscientos estudiantes. Me senté al lado de una chica simpática, Marta. Después de la clase tomamos un café juntas y desde aquel día somos mejores amigas.",
+      "questions": [
+        { "type": "choice", "q": "Perché Lucia è arrivata in ritardo?", "options": ["Ha preso l'autobus sbagliato", "Si è svegliata tardi", "C'era traffico"], "answer": 0 },
+        { "type": "choice", "q": "Quanti studenti c'erano in aula?", "options": ["Più di duecento", "Circa venti", "Cento"], "answer": 0 },
+        { "type": "vf", "q": "Lucia e Marta sono ancora amiche.", "answer": true }
+      ]
+    },
+    {
+      "id": "e2-l4",
+      "title": "Comprare un regalo",
+      "kind": "dialogo",
+      "lines": [
+        { "s": "Marco", "t": "Che cosa regaliamo alla mamma per il suo compleanno?" },
+        { "s": "Sara", "t": "L'anno scorso le abbiamo regalato un libro... Quest'anno potremmo regalarle una cena in un bel ristorante." },
+        { "s": "Marco", "t": "Buona idea, ma lei non ama uscire la sera. E se le compriamo una pianta per il terrazzo?" },
+        { "s": "Sara", "t": "Mmm, ha già tantissime piante. Ah, lo so! Le piace tanto il teatro: le regaliamo due biglietti per uno spettacolo di domenica pomeriggio." },
+        { "s": "Marco", "t": "Perfetto, così può andare con papà." }
+      ],
+      "es": "Marco: ¿Qué le regalamos a mamá por su cumpleaños? Sara: El año pasado le regalamos un libro... Este año podríamos regalarle una cena en un buen restaurante. Marco: Buena idea, pero a ella no le gusta salir por la noche. ¿Y si le compramos una planta para la terraza? Sara: Mmm, ya tiene muchísimas plantas. ¡Ah, ya sé! Le gusta mucho el teatro: le regalamos dos entradas para un espectáculo del domingo por la tarde. Marco: Perfecto, así puede ir con papá.",
+      "questions": [
+        { "type": "choice", "q": "Che regalo decidono di fare?", "options": ["Biglietti per il teatro", "Una cena", "Una pianta"], "answer": 0 },
+        { "type": "choice", "q": "Perché non scelgono la cena?", "options": ["La mamma non ama uscire la sera", "È troppo cara", "La mamma è a dieta"], "answer": 0 },
+        { "type": "vf", "q": "L'anno scorso le hanno regalato un libro.", "answer": true }
+      ]
+    }
+  ],
+  "lettura": [
+    {
+      "id": "e2-r1",
+      "title": "Annunci brevi",
+      "genre": "annunci",
+      "text": "1) «Cercasi baby-sitter per due bambini, il martedì e il giovedì pomeriggio. Tel. 333 456789.»\n2) «Vendo bicicletta da donna, quasi nuova, 80 €.»\n3) «Insegnante madrelingua offre lezioni di inglese, anche online.»\n4) «Smarrito gatto nero con collare rosso, zona stazione. Ricompensa!»",
+      "es": "1) «Se busca canguro para dos niños, martes y jueves por la tarde.» 2) «Vendo bicicleta de mujer, casi nueva, 80 €.» 3) «Profesor nativo ofrece clases de inglés, también online.» 4) «Perdido gato negro con collar rojo, zona estación. ¡Recompensa!»",
+      "glossary": { "cercasi": "se busca", "smarrito": "perdido", "ricompensa": "recompensa", "collare": "collar" },
+      "match": {
+        "instruction": "Collega ogni persona all'annuncio giusto.",
+        "left": ["Laura vuole migliorare il suo inglese da casa.", "Paolo ha visto un gatto nero vicino alla stazione.", "Anna è una studentessa e cerca un lavoro il pomeriggio.", "Rita cerca un mezzo economico per andare al lavoro."],
+        "right": ["1", "2", "3", "4"],
+        "answer": [2, 3, 0, 1]
+      }
+    },
+    {
+      "id": "e2-r2",
+      "title": "Una cartolina",
+      "genre": "cartolina",
+      "text": "Cari Luca e Paola,\nvi scrivo da Napoli! Sono arrivata lunedì e resto fino a domenica. La città è caotica ma bellissima. Ieri ho visitato gli scavi di Pompei: era una giornata caldissima, ma ne valeva la pena. Oggi ho mangiato la pizza più buona della mia vita in un piccolo locale vicino al porto. Domani prendo il traghetto per Capri. Vi porto un limoncello!\nBaci, Elena",
+      "es": "Queridos Luca y Paola: ¡os escribo desde Nápoles! Llegué el lunes y me quedo hasta el domingo. La ciudad es caótica pero preciosa. Ayer visité las excavaciones de Pompeya: era un día calurosísimo, pero valió la pena. Hoy he comido la mejor pizza de mi vida en un pequeño local cerca del puerto. Mañana cojo el ferry a Capri. ¡Os llevo un limoncello! Besos, Elena",
+      "glossary": { "scavi": "excavaciones", "ne valeva la pena": "valía la pena", "traghetto": "ferry" },
+      "questions": [
+        { "type": "choice", "q": "Quanto tempo resta Elena a Napoli?", "options": ["Una settimana", "Due giorni", "Un mese"], "answer": 0 },
+        { "type": "choice", "q": "Che cosa farà domani?", "options": ["Andrà a Capri", "Visiterà Pompei", "Tornerà a casa"], "answer": 0 },
+        { "type": "vf", "q": "A Pompei faceva fresco.", "answer": false },
+        { "type": "vf", "q": "Elena porterà un regalo agli amici.", "answer": true }
+      ]
+    },
+    {
+      "id": "e2-r3",
+      "title": "Regolamento della piscina",
+      "genre": "regolamento",
+      "text": "PISCINA COMUNALE – REGOLE\n• È obbligatorio fare la doccia prima di entrare in acqua.\n• È obbligatorio usare la cuffia.\n• I bambini sotto i 12 anni devono essere accompagnati da un adulto.\n• È vietato mangiare a bordo vasca; c'è un bar al piano terra.\n• Orari: dal lunedì al sabato 7.00–21.00; domenica 9.00–13.00.",
+      "es": "PISCINA MUNICIPAL – NORMAS • Es obligatorio ducharse antes de entrar en el agua. • Es obligatorio usar gorro. • Los niños menores de 12 años deben ir acompañados de un adulto. • Está prohibido comer al borde de la piscina; hay un bar en la planta baja. • Horario: de lunes a sábado 7:00–21:00; domingo 9:00–13:00.",
+      "glossary": { "cuffia": "gorro (de baño)", "a bordo vasca": "al borde de la piscina" },
+      "questions": [
+        { "type": "choice", "q": "Che cosa bisogna fare prima di nuotare?", "options": ["La doccia", "Mangiare", "Pagare al bar"], "answer": 0 },
+        { "type": "choice", "q": "La domenica pomeriggio la piscina è...", "options": ["chiusa", "aperta fino alle 21", "aperta solo per bambini"], "answer": 0 },
+        { "type": "vf", "q": "Un bambino di 10 anni può andare in piscina da solo.", "answer": false }
+      ]
+    }
+  ],
+  "strutture": [
+    {
+      "title": "Il mio weekend",
+      "instruction": "Completa con il passato prossimo.",
+      "text": "Sabato mattina io [[mi sono svegliata]] (svegliarsi) tardi. Poi [[sono uscita]] (uscire) con Marta e [[abbiamo fatto]] (fare) shopping in centro. La sera i miei amici [[sono venuti]] (venire) a cena da me e [[abbiamo bevuto]] (bere) un ottimo vino.",
+      "es": "El sábado por la mañana me desperté tarde. Luego salí con Marta e hicimos compras en el centro. Por la noche mis amigos vinieron a cenar a mi casa y bebimos un vino excelente."
+    },
+    {
+      "title": "Una telefonata",
+      "instruction": "Scegli la forma corretta.",
+      "text": "— Pronto, Anna? Hai visto le mie chiavi?\n— Sì, [[le/li/la]] ho viste sul tavolo della cucina.\n— Grazie! E hai chiamato tua madre?\n— Sì, [[le/la/gli]] ho telefonato stamattina.\n— Quando parti [[per/a/da]] Londra?\n— Parto [[fra/fa/da]] tre giorni. [[Ci/Ne/Lo]] vado in aereo.\n— Quante valigie porti?\n— [[Ne/Ci/Le]] porto solo una.",
+      "es": "— ¿Diga, Anna? ¿Has visto mis llaves? — Sí, las he visto en la mesa de la cocina. — ¡Gracias! ¿Y has llamado a tu madre? — Sí, la he llamado esta mañana. — ¿Cuándo sales para Londres? — Salgo dentro de tres días. Voy en avión. — ¿Cuántas maletas llevas? — Llevo solo una."
+    },
+    {
+      "title": "La mia città",
+      "instruction": "Scegli la forma corretta.",
+      "text": "La mia città è [[più/meno/tanto]] piccola di Milano, ma è [[molto/molta/molti]] bella. Ci sono [[tanti/tanto/tante]] parchi e [[alcune/alcuni/qualche]] piazze antiche. D'estate [[fa/è/ha]] molto caldo e la gente va [[al/in/a]] mare. Quando ero piccola, [[andavo/sono andata/vado]] in spiaggia ogni giorno.",
+      "es": "Mi ciudad es más pequeña que Milán, pero es muy bonita. Hay muchos parques y algunas plazas antiguas. En verano hace mucho calor y la gente va al mar. Cuando era pequeña, iba a la playa todos los días."
+    }
+  ],
+  "scritta": [
+    {
+      "id": "e2-w1",
+      "kind": "descrizione",
+      "title": "In stazione",
+      "prompt": "Guarda l'immagine e descrivi la stazione e le persone.",
+      "promptEs": "Mira la imagen y describe la estación y las personas.",
+      "scene": "🚉🚆🧳👩‍💼🕰️☕🧑‍🤝‍🧑",
+      "min": 40,
+      "max": 60,
+      "model": "L'immagine mostra una stazione ferroviaria la mattina presto. Sul binario c'è un treno pronto a partire. Una donna con una valigia guarda l'orologio perché è in ritardo. Due amici si salutano davanti al treno. Al bar alcune persone bevono un caffè e leggono il giornale. C'è molta gente, ma tutti sembrano tranquilli.",
+      "modelEs": "La imagen muestra una estación de tren temprano por la mañana. En el andén hay un tren a punto de salir. Una mujer con una maleta mira el reloj porque llega tarde. Dos amigos se despiden delante del tren. En el bar algunas personas toman un café y leen el periódico. Hay mucha gente, pero todos parecen tranquilos.",
+      "chunks": ["L'immagine mostra...", "sul binario", "si salutano", "sembrano..."],
+      "checklist": ["Luogo e momento", "Almeno 3 azioni", "Verbo riflessivo", "Aggettivi concordati"]
+    },
+    {
+      "id": "e2-w2",
+      "kind": "messaggio",
+      "title": "Rispondi al vicino",
+      "prompt": "Il tuo vicino Giorgio ti scrive: «Ciao! Sabato faccio dei lavori in casa e ci sarà un po' di rumore. Va bene? Scusami!». Rispondi in modo gentile e chiedi a che ora finiscono i lavori.",
+      "promptEs": "Tu vecino Giorgio te escribe: «¡Hola! El sábado hago obras en casa y habrá un poco de ruido. ¿Te parece bien? ¡Perdona!». Responde con amabilidad y pregunta a qué hora terminan las obras.",
+      "min": 15,
+      "max": 30,
+      "model": "Ciao Giorgio, nessun problema, grazie per avermi avvisato! Sabato mattina sono fuori. A che ora finite più o meno? Buon lavoro!",
+      "modelEs": "Hola Giorgio, no hay problema, ¡gracias por avisarme! El sábado por la mañana estoy fuera. ¿A qué hora termináis más o menos? ¡Buen trabajo!",
+      "chunks": ["nessun problema", "grazie per...", "A che ora...?", "Buon lavoro!"],
+      "checklist": ["Saluto", "Risposta gentile", "Domanda sull'orario", "Saluto finale"]
+    }
+  ],
+  "orale": {
+    "roleplay": [
+      { "id": "e2-o1", "theme": "presentazione", "q": "Buongiorno. Si presenti, per favore.", "es": "Buenos días. Preséntese, por favor.", "sample": "Buongiorno. Mi chiamo Emily, ho trentadue anni, sono spagnola e lavoro come ingegnera.", "hints": ["Mi chiamo...", "Ho ... anni", "Lavoro come..."] },
+      { "id": "e2-o2", "theme": "casa", "q": "Dove abita? Com'è la sua casa?", "es": "¿Dónde vive? ¿Cómo es su casa?", "sample": "Abito in un appartamento in centro. Ci sono due camere, una cucina e un piccolo balcone.", "hints": ["Abito in...", "Ci sono..."] },
+      { "id": "e2-o3", "theme": "cibo", "q": "Le piace la cucina italiana? Che cosa preferisce?", "es": "¿Le gusta la cocina italiana? ¿Qué prefiere?", "sample": "Sì, moltissimo! Preferisco la pasta, soprattutto le lasagne, e il gelato al pistacchio.", "hints": ["Preferisco...", "soprattutto"] },
+      { "id": "e2-o4", "theme": "passato", "q": "Dove è andata in vacanza l'ultima volta?", "es": "¿Adónde fue de vacaciones la última vez?", "sample": "L'ultima volta sono andata in Grecia con delle amiche. Siamo state su un'isola e il mare era bellissimo.", "hints": ["Sono andata...", "Siamo state...", "era..."] },
+      { "id": "e2-o5", "theme": "routine", "q": "Com'è una sua giornata tipica?", "es": "¿Cómo es un día típico suyo?", "sample": "Mi alzo alle sette, vado al lavoro in metro e torno a casa verso le sei. La sera cucino e leggo.", "hints": ["Mi alzo...", "vado...", "la sera..."] }
+    ],
+    "monologue": {
+      "id": "e2-m1",
+      "title": "Un amico speciale",
+      "prompt": "Parla di un tuo amico o di una tua amica: come vi siete conosciuti, com'è, che cosa fate insieme.",
+      "promptEs": "Habla de un amigo o una amiga: cómo os conocisteis, cómo es, qué hacéis juntos.",
+      "scene": "👭☕🎬📱❤️",
+      "points": ["Chi è", "Come vi siete conosciuti", "Aspetto e carattere", "Che cosa fate insieme", "Perché è importante"],
+      "sample": "La mia migliore amica si chiama Clara. Ci siamo conosciute all'università, in una lezione di matematica, più di dieci anni fa. Clara è alta, ha i capelli ricci ed è molto divertente. Adesso vive a Barcellona, quindi ci sentiamo spesso al telefono. Quando ci vediamo andiamo al cinema o facciamo lunghe passeggiate. È importante per me perché mi ascolta sempre e mi aiuta quando ho un problema."
+    }
+  }
+}
